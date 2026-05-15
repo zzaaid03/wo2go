@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# wo2go
 
-## Getting Started
+Where can you go by train from Saarbrucken Hbf right now?
 
-First, run the development server:
+**[Live Demo](https://wo2go.vercel.app)**
+
+<!-- TODO: Add screenshot once deployed -->
+
+## Why this exists
+
+If you have a Deutschlandticket and you're at Saarbrucken Hbf, where can you actually go today — directly, no transfers? Existing tools like [direkt.bahn.guru](https://direkt.bahn.guru) (broken since late 2024), [Chronotrains](https://www.chronotrains.com), and [station_reach](https://github.com/felix-geoloek/station_reach) either don't work anymore or lack filtering depth. wo2go fills that gap with better filtering and richer per-destination info.
+
+## Tech stack
+
+- Next.js 16 (App Router, Server Components)
+- TypeScript (strict mode)
+- Tailwind CSS + shadcn/ui
+- Vercel (deployment)
+- [v6.db.transport.rest](https://v6.db.transport.rest) (public Deutsche Bahn API, no key needed)
+
+## Run locally
 
 ```bash
+git clone https://github.com/zzaaid03/wo2go.git
+cd wo2go
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How it works
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The home page is a Server Component that fetches all departures from Saarbrucken Hbf for the next 12 hours via the public DB transport API. It aggregates these into a list of unique reachable destinations with stats — fastest travel time, number of connections, and train types. This data is passed as a prop to a Client Component that handles filtering (regional-only for Deutschlandticket holders, major stations only) and language switching (German/English). No database, no auth, no client-side data fetching.
 
-## Learn More
+The UI is available in **German** (default) and **English**, switchable via a toggle in the header. The language choice persists across sessions via localStorage.
 
-To learn more about Next.js, take a look at the following resources:
+## Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Map view (destinations on a map)
+- Station autocomplete (choose any origin)
+- Day-trip feasibility filter
+- Per-destination drawer with live next departures
+- Caching layer with Postgres
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [v6.db.transport.rest](https://v6.db.transport.rest) by Jannis R. for the public transport API
+- [direkt.bahn.guru](https://github.com/juliuste/direkt.bahn.guru) by Julius Tens for the original concept
+- [Chronotrains](https://www.chronotrains.com) for travel-time visualization inspiration
+- [station_reach](https://github.com/felix-geoloek/station_reach) for reachability analysis inspiration
