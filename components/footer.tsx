@@ -8,7 +8,7 @@ export function Footer() {
 
   return (
     <footer className="mt-auto border-t border-border bg-background">
-      <div className="mx-auto max-w-2xl px-4 py-6">
+      <div className="mx-auto max-w-3xl px-4 py-6">
         <Separator className="mb-4" />
         <div className="flex flex-col gap-2 text-xs text-muted-foreground">
           <p>

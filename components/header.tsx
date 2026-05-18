@@ -1,22 +1,31 @@
 'use client';
 
-import { useTranslation } from '@/components/language-provider';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+import { SiteLogo } from '@/components/site-logo';
 import { LanguageToggle } from '@/components/language-toggle';
 
 export function Header() {
-  const t = useTranslation();
+  const pathname = usePathname();
+  const isHome = pathname === '/';
 
   return (
-    <header className="border-b border-border bg-background">
-      <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-4">
-        <div>
-          <h1 className="text-xl font-bold tracking-tight">
-            {t('header.title')}
-          </h1>
-          <p className="text-sm text-muted-foreground">
-            {t('header.subtitle')}
-          </p>
-        </div>
+    <header className="relative border-b border-border/80 bg-background/80 backdrop-blur-md">
+      <div
+        className={
+          isHome
+            ? 'mx-auto flex max-w-3xl justify-end px-4 py-4'
+            : 'mx-auto flex max-w-3xl items-center justify-center px-4 py-5'
+        }
+      >
+        {!isHome && (
+          <Link href="/" className="transition-opacity hover:opacity-90">
+            <SiteLogo />
+          </Link>
+        )}
+      </div>
+      <div className="absolute top-4 right-4 sm:top-5 sm:right-6">
         <LanguageToggle />
       </div>
     </header>

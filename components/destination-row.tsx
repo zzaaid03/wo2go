@@ -1,12 +1,5 @@
 'use client';
 
-/**
- * DestinationRow — presentational component for a single destination.
- *
- * Displays the station name, fastest travel time, connection frequency,
- * and product badges (ICE, IC, RE, etc.).
- */
-
 import { Badge } from '@/components/ui/badge';
 import { useTranslation } from '@/components/language-provider';
 import {
@@ -24,7 +17,6 @@ interface DestinationRowProps {
 export function DestinationRow({ destination }: DestinationRowProps) {
   const t = useTranslation();
 
-  // Sort products so highest tier (ICE) appears first
   const sortedProducts = [...destination.products].sort(
     (a, b) => productSortOrder(a) - productSortOrder(b)
   );
@@ -35,29 +27,32 @@ export function DestinationRow({ destination }: DestinationRowProps) {
   );
 
   return (
-    <div className="flex min-h-14 items-center justify-between gap-4 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:bg-accent/50">
+    <article
+      className="flex flex-col gap-3 rounded-2xl border border-border/80 bg-card px-4 py-3.5 shadow-sm transition-all hover:border-primary/30 hover:shadow-md sm:flex-row sm:items-center sm:justify-between sm:gap-4"
+      title={destination.name}
+    >
       <div className="min-w-0 flex-1">
-        <p className="truncate text-sm font-semibold leading-tight">
+        <p className="text-sm leading-snug font-semibold break-words text-foreground">
           {destination.name}
         </p>
-        <p className="mt-0.5 text-xs text-muted-foreground">
+        <p className="mt-1 text-xs text-muted-foreground">
           {formatDuration(destination.fastestMinutes)}
-          <span className="mx-1.5">·</span>
+          <span className="mx-1.5 opacity-50">·</span>
           {frequency}
         </p>
       </div>
 
-      <div className="flex shrink-0 gap-1">
+      <div className="flex flex-wrap gap-1.5 sm:max-w-[45%] sm:justify-end">
         {sortedProducts.map((product) => (
           <Badge
             key={product}
             variant="secondary"
-            className="px-1.5 py-0 text-[10px] font-medium"
+            className="shrink-0 border border-border/60 bg-secondary/80 px-2 py-0.5 text-[10px] font-semibold"
           >
             {productLabel(product)}
           </Badge>
         ))}
       </div>
-    </div>
+    </article>
   );
 }

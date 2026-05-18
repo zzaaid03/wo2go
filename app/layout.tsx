@@ -16,13 +16,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'wo2go — Direct train connections from Saarbrücken Hbf',
+  title: 'wo2go — Direct train connections across Germany',
   description:
-    'See where you can go by train directly from Saarbrücken Hbf in the next 12 hours. Filter by regional trains, major stations, and more.',
+    'Pick any station in Germany and see where you can go by direct train in the next 12 hours. Filter by regional trains and major stations.',
   openGraph: {
-    title: 'wo2go — Direct train connections from Saarbrücken Hbf',
+    title: 'wo2go — Direct train connections across Germany',
     description:
-      'See where you can go by train directly from Saarbrücken Hbf in the next 12 hours.',
+      'Pick any station in Germany and see reachable destinations on direct trains in the next 12 hours.',
     type: 'website',
   },
 };
@@ -48,7 +48,7 @@ export default function RootLayout({
       lang="de"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="flex min-h-full flex-col bg-background bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,oklch(0.55_0.14_250/0.12),transparent)]">
         <LanguageProvider>
           <Header />
           {children}

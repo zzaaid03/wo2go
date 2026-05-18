@@ -79,11 +79,13 @@ export function DestinationsClient({
           )}
         </div>
       ) : (
-        <div className="space-y-2">
+        <ul className="flex flex-col gap-2.5" role="list">
           {filtered.map((dest) => (
-            <DestinationRow key={dest.id} destination={dest} />
+            <li key={dest.id} className="min-w-0">
+              <DestinationRow destination={dest} />
+            </li>
           ))}
-        </div>
+        </ul>
       )}
     </div>
   );

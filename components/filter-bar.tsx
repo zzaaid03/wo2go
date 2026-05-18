@@ -25,7 +25,7 @@ export function FilterBar({
   const t = useTranslation();
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 rounded-2xl border border-border/80 bg-card/80 p-4 shadow-sm backdrop-blur-sm">
       <div className="flex items-center justify-between">
         <label
           htmlFor="regional-filter"
