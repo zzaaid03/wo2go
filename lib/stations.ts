@@ -32,3 +32,10 @@ export function stationPath(id: string, name?: string): string {
   if (!name) return base;
   return `${base}?name=${encodeURIComponent(name)}`;
 }
+
+// Bulk station index (can be replaced with a full Germany dataset)
+import ALL_STATIONS_RAW from '../data/stations-index.json';
+
+export const ALL_STATIONS: StationRef[] = (
+  ALL_STATIONS_RAW as StationRef[]
+).map((s) => ({ id: s.id, name: s.name, region: s.region }));

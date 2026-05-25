@@ -1,0 +1,7307 @@
+[
+  {
+    "id": "231133",
+    "name": "0",
+    "region": ""
+  },
+  {
+    "id": "960096952",
+    "name": "3000 Leuven, 'S Hertogenwijngaard 3",
+    "region": ""
+  },
+  {
+    "id": "960096953",
+    "name": "3000 Leuven, 's-Hertogenlaan 3",
+    "region": ""
+  },
+  {
+    "id": "960096954",
+    "name": "3000 Leuven, 's-Meiersstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096957",
+    "name": "3000 Leuven, Aapad",
+    "region": ""
+  },
+  {
+    "id": "960096958",
+    "name": "3000 Leuven, Aapark",
+    "region": ""
+  },
+  {
+    "id": "960096959",
+    "name": "3000 Leuven, Aarschotsepoort",
+    "region": ""
+  },
+  {
+    "id": "960096960",
+    "name": "3000 Leuven, Aarschotsesteenweg",
+    "region": ""
+  },
+  {
+    "id": "960096961",
+    "name": "3000 Leuven, Abdijstraat 17",
+    "region": ""
+  },
+  {
+    "id": "960096962",
+    "name": "3000 Leuven, Achter de Latten 1",
+    "region": ""
+  },
+  {
+    "id": "960096963",
+    "name": "3000 Leuven, Adolphe Bastinstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096964",
+    "name": "3000 Leuven, Albert Giraudstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096965",
+    "name": "3000 Leuven, Albrechtplein 3",
+    "region": ""
+  },
+  {
+    "id": "960096966",
+    "name": "3000 Leuven, Alfons Smetsplein 3",
+    "region": ""
+  },
+  {
+    "id": "960096967",
+    "name": "3000 Leuven, Amerikalaan 3",
+    "region": ""
+  },
+  {
+    "id": "960096968",
+    "name": "3000 Leuven, Andreas Vesaliusstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096969",
+    "name": "3000 Leuven, Ankerstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096970",
+    "name": "3000 Leuven, Arendstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096971",
+    "name": "3000 Leuven, Arnould Nobelstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096973",
+    "name": "3000 Leuven, Arthur de Greefstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096974",
+    "name": "3000 Leuven, Asstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096975",
+    "name": "3000 Leuven, Augusta Chiwystraat",
+    "region": ""
+  },
+  {
+    "id": "960096976",
+    "name": "3000 Leuven, Augustijnenstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096977",
+    "name": "3000 Leuven, Balsembloemhof 2",
+    "region": ""
+  },
+  {
+    "id": "960096978",
+    "name": "3000 Leuven, Bankstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096979",
+    "name": "3000 Leuven, Baron d'Eynattenstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096981",
+    "name": "3000 Leuven, Beursgang 3",
+    "region": ""
+  },
+  {
+    "id": "960096984",
+    "name": "3000 Leuven, Biezenstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096985",
+    "name": "3000 Leuven, Blauwputgang 3",
+    "region": ""
+  },
+  {
+    "id": "960096986",
+    "name": "3000 Leuven, Blijde-Inkomststraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096987",
+    "name": "3000 Leuven, Bloemenberggang 3",
+    "region": ""
+  },
+  {
+    "id": "960096988",
+    "name": "3000 Leuven, Boekhandelstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096989",
+    "name": "3000 Leuven, Bogaardenstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096990",
+    "name": "3000 Leuven, Bondgenotenlaan 3",
+    "region": ""
+  },
+  {
+    "id": "960096992",
+    "name": "3000 Leuven, Bottelarij 3",
+    "region": ""
+  },
+  {
+    "id": "960096993",
+    "name": "3000 Leuven, Brabançonnestraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096994",
+    "name": "3000 Leuven, Brouwerijplein 2",
+    "region": ""
+  },
+  {
+    "id": "960096995",
+    "name": "3000 Leuven, Brouwersstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096996",
+    "name": "3000 Leuven, Brusselsepoort",
+    "region": ""
+  },
+  {
+    "id": "960096997",
+    "name": "3000 Leuven, Brusselsesteenweg 2",
+    "region": ""
+  },
+  {
+    "id": "960096998",
+    "name": "3000 Leuven, Brusselsestraat 3",
+    "region": ""
+  },
+  {
+    "id": "960096999",
+    "name": "3000 Leuven, Burchtstraat 2",
+    "region": ""
+  },
+  {
+    "id": "960097000",
+    "name": "3000 Leuven, Burgemeestersstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960097001",
+    "name": "3000 Leuven, Busleidengang 3",
+    "region": ""
+  },
+  {
+    "id": "960097002",
+    "name": "3000 Leuven, Cansgang 3",
+    "region": ""
+  },
+  {
+    "id": "960097003",
+    "name": "3000 Leuven, Cardenberch 3",
+    "region": ""
+  },
+  {
+    "id": "960097004",
+    "name": "3000 Leuven, Casablancalaan 4",
+    "region": ""
+  },
+  {
+    "id": "960097006",
+    "name": "3000 Leuven, Charles Deberiotstraat 3",
+    "region": ""
+  },
+  {
+    "id": "960097007",
+    "name": "3000 Leuven, Claire Vellutstraat 2",
+    "region": ""
+  },
+  {
+    "id": "960097008",
+    "name": "3000 Leuven, Collegeberg 2",
+    "region": ""
+  },
+  {
+    "id": "950000292",
+    "name": "5000 Aarau, Aarenaustrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000293",
+    "name": "5000 Aarau, Aarepark 5",
+    "region": ""
+  },
+  {
+    "id": "950000294",
+    "name": "5000 Aarau, Aarestrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000295",
+    "name": "5000 Aarau, Aaretalstrasse",
+    "region": ""
+  },
+  {
+    "id": "950000296",
+    "name": "5000 Aarau, Aargauerplatz 1",
+    "region": ""
+  },
+  {
+    "id": "950000297",
+    "name": "5000 Aarau, Aarmattweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000298",
+    "name": "5000 Aarau, Achenbergstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000299",
+    "name": "5000 Aarau, Adelbändli 5",
+    "region": ""
+  },
+  {
+    "id": "950000300",
+    "name": "5000 Aarau, Adolf-Frey-Strasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000301",
+    "name": "5000 Aarau, Aeschbachweg 4",
+    "region": ""
+  },
+  {
+    "id": "950000302",
+    "name": "5000 Aarau, Ahornweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000303",
+    "name": "5000 Aarau, Allmendweg 14",
+    "region": ""
+  },
+  {
+    "id": "950000304",
+    "name": "5000 Aarau, Alte Distelbergstrasse",
+    "region": ""
+  },
+  {
+    "id": "950000305",
+    "name": "5000 Aarau, Apfelhausenweg 3",
+    "region": ""
+  },
+  {
+    "id": "950000306",
+    "name": "5000 Aarau, Asylstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000307",
+    "name": "5000 Aarau, Augustin-Keller-Strasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000308",
+    "name": "5000 Aarau, Aumattweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000309",
+    "name": "5000 Aarau, Aurorastrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000310",
+    "name": "5000 Aarau, Bachmattweg 3",
+    "region": ""
+  },
+  {
+    "id": "950000311",
+    "name": "5000 Aarau, Bachstrasse 15",
+    "region": ""
+  },
+  {
+    "id": "950000312",
+    "name": "5000 Aarau, Badergässli 6",
+    "region": ""
+  },
+  {
+    "id": "950000313",
+    "name": "5000 Aarau, Bahnhofplatz 4",
+    "region": ""
+  },
+  {
+    "id": "950000314",
+    "name": "5000 Aarau, Bahnhofstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000315",
+    "name": "5000 Aarau, Balänenweg 15",
+    "region": ""
+  },
+  {
+    "id": "950000316",
+    "name": "5000 Aarau, Bankrain",
+    "region": ""
+  },
+  {
+    "id": "950000317",
+    "name": "5000 Aarau, Barbaraweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000318",
+    "name": "5000 Aarau, Bergstrasse 11",
+    "region": ""
+  },
+  {
+    "id": "950000319",
+    "name": "5000 Aarau, Betullaweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000321",
+    "name": "5000 Aarau, Binzenhofstrasse 4",
+    "region": ""
+  },
+  {
+    "id": "950000322",
+    "name": "5000 Aarau, Bircher-Benner-Weg 5",
+    "region": ""
+  },
+  {
+    "id": "950000323",
+    "name": "5000 Aarau, Bleichemattstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000324",
+    "name": "5000 Aarau, Blumenweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000325",
+    "name": "5000 Aarau, Bollweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000326",
+    "name": "5000 Aarau, Brügglifeldweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000327",
+    "name": "5000 Aarau, Buchenweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000328",
+    "name": "5000 Aarau, Buchserstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000330",
+    "name": "5000 Aarau, Bühlrain 10",
+    "region": ""
+  },
+  {
+    "id": "950000331",
+    "name": "5000 Aarau, Bündtenweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000329",
+    "name": "5000 Aarau, Burgmattstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000332",
+    "name": "5000 Aarau, Dammweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000333",
+    "name": "5000 Aarau, Delfterstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000334",
+    "name": "5000 Aarau, Distelbergstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000335",
+    "name": "5000 Aarau, Dossenstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000336",
+    "name": "5000 Aarau, Dufourstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000337",
+    "name": "5000 Aarau, Effingerweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000338",
+    "name": "5000 Aarau, Eggstrasse 6",
+    "region": ""
+  },
+  {
+    "id": "950000339",
+    "name": "5000 Aarau, Entfelderstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000340",
+    "name": "5000 Aarau, Erlenweg 5",
+    "region": ""
+  },
+  {
+    "id": "950000341",
+    "name": "5000 Aarau, Erlinsbacherstrasse 5",
+    "region": ""
+  },
+  {
+    "id": "950000342",
+    "name": "5000 Aarau, Erzgrubenweg 5",
+    "region": ""
+  },
+  {
+    "id": "960035185",
+    "name": "6000 Charleroi, Avenue de l'Europe 6",
+    "region": ""
+  },
+  {
+    "id": "960035184",
+    "name": "6000 Charleroi, Avenue de Waterloo 6",
+    "region": ""
+  },
+  {
+    "id": "960035186",
+    "name": "6000 Charleroi, Avenue des Alliés 6",
+    "region": ""
+  },
+  {
+    "id": "960035181",
+    "name": "6000 Charleroi, Avenue Général Michel 5",
+    "region": ""
+  },
+  {
+    "id": "960035180",
+    "name": "6000 Charleroi, Avenue Gillieaux",
+    "region": ""
+  },
+  {
+    "id": "960035182",
+    "name": "6000 Charleroi, Avenue Jules Henin 6",
+    "region": ""
+  },
+  {
+    "id": "960035183",
+    "name": "6000 Charleroi, Avenue Paul Pastur",
+    "region": ""
+  },
+  {
+    "id": "960035187",
+    "name": "6000 Charleroi, Boulevard Alfred de Fontaine 6",
+    "region": ""
+  },
+  {
+    "id": "960035188",
+    "name": "6000 Charleroi, Boulevard Audent 6",
+    "region": ""
+  },
+  {
+    "id": "960035199",
+    "name": "6000 Charleroi, Boulevard de l'Yser 5",
+    "region": ""
+  },
+  {
+    "id": "960035189",
+    "name": "6000 Charleroi, Boulevard Emile Devreux 6",
+    "region": ""
+  },
+  {
+    "id": "960035190",
+    "name": "6000 Charleroi, Boulevard Frans Dewandre 6",
+    "region": ""
+  },
+  {
+    "id": "960035191",
+    "name": "6000 Charleroi, Boulevard Gustave Roullier 6",
+    "region": ""
+  },
+  {
+    "id": "960035192",
+    "name": "6000 Charleroi, Boulevard Jacques Bertrand 6",
+    "region": ""
+  },
+  {
+    "id": "960035193",
+    "name": "6000 Charleroi, Boulevard Joseph II 6",
+    "region": ""
+  },
+  {
+    "id": "960035194",
+    "name": "6000 Charleroi, Boulevard Joseph Tirou 6",
+    "region": ""
+  },
+  {
+    "id": "960035195",
+    "name": "6000 Charleroi, Boulevard Paul Janson 6",
+    "region": ""
+  },
+  {
+    "id": "960035196",
+    "name": "6000 Charleroi, Boulevard Pierre Mayence 6",
+    "region": ""
+  },
+  {
+    "id": "960035197",
+    "name": "6000 Charleroi, Boulevard Solvay 6",
+    "region": ""
+  },
+  {
+    "id": "960035198",
+    "name": "6000 Charleroi, Boulevard Zoé Drion 1",
+    "region": ""
+  },
+  {
+    "id": "960035200",
+    "name": "6000 Charleroi, Charleroi-Nord",
+    "region": ""
+  },
+  {
+    "id": "960035201",
+    "name": "6000 Charleroi, Chaussée de Bruxelles",
+    "region": ""
+  },
+  {
+    "id": "960035202",
+    "name": "6000 Charleroi, Chaussée de Châtelet 393",
+    "region": ""
+  },
+  {
+    "id": "960035203",
+    "name": "6000 Charleroi, Chemin de Halage",
+    "region": ""
+  },
+  {
+    "id": "960035204",
+    "name": "6000 Charleroi, Contrescarpe Alphonse Darville 5",
+    "region": ""
+  },
+  {
+    "id": "960035205",
+    "name": "6000 Charleroi, Cour Poullette",
+    "region": ""
+  },
+  {
+    "id": "960035206",
+    "name": "6000 Charleroi, Galerie Bernard",
+    "region": ""
+  },
+  {
+    "id": "960035207",
+    "name": "6000 Charleroi, Grand'Rue 6",
+    "region": ""
+  },
+  {
+    "id": "960035208",
+    "name": "6000 Charleroi, La Carolorégienne",
+    "region": ""
+  },
+  {
+    "id": "960035209",
+    "name": "6000 Charleroi, Lodelinsart",
+    "region": ""
+  },
+  {
+    "id": "960035210",
+    "name": "6000 Charleroi, Parc Jacques Depelsenaire 10",
+    "region": ""
+  },
+  {
+    "id": "960035211",
+    "name": "6000 Charleroi, Passage Arcade Tirou 3",
+    "region": ""
+  },
+  {
+    "id": "960035212",
+    "name": "6000 Charleroi, Passage de la Bourse 6",
+    "region": ""
+  },
+  {
+    "id": "960035213",
+    "name": "6000 Charleroi, Petite Ceinture de Charleroi",
+    "region": ""
+  },
+  {
+    "id": "960035214",
+    "name": "6000 Charleroi, Petite Rue 6",
+    "region": ""
+  },
+  {
+    "id": "960035215",
+    "name": "6000 Charleroi, Place Albert Ier 27",
+    "region": ""
+  },
+  {
+    "id": "960035216",
+    "name": "6000 Charleroi, Place Charles II 6",
+    "region": ""
+  },
+  {
+    "id": "960035222",
+    "name": "6000 Charleroi, Place de l'Ouest 4",
+    "region": ""
+  },
+  {
+    "id": "960035223",
+    "name": "6000 Charleroi, Place de la Broucheterre 6",
+    "region": ""
+  },
+  {
+    "id": "960035224",
+    "name": "6000 Charleroi, Place de la Digue 6",
+    "region": ""
+  },
+  {
+    "id": "960035225",
+    "name": "6000 Charleroi, Place des Jeux",
+    "region": ""
+  },
+  {
+    "id": "960035226",
+    "name": "6000 Charleroi, Place des Tramways 9",
+    "region": ""
+  },
+  {
+    "id": "960035227",
+    "name": "6000 Charleroi, Place du Bourdon 6",
+    "region": ""
+  },
+  {
+    "id": "960035228",
+    "name": "6000 Charleroi, Place du Grand Central 4",
+    "region": ""
+  },
+  {
+    "id": "960035229",
+    "name": "6000 Charleroi, Place du Manège 6",
+    "region": ""
+  },
+  {
+    "id": "960035230",
+    "name": "6000 Charleroi, Place du Nord-Michel Levie 6",
+    "region": ""
+  },
+  {
+    "id": "960035217",
+    "name": "6000 Charleroi, Place Elie Delferrière 6",
+    "region": ""
+  },
+  {
+    "id": "960035218",
+    "name": "6000 Charleroi, Place Emile Buisset 6",
+    "region": ""
+  },
+  {
+    "id": "960035219",
+    "name": "6000 Charleroi, Place Rucloux 5",
+    "region": ""
+  },
+  {
+    "id": "960035220",
+    "name": "6000 Charleroi, Place Saint-Fiacre 17",
+    "region": ""
+  },
+  {
+    "id": "960028481",
+    "name": "8000 Bruges, Zilverpand 8",
+    "region": ""
+  },
+  {
+    "id": "960029351",
+    "name": "8000 Brugge, 's-Gravenhof 8",
+    "region": ""
+  },
+  {
+    "id": "960029352",
+    "name": "8000 Brugge, 's-Gravenstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029354",
+    "name": "8000 Brugge, 't Pand 8",
+    "region": ""
+  },
+  {
+    "id": "960029356",
+    "name": "8000 Brugge, 't Zand 8",
+    "region": ""
+  },
+  {
+    "id": "960029357",
+    "name": "8000 Brugge, 't Zweerd 8",
+    "region": ""
+  },
+  {
+    "id": "960029364",
+    "name": "8000 Brugge, Academiestraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029366",
+    "name": "8000 Brugge, Adriaan Willaertstraat 7",
+    "region": ""
+  },
+  {
+    "id": "960029370",
+    "name": "8000 Brugge, Albertakaai",
+    "region": ""
+  },
+  {
+    "id": "960029371",
+    "name": "8000 Brugge, Albrecht Rodenbachstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029375",
+    "name": "8000 Brugge, André Goossensstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029374",
+    "name": "8000 Brugge, Andreas Wydtsstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029378",
+    "name": "8000 Brugge, Annuntiatenstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960028616",
+    "name": "8000 Brugge, Antoinette Grosséstraat 7",
+    "region": ""
+  },
+  {
+    "id": "960028617",
+    "name": "8000 Brugge, Arendstraat 7",
+    "region": ""
+  },
+  {
+    "id": "960029384",
+    "name": "8000 Brugge, Arsenaalstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029386",
+    "name": "8000 Brugge, Artoisstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029390",
+    "name": "8000 Brugge, August Vermeylenstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029391",
+    "name": "8000 Brugge, Augustijnenrei 8",
+    "region": ""
+  },
+  {
+    "id": "960029394",
+    "name": "8000 Brugge, Azijnstraat 4",
+    "region": ""
+  },
+  {
+    "id": "960029395",
+    "name": "8000 Brugge, Bakkersstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029396",
+    "name": "8000 Brugge, Baliestraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029397",
+    "name": "8000 Brugge, Balsemboomstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029398",
+    "name": "8000 Brugge, Balstraat 7",
+    "region": ""
+  },
+  {
+    "id": "960029399",
+    "name": "8000 Brugge, Bapaumestraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029094",
+    "name": "8000 Brugge, Bareelweg 8",
+    "region": ""
+  },
+  {
+    "id": "960029401",
+    "name": "8000 Brugge, Bargeplein 1",
+    "region": ""
+  },
+  {
+    "id": "960029402",
+    "name": "8000 Brugge, Bargeweg 7",
+    "region": ""
+  },
+  {
+    "id": "960029403",
+    "name": "8000 Brugge, Baron Joseph Ryelandtstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029095",
+    "name": "8000 Brugge, Beekweg 8",
+    "region": ""
+  },
+  {
+    "id": "960029411",
+    "name": "8000 Brugge, Beeldenmakersstraat 5",
+    "region": ""
+  },
+  {
+    "id": "960029412",
+    "name": "8000 Brugge, Beenhouwersstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029413",
+    "name": "8000 Brugge, Begijnenvest 2",
+    "region": ""
+  },
+  {
+    "id": "960029414",
+    "name": "8000 Brugge, Begijnhof 8",
+    "region": ""
+  },
+  {
+    "id": "960028618",
+    "name": "8000 Brugge, Berenwegel 8",
+    "region": ""
+  },
+  {
+    "id": "960029096",
+    "name": "8000 Brugge, Berkenpad 8",
+    "region": ""
+  },
+  {
+    "id": "960029097",
+    "name": "8000 Brugge, Berkenstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029418",
+    "name": "8000 Brugge, Beursplein 7",
+    "region": ""
+  },
+  {
+    "id": "960029419",
+    "name": "8000 Brugge, Bevrijdingslaan 8",
+    "region": ""
+  },
+  {
+    "id": "960029420",
+    "name": "8000 Brugge, Biddersstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029098",
+    "name": "8000 Brugge, Biekorfstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029421",
+    "name": "8000 Brugge, Biezenstraat 8",
+    "region": ""
+  },
+  {
+    "id": "960029422",
+    "name": "8000 Brugge, Bilkske 7",
+    "region": ""
+  },
+  {
+    "id": "960029423",
+    "name": "8000 Brugge, Binnenweg 4",
+    "region": ""
+  },
+  {
+    "id": "960029424",
+    "name": "8000 Brugge, Biskajersplein 6",
+    "region": ""
+  },
+  {
+    "id": "960029099",
+    "name": "8000 Brugge, Blankenbergse Dijk 8",
+    "region": ""
+  },
+  {
+    "id": "7100029",
+    "name": "A Coruna-",
+    "region": ""
+  },
+  {
+    "id": "7108251",
+    "name": "A Gudina-Porta Galicia",
+    "region": ""
+  },
+  {
+    "id": "7100387",
+    "name": "A Rua-Petin",
+    "region": ""
+  },
+  {
+    "id": "983431",
+    "name": "A-Bebel-Str/Einm Ziegelstr., Werdau",
+    "region": ""
+  },
+  {
+    "id": "980999",
+    "name": "A-Günther-Platz, Hartmannsdorf b Chemnitz",
+    "region": ""
+  },
+  {
+    "id": "675624",
+    "name": "A-Magnus-Str., Stein (Mittelfranken)",
+    "region": ""
+  },
+  {
+    "id": "690024",
+    "name": "A.-Bebel-Str., Blankenhain",
+    "region": ""
+  },
+  {
+    "id": "967454",
+    "name": "A.-Bebel-Str., Rodewisch",
+    "region": ""
+  },
+  {
+    "id": "321744",
+    "name": "A.-Bebel-Str., Schönberg (Meckl)",
+    "region": ""
+  },
+  {
+    "id": "729362",
+    "name": "A.-Bebel-Str., Schulzendorf b Eichwalde",
+    "region": ""
+  },
+  {
+    "id": "332903",
+    "name": "A.-Bebel-Str., Stavenhagen",
+    "region": ""
+  },
+  {
+    "id": "704074",
+    "name": "A.-Bebel-Straße, Boltenhagen",
+    "region": ""
+  },
+  {
+    "id": "726232",
+    "name": "A.-Becker-Str., Oranienburg",
+    "region": ""
+  },
+  {
+    "id": "727391",
+    "name": "A.-Buchmann-Str., Oranienburg",
+    "region": ""
+  },
+  {
+    "id": "968540",
+    "name": "A.-Damaschke-Str., Oelsnitz/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "621134",
+    "name": "A.-Fachkliniken, Gauting",
+    "region": ""
+  },
+  {
+    "id": "332694",
+    "name": "A.-Pompe-Str. Ecke, Demmin",
+    "region": ""
+  },
+  {
+    "id": "332808",
+    "name": "A.-Pompe-Str., Demmin",
+    "region": ""
+  },
+  {
+    "id": "125201",
+    "name": "A.-Schlüter-Straße, Wiesbaden",
+    "region": ""
+  },
+  {
+    "id": "967947",
+    "name": "A.-Schubert-Str., Reichenbach im Vogtland",
+    "region": ""
+  },
+  {
+    "id": "880373",
+    "name": "A.-Schweitzer-Straße, Werdohl",
+    "region": ""
+  },
+  {
+    "id": "750082",
+    "name": "A.-Stifter-Straße, Bad Urach",
+    "region": ""
+  },
+  {
+    "id": "720492",
+    "name": "A.-Stifter-Straße, Bühl",
+    "region": ""
+  },
+  {
+    "id": "112059",
+    "name": "A.-von-Menzel-Straße, Rüsselsheim",
+    "region": ""
+  },
+  {
+    "id": "8000001",
+    "name": "Aachen Hbf",
+    "region": ""
+  },
+  {
+    "id": "8070704",
+    "name": "Aachen Schanz",
+    "region": ""
+  },
+  {
+    "id": "8000404",
+    "name": "Aachen West",
+    "region": ""
+  },
+  {
+    "id": "8001712",
+    "name": "Aachen-Eilendorf",
+    "region": ""
+  },
+  {
+    "id": "8000406",
+    "name": "Aachen-Rothe Erde",
+    "region": ""
+  },
+  {
+    "id": "8000002",
+    "name": "Aalen Hbf",
+    "region": ""
+  },
+  {
+    "id": "8002930",
+    "name": "Aalen-Hofen",
+    "region": ""
+  },
+  {
+    "id": "8005997",
+    "name": "Aalen-Unterkochen",
+    "region": ""
+  },
+  {
+    "id": "8006217",
+    "name": "Aalen-Wasseralfingen",
+    "region": ""
+  },
+  {
+    "id": "8000689",
+    "name": "Abbach Bad",
+    "region": ""
+  },
+  {
+    "id": "8007826",
+    "name": "Abenden",
+    "region": ""
+  },
+  {
+    "id": "8000410",
+    "name": "Abensberg",
+    "region": ""
+  },
+  {
+    "id": "165379",
+    "name": "Absam (A) Dorf",
+    "region": ""
+  },
+  {
+    "id": "592256",
+    "name": "Abzw. Achensee, Achenkirch (A)",
+    "region": ""
+  },
+  {
+    "id": "311254",
+    "name": "Abzw. Autobahn, Mühlbachl (A)",
+    "region": ""
+  },
+  {
+    "id": "165942",
+    "name": "Abzw. Bad Häring, Kirchbichl (A)",
+    "region": ""
+  },
+  {
+    "id": "311043",
+    "name": "Abzw. Bahnhof, Hall in Tirol (A)",
+    "region": ""
+  },
+  {
+    "id": "165941",
+    "name": "Abzw. Bahnhof, Kirchbichl (A)",
+    "region": ""
+  },
+  {
+    "id": "425584",
+    "name": "Abzw. Bahnhof, Sulzbach a. Main",
+    "region": ""
+  },
+  {
+    "id": "541355",
+    "name": "Abzw. Bahnhof, Wörth a.d. Isar",
+    "region": ""
+  },
+  {
+    "id": "8173045",
+    "name": "Abzw. Baumkirchen, Mils (A)",
+    "region": ""
+  },
+  {
+    "id": "311598",
+    "name": "Abzw. Bichlalm/B161, Kitzbühel (A)",
+    "region": ""
+  },
+  {
+    "id": "310947",
+    "name": "Abzw. Brunnwald, Nassereith (A)",
+    "region": ""
+  },
+  {
+    "id": "8000004",
+    "name": "Altenbeken",
+    "region": ""
+  },
+  {
+    "id": "8010003",
+    "name": "Altenburg",
+    "region": ""
+  },
+  {
+    "id": "8000007",
+    "name": "Alzey",
+    "region": ""
+  },
+  {
+    "id": "8000009",
+    "name": "Ansbach",
+    "region": ""
+  },
+  {
+    "id": "8000010",
+    "name": "Aschaffenburg Hbf",
+    "region": ""
+  },
+  {
+    "id": "8000013",
+    "name": "Augsburg Hbf",
+    "region": ""
+  },
+  {
+    "id": "8000677",
+    "name": "Baal(Hückelhoven)",
+    "region": ""
+  },
+  {
+    "id": "8080070",
+    "name": "Babelsberg(Potsdam)",
+    "region": ""
+  },
+  {
+    "id": "8000015",
+    "name": "Babenhausen(Hess)",
+    "region": ""
+  },
+  {
+    "id": "8000683",
+    "name": "Bacharach",
+    "region": ""
+  },
+  {
+    "id": "8000016",
+    "name": "Backnang",
+    "region": ""
+  },
+  {
+    "id": "8000690",
+    "name": "Bad Aibling",
+    "region": ""
+  },
+  {
+    "id": "8010031",
+    "name": "Bad Belzig",
+    "region": ""
+  },
+  {
+    "id": "8000879",
+    "name": "Bad Bentheim",
+    "region": ""
+  },
+  {
+    "id": "8011066",
+    "name": "Bad Berka",
+    "region": ""
+  },
+  {
+    "id": "8011067",
+    "name": "Bad Berka Zeughausplatz",
+    "region": ""
+  },
+  {
+    "id": "8000647",
+    "name": "Bad Berleburg-Aue-Wi",
+    "region": ""
+  },
+  {
+    "id": "8000935",
+    "name": "Bad Bevensen",
+    "region": ""
+  },
+  {
+    "id": "8001052",
+    "name": "Bad Bodenteich",
+    "region": ""
+  },
+  {
+    "id": "8007058",
+    "name": "Bad Bramstedt",
+    "region": ""
+  },
+  {
+    "id": "8000694",
+    "name": "Bad Breisig",
+    "region": ""
+  },
+  {
+    "id": "8001322",
+    "name": "Bad Camberg",
+    "region": ""
+  },
+  {
+    "id": "8010016",
+    "name": "Bad Doberan",
+    "region": ""
+  },
+  {
+    "id": "8000698",
+    "name": "Bad Dürkheim",
+    "region": ""
+  },
+  {
+    "id": "8000701",
+    "name": "Bad Ems",
+    "region": ""
+  },
+  {
+    "id": "8000702",
+    "name": "Bad Ems West",
+    "region": ""
+  },
+  {
+    "id": "8001787",
+    "name": "Bad Endorf",
+    "region": ""
+  },
+  {
+    "id": "8001958",
+    "name": "Bad Fallingbostel",
+    "region": ""
+  },
+  {
+    "id": "8000017",
+    "name": "Bad Friedrichshall Hbf",
+    "region": ""
+  },
+  {
+    "id": "8001082",
+    "name": "Bad Godesberg (Bonn)",
+    "region": ""
+  },
+  {
+    "id": "8000019",
+    "name": "Bad Harzburg",
+    "region": ""
+  },
+  {
+    "id": "8000020",
+    "name": "Bad Hersfeld",
+    "region": ""
+  },
+  {
+    "id": "8000712",
+    "name": "Bad Homburg",
+    "region": ""
+  },
+  {
+    "id": "8070073",
+    "name": "Bad Honnef Stadtbahn",
+    "region": ""
+  },
+  {
+    "id": "8000713",
+    "name": "Bad Honnef(Rhein)",
+    "region": ""
+  },
+  {
+    "id": "8000711",
+    "name": "Bad Hönningen",
+    "region": ""
+  },
+  {
+    "id": "8000714",
+    "name": "Bad Kissingen",
+    "region": ""
+  },
+  {
+    "id": "8010018",
+    "name": "Bad Kleinen",
+    "region": ""
+  },
+  {
+    "id": "8000715",
+    "name": "Bad König",
+    "region": ""
+  },
+  {
+    "id": "8000021",
+    "name": "Bad Kreuznach",
+    "region": ""
+  },
+  {
+    "id": "8000718",
+    "name": "Bad Krozingen",
+    "region": ""
+  },
+  {
+    "id": "8010020",
+    "name": "Bad Langensalza",
+    "region": ""
+  },
+  {
+    "id": "8011077",
+    "name": "Bad Lausick",
+    "region": ""
+  },
+  {
+    "id": "8000721",
+    "name": "Bad Liebenzell",
+    "region": ""
+  },
+  {
+    "id": "8003829",
+    "name": "Bad Malente-Gremsmühlen",
+    "region": ""
+  },
+  {
+    "id": "8000724",
+    "name": "Bad Mergentheim",
+    "region": ""
+  },
+  {
+    "id": "8004032",
+    "name": "Bad Mingolsheim-Kronau",
+    "region": ""
+  },
+  {
+    "id": "8000726",
+    "name": "Bad Münster a Stein",
+    "region": ""
+  },
+  {
+    "id": "8000728",
+    "name": "Bad Nauheim",
+    "region": ""
+  },
+  {
+    "id": "8000729",
+    "name": "Bad Neuenahr",
+    "region": ""
+  },
+  {
+    "id": "8000448",
+    "name": "Bad Neuenahr-Ahrweil",
+    "region": ""
+  },
+  {
+    "id": "8000730",
+    "name": "Bad Neustadt(Saale)",
+    "region": ""
+  },
+  {
+    "id": "8000732",
+    "name": "Bad Oeynhausen",
+    "region": ""
+  },
+  {
+    "id": "8000023",
+    "name": "Bad Oldesloe",
+    "region": ""
+  },
+  {
+    "id": "8000774",
+    "name": "Baden-Baden",
+    "region": ""
+  },
+  {
+    "id": "8000025",
+    "name": "Bamberg",
+    "region": ""
+  },
+  {
+    "id": "8096003",
+    "name": "BERLIN",
+    "region": ""
+  },
+  {
+    "id": "247048",
+    "name": "C-R-v-Langheinrich-Str. (Tankstelle), Bayreuth",
+    "region": ""
+  },
+  {
+    "id": "952411",
+    "name": "C.-Heydemann-Ring, Stralsund",
+    "region": ""
+  },
+  {
+    "id": "752596",
+    "name": "C.-Kreutzer-Schule, Meßkirch",
+    "region": ""
+  },
+  {
+    "id": "102078",
+    "name": "C.-Mierendorff-Straße, Erbach (Odenwald)",
+    "region": ""
+  },
+  {
+    "id": "333054",
+    "name": "C.-Moltmann-Str., Waren (Müritz)",
+    "region": ""
+  },
+  {
+    "id": "900760",
+    "name": "C.-Schumann-Str., Ennigerloh",
+    "region": ""
+  },
+  {
+    "id": "727076",
+    "name": "C.-Schumann-Str./Trebbiner Str., Potsdam",
+    "region": ""
+  },
+  {
+    "id": "846041",
+    "name": "C.-Staiger-Str./Schuhfab, Eichstätt (Bayern)",
+    "region": ""
+  },
+  {
+    "id": "332112",
+    "name": "C.-Stollte-Str., Burg Stargard",
+    "region": ""
+  },
+  {
+    "id": "623497",
+    "name": "C.-v.-Linde-Straße, Unterschleißheim",
+    "region": ""
+  },
+  {
+    "id": "976676",
+    "name": "C.-v.-Stauffenberg-Str., Hoyerswerda",
+    "region": ""
+  },
+  {
+    "id": "729568",
+    "name": "C.-Zetkin-Str., Petershagen (Eggersdorf)",
+    "region": ""
+  },
+  {
+    "id": "728644",
+    "name": "C.-Zetkin-Str., Rangsdorf",
+    "region": ""
+  },
+  {
+    "id": "5372209",
+    "name": "C.A.Rosetti",
+    "region": ""
+  },
+  {
+    "id": "800269",
+    "name": "C.F.-Goerdeler-Straße, Ehingen (Donau)",
+    "region": ""
+  },
+  {
+    "id": "5313588",
+    "name": "C.i.l.",
+    "region": ""
+  },
+  {
+    "id": "878485",
+    "name": "C.W. Albert, Hemer",
+    "region": ""
+  },
+  {
+    "id": "5600041",
+    "name": "Cadca",
+    "region": ""
+  },
+  {
+    "id": "8505404",
+    "name": "Cadenazzo",
+    "region": ""
+  },
+  {
+    "id": "8001316",
+    "name": "Cadenberge",
+    "region": ""
+  },
+  {
+    "id": "8001317",
+    "name": "Cadolzburg",
+    "region": ""
+  },
+  {
+    "id": "8001674",
+    "name": "Cadolzburg-Egersdorf",
+    "region": ""
+  },
+  {
+    "id": "8011305",
+    "name": "Cainsdorf",
+    "region": ""
+  },
+  {
+    "id": "8010069",
+    "name": "Calau(Nl)",
+    "region": ""
+  },
+  {
+    "id": "8010070",
+    "name": "Calbe(Saale) Ost",
+    "region": ""
+  },
+  {
+    "id": "8011323",
+    "name": "Calbe(Saale) Stadt",
+    "region": ""
+  },
+  {
+    "id": "8010071",
+    "name": "Calbe(Saale) West",
+    "region": ""
+  },
+  {
+    "id": "8001318",
+    "name": "Calberlah",
+    "region": ""
+  },
+  {
+    "id": "8002145",
+    "name": "Calden-Fürstenwald",
+    "region": ""
+  },
+  {
+    "id": "8001319",
+    "name": "Caldern",
+    "region": ""
+  },
+  {
+    "id": "8001320",
+    "name": "Calmbach Bahnhof",
+    "region": ""
+  },
+  {
+    "id": "8070280",
+    "name": "Calmbach Süd",
+    "region": ""
+  },
+  {
+    "id": "8000063",
+    "name": "Calw",
+    "region": ""
+  },
+  {
+    "id": "8001321",
+    "name": "Calw-Heumaden",
+    "region": ""
+  },
+  {
+    "id": "8002852",
+    "name": "Calw-Hirsau",
+    "region": ""
+  },
+  {
+    "id": "7000431",
+    "name": "Cambridge",
+    "region": ""
+  },
+  {
+    "id": "7004834",
+    "name": "Cambridge North Station",
+    "region": ""
+  },
+  {
+    "id": "7011782",
+    "name": "Cambridge South",
+    "region": ""
+  },
+  {
+    "id": "8013474",
+    "name": "Camburg(Saale)",
+    "region": ""
+  },
+  {
+    "id": "8011307",
+    "name": "Cammin(Meckl)",
+    "region": ""
+  },
+  {
+    "id": "7104104",
+    "name": "Camp de Tarragona",
+    "region": ""
+  },
+  {
+    "id": "8300139",
+    "name": "Campiglia Marittima",
+    "region": ""
+  },
+  {
+    "id": "8700144",
+    "name": "Cannes",
+    "region": ""
+  },
+  {
+    "id": "7000430",
+    "name": "Canterbury West",
+    "region": ""
+  },
+  {
+    "id": "8001323",
+    "name": "Capelle(Westf)",
+    "region": ""
+  },
+  {
+    "id": "8081754",
+    "name": "Caputh Schule",
+    "region": ""
+  },
+  {
+    "id": "8012957",
+    "name": "Caputh Schwielowsee",
+    "region": ""
+  },
+  {
+    "id": "8011308",
+    "name": "Caputh-Geltow",
+    "region": ""
+  },
+  {
+    "id": "8010184",
+    "name": "Chemnitz Hbf",
+    "region": ""
+  },
+  {
+    "id": "504382",
+    "name": "D.-Bonhoeffer-Str., Donaueschingen",
+    "region": ""
+  },
+  {
+    "id": "469035",
+    "name": "D.-Bonhoeffer-Str., Marktheidenfeld",
+    "region": ""
+  },
+  {
+    "id": "333053",
+    "name": "D.-Bonhoeffer-Str., Waren (Müritz)",
+    "region": ""
+  },
+  {
+    "id": "216312",
+    "name": "D.-Bonhoeffer-Str., Werne",
+    "region": ""
+  },
+  {
+    "id": "585126",
+    "name": "D'horn Rothaus, Langerwehe",
+    "region": ""
+  },
+  {
+    "id": "268603",
+    "name": "D'horn Schlicher Straße, Langerwehe",
+    "region": ""
+  },
+  {
+    "id": "585227",
+    "name": "D'horn, Langerwehe",
+    "region": ""
+  },
+  {
+    "id": "8007077",
+    "name": "Daaden",
+    "region": ""
+  },
+  {
+    "id": "8011334",
+    "name": "Dabendorf",
+    "region": ""
+  },
+  {
+    "id": "5100250",
+    "name": "Dabrowa Gornicza",
+    "region": ""
+  },
+  {
+    "id": "5100098",
+    "name": "Dabrowa Gornicza Zabkowice",
+    "region": ""
+  },
+  {
+    "id": "8001354",
+    "name": "Dachau Bahnhof",
+    "region": ""
+  },
+  {
+    "id": "8001355",
+    "name": "Dachau Stadt",
+    "region": ""
+  },
+  {
+    "id": "8011335",
+    "name": "Dachrieden",
+    "region": ""
+  },
+  {
+    "id": "678528",
+    "name": "Dachsbergstraße, Lauf a.d. Pegnitz",
+    "region": ""
+  },
+  {
+    "id": "8011336",
+    "name": "Dachwig",
+    "region": ""
+  },
+  {
+    "id": "8077770",
+    "name": "Dagebüll Kirche",
+    "region": ""
+  },
+  {
+    "id": "8007769",
+    "name": "Dagebüll Mole",
+    "region": ""
+  },
+  {
+    "id": "638206",
+    "name": "Daglfing Bahnhof Ost, München",
+    "region": ""
+  },
+  {
+    "id": "638205",
+    "name": "Daglfing Bahnhof West, München",
+    "region": ""
+  },
+  {
+    "id": "8502004",
+    "name": "Dagmersellen",
+    "region": ""
+  },
+  {
+    "id": "8001357",
+    "name": "Dahl",
+    "region": ""
+  },
+  {
+    "id": "8001358",
+    "name": "Dahlbruch",
+    "region": ""
+  },
+  {
+    "id": "8001359",
+    "name": "Dahlem(Eifel)",
+    "region": ""
+  },
+  {
+    "id": "8011339",
+    "name": "Dahlen(Sachs)",
+    "region": ""
+  },
+  {
+    "id": "8001360",
+    "name": "Dahlenburg",
+    "region": ""
+  },
+  {
+    "id": "8001362",
+    "name": "Dahlerbrück",
+    "region": ""
+  },
+  {
+    "id": "8011340",
+    "name": "Dahlewitz",
+    "region": ""
+  },
+  {
+    "id": "736512",
+    "name": "Dahlewitz Bahnhof, Blankenfelde-Mahlow",
+    "region": ""
+  },
+  {
+    "id": "8079085",
+    "name": "Dahn",
+    "region": ""
+  },
+  {
+    "id": "8079081",
+    "name": "Dahn Süd",
+    "region": ""
+  },
+  {
+    "id": "8079118",
+    "name": "Dahn-Reichenbach",
+    "region": ""
+  },
+  {
+    "id": "103368",
+    "name": "Daimlerstraße, Bad Homburg v.d. Höhe",
+    "region": ""
+  },
+  {
+    "id": "7600123",
+    "name": "Dale",
+    "region": ""
+  },
+  {
+    "id": "8400167",
+    "name": "Dalfsen",
+    "region": ""
+  },
+  {
+    "id": "7002879",
+    "name": "Dalgety Bay",
+    "region": ""
+  },
+  {
+    "id": "8001365",
+    "name": "Dalheim",
+    "region": ""
+  },
+  {
+    "id": "8001366",
+    "name": "Dallau",
+    "region": ""
+  },
+  {
+    "id": "8080260",
+    "name": "Dallgow-Döberitz",
+    "region": ""
+  },
+  {
+    "id": "7000679",
+    "name": "Dalmeny",
+    "region": ""
+  },
+  {
+    "id": "7000682",
+    "name": "Dalmuir",
+    "region": ""
+  },
+  {
+    "id": "7000719",
+    "name": "Dalry",
+    "region": ""
+  },
+  {
+    "id": "7000677",
+    "name": "Dalton",
+    "region": ""
+  },
+  {
+    "id": "676486",
+    "name": "Dambach Alte Veste, Fürth (Bayern)",
+    "region": ""
+  },
+  {
+    "id": "8011342",
+    "name": "Dambeck(Altm)",
+    "region": ""
+  },
+  {
+    "id": "8302091",
+    "name": "Damiano d'Asti S",
+    "region": ""
+  },
+  {
+    "id": "714198",
+    "name": "Dankerode, Rotenburg a.d. Fulda",
+    "region": ""
+  },
+  {
+    "id": "8001372",
+    "name": "Dannenberg Ost",
+    "region": ""
+  },
+  {
+    "id": "8000068",
+    "name": "Darmstadt Hbf",
+    "region": ""
+  },
+  {
+    "id": "8000085",
+    "name": "Düsseldorf Hbf",
+    "region": ""
+  },
+  {
+    "id": "835794",
+    "name": "E-Center Wellesweiler, Neunkirchen (Saar)",
+    "region": ""
+  },
+  {
+    "id": "141316",
+    "name": "E-Center, Hövelhof",
+    "region": ""
+  },
+  {
+    "id": "974390",
+    "name": "E-Schüller-Straße, Radebeul",
+    "region": ""
+  },
+  {
+    "id": "426073",
+    "name": "E-Werk, Goldbach (Unterfranken)",
+    "region": ""
+  },
+  {
+    "id": "513596",
+    "name": "E-Werk, Kaiserslautern",
+    "region": ""
+  },
+  {
+    "id": "732747",
+    "name": "E.-Brändström-Str./Neumannstr., Berlin",
+    "region": ""
+  },
+  {
+    "id": "736134",
+    "name": "E.-Claudius-Str./Drewitzer Str., Potsdam",
+    "region": ""
+  },
+  {
+    "id": "736135",
+    "name": "E.-Claudius-Str./H.-Mann-Allee, Potsdam",
+    "region": ""
+  },
+  {
+    "id": "661250",
+    "name": "E.-Heuss-Knapp-Str., Oberhausen (Rheinland)",
+    "region": ""
+  },
+  {
+    "id": "924701",
+    "name": "E.-Kämpfer-Straße, Lemgo",
+    "region": ""
+  },
+  {
+    "id": "325693",
+    "name": "E.-M.-Arndt-Straße, Stralsund",
+    "region": ""
+  },
+  {
+    "id": "976690",
+    "name": "E.-Weinert-Straße, Hoyerswerda",
+    "region": ""
+  },
+  {
+    "id": "738283",
+    "name": "e.dis AG, Fürstenwalde (Spree)",
+    "region": ""
+  },
+  {
+    "id": "699098",
+    "name": "E.ON Hanse AG, Rendsburg",
+    "region": ""
+  },
+  {
+    "id": "8085024",
+    "name": "Ebeleben",
+    "region": ""
+  },
+  {
+    "id": "8001619",
+    "name": "Ebelsbach-Eltmann",
+    "region": ""
+  },
+  {
+    "id": "8001621",
+    "name": "Ebenhausen-Schäftlarn",
+    "region": ""
+  },
+  {
+    "id": "8001620",
+    "name": "Ebenhausen(Unterfr)",
+    "region": ""
+  },
+  {
+    "id": "8001622",
+    "name": "Ebenhofen",
+    "region": ""
+  },
+  {
+    "id": "8001623",
+    "name": "Ebensfeld",
+    "region": ""
+  },
+  {
+    "id": "8000369",
+    "name": "Eberbach",
+    "region": ""
+  },
+  {
+    "id": "8003690",
+    "name": "Eberbach-Lindach",
+    "region": ""
+  },
+  {
+    "id": "8001627",
+    "name": "Ebermannstadt",
+    "region": ""
+  },
+  {
+    "id": "8001628",
+    "name": "Ebermergen",
+    "region": ""
+  },
+  {
+    "id": "8001629",
+    "name": "Ebern",
+    "region": ""
+  },
+  {
+    "id": "8070996",
+    "name": "Ebern Parkplatz Mittelschule",
+    "region": ""
+  },
+  {
+    "id": "8001632",
+    "name": "Ebersbach(Fils)",
+    "region": ""
+  },
+  {
+    "id": "8010092",
+    "name": "Ebersbach(Sachs)",
+    "region": ""
+  },
+  {
+    "id": "8001634",
+    "name": "Ebersberg(Oberbay)",
+    "region": ""
+  },
+  {
+    "id": "8011446",
+    "name": "Ebersbrunn",
+    "region": ""
+  },
+  {
+    "id": "8071753",
+    "name": "Ebersbrunn Gasthof Löwe",
+    "region": ""
+  },
+  {
+    "id": "8001636",
+    "name": "Ebersdorf(b Coburg)",
+    "region": ""
+  },
+  {
+    "id": "8010093",
+    "name": "Eberswalde Hbf",
+    "region": ""
+  },
+  {
+    "id": "8071488",
+    "name": "Eberswalde Markt",
+    "region": ""
+  },
+  {
+    "id": "8001638",
+    "name": "Ebertsheim",
+    "region": ""
+  },
+  {
+    "id": "8001640",
+    "name": "Ebing",
+    "region": ""
+  },
+  {
+    "id": "8001643",
+    "name": "Ebringen",
+    "region": ""
+  },
+  {
+    "id": "8001645",
+    "name": "Ebstorf(Uelzen)",
+    "region": ""
+  },
+  {
+    "id": "8001646",
+    "name": "Echem",
+    "region": ""
+  },
+  {
+    "id": "8001647",
+    "name": "Eching",
+    "region": ""
+  },
+  {
+    "id": "8001650",
+    "name": "Echterdingen",
+    "region": ""
+  },
+  {
+    "id": "8001648",
+    "name": "Echzell",
+    "region": ""
+  },
+  {
+    "id": "8011449",
+    "name": "Eckardtsleben",
+    "region": ""
+  },
+  {
+    "id": "8011450",
+    "name": "Eckartsberga(Thür)",
+    "region": ""
+  },
+  {
+    "id": "8001651",
+    "name": "Eckartshausen-Ilshofen",
+    "region": ""
+  },
+  {
+    "id": "8070780",
+    "name": "Eckel / Eckeler Berg",
+    "region": ""
+  },
+  {
+    "id": "8001654",
+    "name": "Eckernförde",
+    "region": ""
+  },
+  {
+    "id": "8010095",
+    "name": "Eilenburg",
+    "region": ""
+  },
+  {
+    "id": "8010097",
+    "name": "Eisenach Hbf",
+    "region": ""
+  },
+  {
+    "id": "8000098",
+    "name": "Essen Hbf",
+    "region": ""
+  },
+  {
+    "id": "980729",
+    "name": "F-August-Str/Polizei, Rochlitz",
+    "region": ""
+  },
+  {
+    "id": "982948",
+    "name": "F-Heckert-Siedlung/Hüttengrundstr., Hohenstein-Ern",
+    "region": ""
+  },
+  {
+    "id": "980977",
+    "name": "F-Marschner-Str., Burgstädt",
+    "region": ""
+  },
+  {
+    "id": "927354",
+    "name": "F-W-Weber-Forum, Steinheim (Westf)",
+    "region": ""
+  },
+  {
+    "id": "679175",
+    "name": "F. A. Gymnasium, Neustadt a.d. Aisch",
+    "region": ""
+  },
+  {
+    "id": "704889",
+    "name": "F.-D.-Hagelstein-Weg, Bad Oldesloe",
+    "region": ""
+  },
+  {
+    "id": "752077",
+    "name": "F.-Dannenmann-Str., Tübingen",
+    "region": ""
+  },
+  {
+    "id": "119005",
+    "name": "F.-Diffiné-Str., Kirchheim an der Weinstraße",
+    "region": ""
+  },
+  {
+    "id": "727514",
+    "name": "F.-Engels-Str., Schipkau",
+    "region": ""
+  },
+  {
+    "id": "979205",
+    "name": "F.-Freiligrath-Str., Radeberg",
+    "region": ""
+  },
+  {
+    "id": "727385",
+    "name": "F.-Günther-Park, Potsdam",
+    "region": ""
+  },
+  {
+    "id": "727736",
+    "name": "F.-Hoffmann-Oberschule, Großräschen",
+    "region": ""
+  },
+  {
+    "id": "900963",
+    "name": "F.-Husemann-Str.Ost, Bergkamen",
+    "region": ""
+  },
+  {
+    "id": "621416",
+    "name": "F.-Kobell-Str./Waldfriedhof, Haar",
+    "region": ""
+  },
+  {
+    "id": "331880",
+    "name": "F.-Nagel-Siedlung, Jatznick",
+    "region": ""
+  },
+  {
+    "id": "320527",
+    "name": "F.-Naumann-Allee, Ludwigslust",
+    "region": ""
+  },
+  {
+    "id": "729526",
+    "name": "F.-Naumann-Str., Hohen Neuendorf",
+    "region": ""
+  },
+  {
+    "id": "332806",
+    "name": "F.-Reuter-Schule, Demmin",
+    "region": ""
+  },
+  {
+    "id": "320604",
+    "name": "F.-Reuter-Schule, Grabow",
+    "region": ""
+  },
+  {
+    "id": "331743",
+    "name": "F.-Reuter-Weg, Eggesin",
+    "region": ""
+  },
+  {
+    "id": "333293",
+    "name": "F.-W.-Raiffeisenstr., Waren (Müritz)",
+    "region": ""
+  },
+  {
+    "id": "373133",
+    "name": "F.A.-Köhler-Straße, Nehren (Württ)",
+    "region": ""
+  },
+  {
+    "id": "568230",
+    "name": "F.Grillparzer-Straße/F.Raimund-Straße, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "468233",
+    "name": "F.Grillparzer-Straße/J.Nestroy-Straße, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "168564",
+    "name": "F.Grillparzer-Straße/Skaterpark, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "468232",
+    "name": "F.Grillparzer-Straße/Söcking, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "468234",
+    "name": "F.Raimund-Straße/L.Anzengruber-Straße, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "468236",
+    "name": "F.Raimund-Straße/Schrebergärten, Wörgl (A)",
+    "region": ""
+  },
+  {
+    "id": "8001950",
+    "name": "Fachingen(Lahn)",
+    "region": ""
+  },
+  {
+    "id": "8001953",
+    "name": "Fahrenkrug",
+    "region": ""
+  },
+  {
+    "id": "8001954",
+    "name": "Fahrnau",
+    "region": ""
+  },
+  {
+    "id": "8011870",
+    "name": "Falkenau(Sachs)-Hzdf",
+    "region": ""
+  },
+  {
+    "id": "8011528",
+    "name": "Falkenau(Sachs)Hp",
+    "region": ""
+  },
+  {
+    "id": "8011529",
+    "name": "Falkenau(Sachs)Süd",
+    "region": ""
+  },
+  {
+    "id": "8010103",
+    "name": "Falkenberg(Elster)",
+    "region": ""
+  },
+  {
+    "id": "8011531",
+    "name": "Falkenberg(Mark)",
+    "region": ""
+  },
+  {
+    "id": "8081086",
+    "name": "Falkenberg(Mark) Ortsmitte",
+    "region": ""
+  },
+  {
+    "id": "8017346",
+    "name": "Falkenhagen Gewerbepark Prignitz",
+    "region": ""
+  },
+  {
+    "id": "8070285",
+    "name": "Falkenhain, Abzw. Johnsbach",
+    "region": ""
+  },
+  {
+    "id": "8013479",
+    "name": "Falkensee",
+    "region": ""
+  },
+  {
+    "id": "8011541",
+    "name": "Falkensee-Finkenkrug",
+    "region": ""
+  },
+  {
+    "id": "8081586",
+    "name": "Falkensee-Seegefeld",
+    "region": ""
+  },
+  {
+    "id": "8010106",
+    "name": "Falkenstein(Vogtl)",
+    "region": ""
+  },
+  {
+    "id": "8001957",
+    "name": "Fallersleben",
+    "region": ""
+  },
+  {
+    "id": "8011533",
+    "name": "Fangschleuse",
+    "region": ""
+  },
+  {
+    "id": "8079310",
+    "name": "Fangschleuse Tesla Süd",
+    "region": ""
+  },
+  {
+    "id": "8001961",
+    "name": "Farchant",
+    "region": ""
+  },
+  {
+    "id": "8001963",
+    "name": "Fasanenpark",
+    "region": ""
+  },
+  {
+    "id": "8096021",
+    "name": "FRANKFURT(MAIN)",
+    "region": ""
+  },
+  {
+    "id": "363385",
+    "name": "G - Haus, Grevesmühlen",
+    "region": ""
+  },
+  {
+    "id": "982950",
+    "name": "G-Hauptmann-Schule, Limbach-Oberfrohna",
+    "region": ""
+  },
+  {
+    "id": "5200444",
+    "name": "G. Drjanovo",
+    "region": ""
+  },
+  {
+    "id": "879706",
+    "name": "G.-Bäumer-Straße, Menden (Sauerland)",
+    "region": ""
+  },
+  {
+    "id": "727643",
+    "name": "G.-Daimler-Str., Ludwigsfelde",
+    "region": ""
+  },
+  {
+    "id": "201800",
+    "name": "G.-F.-Händel-Str., Markneukirchen",
+    "region": ""
+  },
+  {
+    "id": "751613",
+    "name": "G.-F.-Händel-Str., Reutlingen",
+    "region": ""
+  },
+  {
+    "id": "453702",
+    "name": "G.-Faber Str., Waxweiler",
+    "region": ""
+  },
+  {
+    "id": "677229",
+    "name": "G.-Hauptmann-Straße, Fürth (Bayern)",
+    "region": ""
+  },
+  {
+    "id": "660206",
+    "name": "G.-Heinemann- Schule, Mülheim an der Ruhr",
+    "region": ""
+  },
+  {
+    "id": "654462",
+    "name": "G.-Heinemann-Gesamtschule, Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "822104",
+    "name": "G.-Heinemann-Str./Kornweg, Lichtenfels (Bayern)",
+    "region": ""
+  },
+  {
+    "id": "369941",
+    "name": "G.-Hirschfeld-Ring, Coburg",
+    "region": ""
+  },
+  {
+    "id": "704146",
+    "name": "G.-Kerschensteiner-Str., Lübeck",
+    "region": ""
+  },
+  {
+    "id": "115230",
+    "name": "G.-Kirchhoff-Str. West, Bad Dürkheim",
+    "region": ""
+  },
+  {
+    "id": "679380",
+    "name": "G.-Ledebour-/Gleiwitzer Str., Nürnberg",
+    "region": ""
+  },
+  {
+    "id": "508366",
+    "name": "G.-Scholl-Schule/Berliner Ring, Bensheim",
+    "region": ""
+  },
+  {
+    "id": "847226",
+    "name": "G.-Stresemann-Str., Leipheim",
+    "region": ""
+  },
+  {
+    "id": "968555",
+    "name": "G.-Voigt-Platz, Elsterberg",
+    "region": ""
+  },
+  {
+    "id": "738947",
+    "name": "G.-Wolff-Str., Angermünde",
+    "region": ""
+  },
+  {
+    "id": "8002162",
+    "name": "Gablingen",
+    "region": ""
+  },
+  {
+    "id": "8011592",
+    "name": "Gadebusch",
+    "region": ""
+  },
+  {
+    "id": "8079450",
+    "name": "Gadebusch Rehnaer Straße",
+    "region": ""
+  },
+  {
+    "id": "8002167",
+    "name": "Gaggenau Bf",
+    "region": ""
+  },
+  {
+    "id": "8006733",
+    "name": "Gaggenau Mercedes-Benz Werk",
+    "region": ""
+  },
+  {
+    "id": "8005183",
+    "name": "Gaggenau-Bad Rotenf.",
+    "region": ""
+  },
+  {
+    "id": "8002910",
+    "name": "Gaggenau-Hörden",
+    "region": ""
+  },
+  {
+    "id": "8079012",
+    "name": "Gaienhofen",
+    "region": ""
+  },
+  {
+    "id": "8002168",
+    "name": "Gaildorf West",
+    "region": ""
+  },
+  {
+    "id": "8002171",
+    "name": "Gaimersheim",
+    "region": ""
+  },
+  {
+    "id": "8002173",
+    "name": "Gaißach",
+    "region": ""
+  },
+  {
+    "id": "8011593",
+    "name": "Gallin",
+    "region": ""
+  },
+  {
+    "id": "8000091",
+    "name": "Gallmersgarten-Steinach(b Rothenburg o Tauber)",
+    "region": ""
+  },
+  {
+    "id": "8006690",
+    "name": "Galluswarte(Frankfurt/M.)",
+    "region": ""
+  },
+  {
+    "id": "8002177",
+    "name": "Gamburg(Tauber)",
+    "region": ""
+  },
+  {
+    "id": "8007229",
+    "name": "Gammertingen",
+    "region": ""
+  },
+  {
+    "id": "8070382",
+    "name": "Gammertingen Europastraße",
+    "region": ""
+  },
+  {
+    "id": "8002179",
+    "name": "Ganderkesee",
+    "region": ""
+  },
+  {
+    "id": "8001089",
+    "name": "Ganderkesee-Bookholz",
+    "region": ""
+  },
+  {
+    "id": "8003008",
+    "name": "Ganderkesee-Hoykenk.",
+    "region": ""
+  },
+  {
+    "id": "8005343",
+    "name": "Ganderkesee-Schierb.",
+    "region": ""
+  },
+  {
+    "id": "8000352",
+    "name": "Gandersheim Bad",
+    "region": ""
+  },
+  {
+    "id": "8070324",
+    "name": "Gangelt-Birgden",
+    "region": ""
+  },
+  {
+    "id": "8070531",
+    "name": "Gangelt-Schierwaldenrath",
+    "region": ""
+  },
+  {
+    "id": "8011594",
+    "name": "Gangloffsömmern",
+    "region": ""
+  },
+  {
+    "id": "8011595",
+    "name": "Ganzlin",
+    "region": ""
+  },
+  {
+    "id": "8002187",
+    "name": "GAP-",
+    "region": ""
+  },
+  {
+    "id": "8002182",
+    "name": "Garbenteich",
+    "region": ""
+  },
+  {
+    "id": "8011596",
+    "name": "Gardelegen",
+    "region": ""
+  },
+  {
+    "id": "8010125",
+    "name": "Gera Hbf",
+    "region": ""
+  },
+  {
+    "id": "983687",
+    "name": "H-Heine-Str., Lichtentanne",
+    "region": ""
+  },
+  {
+    "id": "661033",
+    "name": "H.-Albertz-Str., Oberhausen (Rheinland)",
+    "region": ""
+  },
+  {
+    "id": "870043",
+    "name": "H.-Aust-Str./Löwenbräu, Bad Wörishofen",
+    "region": ""
+  },
+  {
+    "id": "967962",
+    "name": "H.-Dindas-Str., Reichenbach im Vogtland",
+    "region": ""
+  },
+  {
+    "id": "493657",
+    "name": "H.-Emerich-Str., Überlingen",
+    "region": ""
+  },
+  {
+    "id": "617271",
+    "name": "H.-Ernst-Kissolewski-Straße, Hohnstorf (Elbe)",
+    "region": ""
+  },
+  {
+    "id": "768318",
+    "name": "H.-H.-Meier-Allee, Bremen",
+    "region": ""
+  },
+  {
+    "id": "996644",
+    "name": "H.-Heine-Straße, Zella-Mehlis",
+    "region": ""
+  },
+  {
+    "id": "101801",
+    "name": "H.-Hoffmann-Str./Blutspendedienst, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "654485",
+    "name": "H.-Kämpchen-Str., Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "681720",
+    "name": "H.-Kudlich-Str., Wendelstein",
+    "region": ""
+  },
+  {
+    "id": "120109",
+    "name": "H.-Limmer-Str., Kulmbach",
+    "region": ""
+  },
+  {
+    "id": "621418",
+    "name": "H.-Stießberger-Str.(Schleife), Haar",
+    "region": ""
+  },
+  {
+    "id": "846344",
+    "name": "H.-v.-B.-Str./Hoefelmayer Park, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "846345",
+    "name": "H.-v.-Barth-/Serrostr., Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "808189",
+    "name": "H.-von-Stephan-Straße, Freiburg im Breisgau",
+    "region": ""
+  },
+  {
+    "id": "321037",
+    "name": "H.Heine Str., Gadebusch",
+    "region": ""
+  },
+  {
+    "id": "846343",
+    "name": "H.v.Barth-/Hochvogelstr., Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "8002490",
+    "name": "Haan",
+    "region": ""
+  },
+  {
+    "id": "8000138",
+    "name": "Haan-Gruiten",
+    "region": ""
+  },
+  {
+    "id": "8002491",
+    "name": "Haar",
+    "region": ""
+  },
+  {
+    "id": "8011792",
+    "name": "Haarhausen",
+    "region": ""
+  },
+  {
+    "id": "8002494",
+    "name": "Hachenburg",
+    "region": ""
+  },
+  {
+    "id": "8002495",
+    "name": "Hadamar",
+    "region": ""
+  },
+  {
+    "id": "8071533",
+    "name": "Hadamar Stadtmitte",
+    "region": ""
+  },
+  {
+    "id": "8004376",
+    "name": "Hadamar-Niederhadam.",
+    "region": ""
+  },
+  {
+    "id": "8004424",
+    "name": "Hadamar-Niederzeuzh.",
+    "region": ""
+  },
+  {
+    "id": "8002496",
+    "name": "Hademarschen",
+    "region": ""
+  },
+  {
+    "id": "8002497",
+    "name": "Hademstorf",
+    "region": ""
+  },
+  {
+    "id": "8011794",
+    "name": "Hadmersleben",
+    "region": ""
+  },
+  {
+    "id": "8084103",
+    "name": "Hafen, List (Sylt)",
+    "region": ""
+  },
+  {
+    "id": "8002504",
+    "name": "Haffkrug",
+    "region": ""
+  },
+  {
+    "id": "8011797",
+    "name": "Hagebök",
+    "region": ""
+  },
+  {
+    "id": "8079731",
+    "name": "Hagebök Neubau B105",
+    "region": ""
+  },
+  {
+    "id": "8002506",
+    "name": "Hagelstadt",
+    "region": ""
+  },
+  {
+    "id": "8000142",
+    "name": "Hagen Hbf",
+    "region": ""
+  },
+  {
+    "id": "8002512",
+    "name": "Hagen-Heubing",
+    "region": ""
+  },
+  {
+    "id": "8002953",
+    "name": "Hagen-Hohenlimburg",
+    "region": ""
+  },
+  {
+    "id": "8002514",
+    "name": "Hagen-Oberhagen",
+    "region": ""
+  },
+  {
+    "id": "8005227",
+    "name": "Hagen-Rummenohl",
+    "region": ""
+  },
+  {
+    "id": "8000977",
+    "name": "Hagen-Vorhalle",
+    "region": ""
+  },
+  {
+    "id": "8006712",
+    "name": "Hagen-Wehringhausen",
+    "region": ""
+  },
+  {
+    "id": "8004440",
+    "name": "Hagen-Westerbauer",
+    "region": ""
+  },
+  {
+    "id": "8002507",
+    "name": "Hagen(Han)",
+    "region": ""
+  },
+  {
+    "id": "8071337",
+    "name": "Hagen(Kr. Stade)",
+    "region": ""
+  },
+  {
+    "id": "8002515",
+    "name": "Hagenbach",
+    "region": ""
+  },
+  {
+    "id": "8002517",
+    "name": "Hagenbüchach",
+    "region": ""
+  },
+  {
+    "id": "8002567",
+    "name": "Hammelburg",
+    "region": ""
+  },
+  {
+    "id": "8000152",
+    "name": "Hannover Hbf",
+    "region": ""
+  },
+  {
+    "id": "311216",
+    "name": "i. T. Camping Judenstein, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311214",
+    "name": "i. T. Gspeck, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311197",
+    "name": "i. T. Kirchplatz, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311195",
+    "name": "i. T. Lavierenbad, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311217",
+    "name": "i. T. Obere Hochstraße, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "373703",
+    "name": "i. T. Sebi, Niederndorf (A)",
+    "region": ""
+  },
+  {
+    "id": "311215",
+    "name": "i. T. Sennerhof, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311199",
+    "name": "i. T. Triendlsiedlung, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311196",
+    "name": "i. T. Volksschule, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "311198",
+    "name": "i. T. Wiesenweg/Lift, Rinn (A)",
+    "region": ""
+  },
+  {
+    "id": "202208",
+    "name": "i. Z. Bahnhof, Uderns (A)",
+    "region": ""
+  },
+  {
+    "id": "620454",
+    "name": "I.-Taschner-Gymnasium, Dachau",
+    "region": ""
+  },
+  {
+    "id": "8003035",
+    "name": "Ibach",
+    "region": ""
+  },
+  {
+    "id": "8003036",
+    "name": "Ibbenbüren",
+    "region": ""
+  },
+  {
+    "id": "8001867",
+    "name": "Ibbenbüren-Esch",
+    "region": ""
+  },
+  {
+    "id": "8003491",
+    "name": "Ibbenbüren-Laggenbeck",
+    "region": ""
+  },
+  {
+    "id": "8070308",
+    "name": "Iburg Bad",
+    "region": ""
+  },
+  {
+    "id": "8003038",
+    "name": "Ichenhausen",
+    "region": ""
+  },
+  {
+    "id": "8002881",
+    "name": "Ichenhausen-Hochwang",
+    "region": ""
+  },
+  {
+    "id": "8003039",
+    "name": "Icking",
+    "region": ""
+  },
+  {
+    "id": "8001991",
+    "name": "Idar-Oberst-Fischbac",
+    "region": ""
+  },
+  {
+    "id": "8003040",
+    "name": "Idar-Oberstein",
+    "region": ""
+  },
+  {
+    "id": "8006535",
+    "name": "Idstein-Wörsdorf",
+    "region": ""
+  },
+  {
+    "id": "8003041",
+    "name": "Idstein(Taunus)",
+    "region": ""
+  },
+  {
+    "id": "8096004",
+    "name": "Iena",
+    "region": ""
+  },
+  {
+    "id": "8005672",
+    "name": "Iffeldorf",
+    "region": ""
+  },
+  {
+    "id": "8003042",
+    "name": "Igel",
+    "region": ""
+  },
+  {
+    "id": "8003044",
+    "name": "Igensdorf",
+    "region": ""
+  },
+  {
+    "id": "8005219",
+    "name": "Igensdorf-Rüsselbach",
+    "region": ""
+  },
+  {
+    "id": "8003045",
+    "name": "Igersheim",
+    "region": ""
+  },
+  {
+    "id": "8003052",
+    "name": "Ihringen",
+    "region": ""
+  },
+  {
+    "id": "8006215",
+    "name": "Ihringen-Wasenweiler",
+    "region": ""
+  },
+  {
+    "id": "8003053",
+    "name": "Ihringshausen",
+    "region": ""
+  },
+  {
+    "id": "8011929",
+    "name": "Ilberstedt",
+    "region": ""
+  },
+  {
+    "id": "8017014",
+    "name": "Ilfeld",
+    "region": ""
+  },
+  {
+    "id": "8017007",
+    "name": "Ilfeld Eisfelder Talmühle",
+    "region": ""
+  },
+  {
+    "id": "8070776",
+    "name": "Ilfeld Neanderklinik",
+    "region": ""
+  },
+  {
+    "id": "8080990",
+    "name": "Ilfeld Schreiberwiese",
+    "region": ""
+  },
+  {
+    "id": "8017016",
+    "name": "Ilfeld-Netzkater",
+    "region": ""
+  },
+  {
+    "id": "8005648",
+    "name": "Ilgen St",
+    "region": ""
+  },
+  {
+    "id": "8003057",
+    "name": "Illertissen",
+    "region": ""
+  },
+  {
+    "id": "8003058",
+    "name": "Illesheim",
+    "region": ""
+  },
+  {
+    "id": "8003059",
+    "name": "Illingen(Saar)",
+    "region": ""
+  },
+  {
+    "id": "8003060",
+    "name": "Illingen(Württ)",
+    "region": ""
+  },
+  {
+    "id": "8010178",
+    "name": "Ilmenau",
+    "region": ""
+  },
+  {
+    "id": "8011935",
+    "name": "Ilmenau Pörlitzer Höhe",
+    "region": ""
+  },
+  {
+    "id": "8070929",
+    "name": "Ilmenau-Pörlitzer Höhe Ziolkowskistraße",
+    "region": ""
+  },
+  {
+    "id": "8011932",
+    "name": "Ilmenau-Roda",
+    "region": ""
+  },
+  {
+    "id": "8011933",
+    "name": "Ilsenburg",
+    "region": ""
+  },
+  {
+    "id": "200153",
+    "name": "J-Degen-Str., Kronach (Oberfranken)",
+    "region": ""
+  },
+  {
+    "id": "656192",
+    "name": "J-G-Fichte-Str., Hagen (Westf)",
+    "region": ""
+  },
+  {
+    "id": "976019",
+    "name": "J-G-Fichte-Straße, Rammenau",
+    "region": ""
+  },
+  {
+    "id": "361364",
+    "name": "J-Owens-Allee/Passenheimer Str., Berlin",
+    "region": ""
+  },
+  {
+    "id": "656074",
+    "name": "J. P. Hüsecken, Hagen (Westf)",
+    "region": ""
+  },
+  {
+    "id": "121034",
+    "name": "J. T. Schule, Haiger",
+    "region": ""
+  },
+  {
+    "id": "599873",
+    "name": "J.-A.-Mayer-Weg, Wingst",
+    "region": ""
+  },
+  {
+    "id": "112745",
+    "name": "J.-Baumann-Str.",
+    "region": ""
+  },
+  {
+    "id": "320525",
+    "name": "J.-Brinkmann-Str., Ludwigslust",
+    "region": ""
+  },
+  {
+    "id": "322212",
+    "name": "J.-Brinkmann-Straße, Goldberg",
+    "region": ""
+  },
+  {
+    "id": "736867",
+    "name": "J.-Curie-Platz, Ludwigsfelde",
+    "region": ""
+  },
+  {
+    "id": "621123",
+    "name": "J.-Dosch-Schule, Gauting",
+    "region": ""
+  },
+  {
+    "id": "620445",
+    "name": "J.-F.-Kennedy-Platz, Dachau",
+    "region": ""
+  },
+  {
+    "id": "108459",
+    "name": "J.-F.-Kennedy-Schule, Münster b Dieburg",
+    "region": ""
+  },
+  {
+    "id": "125203",
+    "name": "J.-F.-Kennedy-Straße, Wiesbaden",
+    "region": ""
+  },
+  {
+    "id": "820204",
+    "name": "J.-Fesel-Straße, Ochsenfurt",
+    "region": ""
+  },
+  {
+    "id": "622581",
+    "name": "J.-G.-Gutenbergstraße Mitte, Olching",
+    "region": ""
+  },
+  {
+    "id": "637310",
+    "name": "J.-G.-Gutenbergstraße Ost, Olching",
+    "region": ""
+  },
+  {
+    "id": "320523",
+    "name": "J.-Gillhoff-Str., Ludwigslust",
+    "region": ""
+  },
+  {
+    "id": "879739",
+    "name": "J.-Görres-Straße, Menden (Sauerland)",
+    "region": ""
+  },
+  {
+    "id": "666449",
+    "name": "J.-Mayer-Str./Jahrhunderthalle, Bochum",
+    "region": ""
+  },
+  {
+    "id": "967968",
+    "name": "J.-Mosen-Str., Reichenbach im Vogtland",
+    "region": ""
+  },
+  {
+    "id": "197230",
+    "name": "J.-P.-Lange-Straße, Uetersen",
+    "region": ""
+  },
+  {
+    "id": "322222",
+    "name": "J.-R.-Becher-Straße, Wismar",
+    "region": ""
+  },
+  {
+    "id": "750421",
+    "name": "J.-S.-Bach-Straße, Dettingen an der Erms",
+    "region": ""
+  },
+  {
+    "id": "483565",
+    "name": "J.-Stilling-Krankenhaus, Siegen",
+    "region": ""
+  },
+  {
+    "id": "740964",
+    "name": "J.-v.-Liebig-Str., Schwedt (Oder)",
+    "region": ""
+  },
+  {
+    "id": "783911",
+    "name": "J.-Weinberger-Str./Hochhaus, Nördlingen",
+    "region": ""
+  },
+  {
+    "id": "102060",
+    "name": "J.-Wittwer-Seniorenzentrum, Kriftel",
+    "region": ""
+  },
+  {
+    "id": "122206",
+    "name": "J.A.F.-Schule, Hünfeld",
+    "region": ""
+  },
+  {
+    "id": "504444",
+    "name": "J.G. Weisser, St. Georgen im Schwarzwald",
+    "region": ""
+  },
+  {
+    "id": "163262",
+    "name": "J.S.Bach-/R.Wagner-Str., Steinheim an der Murr",
+    "region": ""
+  },
+  {
+    "id": "8011939",
+    "name": "Jabel(Meckl)",
+    "region": ""
+  },
+  {
+    "id": "5401319",
+    "name": "Jablonec n.J.-Hradsko",
+    "region": ""
+  },
+  {
+    "id": "8011940",
+    "name": "Jacobsdorf(Mark)",
+    "region": ""
+  },
+  {
+    "id": "8003105",
+    "name": "Jaderberg",
+    "region": ""
+  },
+  {
+    "id": "8011947",
+    "name": "Jagdschloß",
+    "region": ""
+  },
+  {
+    "id": "8003108",
+    "name": "Jägersfreude",
+    "region": ""
+  },
+  {
+    "id": "8003111",
+    "name": "Jagstzell",
+    "region": ""
+  },
+  {
+    "id": "8071800",
+    "name": "Jahnsdorf Kreisverkehr",
+    "region": ""
+  },
+  {
+    "id": "8011948",
+    "name": "Jahnsdorf(Erzgeb)",
+    "region": ""
+  },
+  {
+    "id": "8011944",
+    "name": "Jänschwalde",
+    "region": ""
+  },
+  {
+    "id": "8079737",
+    "name": "Jänschwalde Dorf",
+    "region": ""
+  },
+  {
+    "id": "8011945",
+    "name": "Jänschwalde Ost",
+    "region": ""
+  },
+  {
+    "id": "8079738",
+    "name": "Jänschwalde Ost (Bus)",
+    "region": ""
+  },
+  {
+    "id": "8003115",
+    "name": "Jarrenwisch",
+    "region": ""
+  },
+  {
+    "id": "8011951",
+    "name": "Jasnitz",
+    "region": ""
+  },
+  {
+    "id": "8010179",
+    "name": "Jatznick",
+    "region": ""
+  },
+  {
+    "id": "8079736",
+    "name": "Jatznick Gemeindeverwaltung",
+    "region": ""
+  },
+  {
+    "id": "983790",
+    "name": "K-Kollwitz-Gymnasium, Zwickau",
+    "region": ""
+  },
+  {
+    "id": "506319",
+    "name": "K.-Adenauer-Platz, Frankenthal (Pfalz)",
+    "region": ""
+  },
+  {
+    "id": "877615",
+    "name": "K.-Adenauer-Ring ZOB, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "878867",
+    "name": "K.-Adenauer-Ring ZOB1A, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "878215",
+    "name": "K.-Adenauer-Ring ZOB1B/1C/1D, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "879330",
+    "name": "K.-Adenauer-Ring ZOB2B/2C, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "878206",
+    "name": "K.-Adenauer-Ring/ZOB, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "656197",
+    "name": "K.-E.-Osthaus-Str., Hagen (Westf)",
+    "region": ""
+  },
+  {
+    "id": "891071",
+    "name": "K.-Groth-Weg, Wolfenbüttel",
+    "region": ""
+  },
+  {
+    "id": "980072",
+    "name": "K.-Kollwitz-Straße, Auerbach/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "734546",
+    "name": "K.-Kurzbach-Platz, Neuruppin",
+    "region": ""
+  },
+  {
+    "id": "211530",
+    "name": "K.-Liebknecht-Straße, Münchenbernsdorf",
+    "region": ""
+  },
+  {
+    "id": "665605",
+    "name": "K.-Schumacher-Br., Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "998603",
+    "name": "K.-W.-Heck-Str., Isny im Allgäu",
+    "region": ""
+  },
+  {
+    "id": "654552",
+    "name": "K.-Wilhelm-Park, Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "8000438",
+    "name": "Kaarst IKEA",
+    "region": ""
+  },
+  {
+    "id": "8000432",
+    "name": "Kaarst Mitte/Holzbüttgen",
+    "region": ""
+  },
+  {
+    "id": "8071232",
+    "name": "Kaarst Mitte/Holzbüttgen Pfarrzentrum",
+    "region": ""
+  },
+  {
+    "id": "8001261",
+    "name": "Kaarst-Büttgen",
+    "region": ""
+  },
+  {
+    "id": "8003141",
+    "name": "Kaarster Bahnhof",
+    "region": ""
+  },
+  {
+    "id": "8000430",
+    "name": "Kaarster See",
+    "region": ""
+  },
+  {
+    "id": "8011981",
+    "name": "Kablow",
+    "region": ""
+  },
+  {
+    "id": "8070164",
+    "name": "Kahl Kopp/Heide",
+    "region": ""
+  },
+  {
+    "id": "8003143",
+    "name": "Kahl(Main)",
+    "region": ""
+  },
+  {
+    "id": "8011985",
+    "name": "Kahla(Thür)",
+    "region": ""
+  },
+  {
+    "id": "8003144",
+    "name": "Kailbach Hesseneck",
+    "region": ""
+  },
+  {
+    "id": "8003146",
+    "name": "Kainzenbad",
+    "region": ""
+  },
+  {
+    "id": "8003148",
+    "name": "Kaisersesch",
+    "region": ""
+  },
+  {
+    "id": "8070889",
+    "name": "Kaiserslautern Friedhof",
+    "region": ""
+  },
+  {
+    "id": "8002175",
+    "name": "Kaiserslautern Galgenschanze",
+    "region": ""
+  },
+  {
+    "id": "8000189",
+    "name": "Kaiserslautern Hbf",
+    "region": ""
+  },
+  {
+    "id": "8003150",
+    "name": "Kaiserslautern Pfaffwerk",
+    "region": ""
+  },
+  {
+    "id": "8003151",
+    "name": "Kaiserslautern West",
+    "region": ""
+  },
+  {
+    "id": "8002943",
+    "name": "Kaiserslautern-Hohenecken",
+    "region": ""
+  },
+  {
+    "id": "8003154",
+    "name": "Kalchreuth",
+    "region": ""
+  },
+  {
+    "id": "8000190",
+    "name": "Kaldenkirchen",
+    "region": ""
+  },
+  {
+    "id": "8070018",
+    "name": "Kalenborn(Westerw)",
+    "region": ""
+  },
+  {
+    "id": "8003158",
+    "name": "Kall",
+    "region": ""
+  },
+  {
+    "id": "8005339",
+    "name": "Kall-Scheven",
+    "region": ""
+  },
+  {
+    "id": "8006032",
+    "name": "Kall-Urft",
+    "region": ""
+  },
+  {
+    "id": "8003160",
+    "name": "Kalscheuren",
+    "region": ""
+  },
+  {
+    "id": "8011995",
+    "name": "Kalsow",
+    "region": ""
+  },
+  {
+    "id": "8070807",
+    "name": "Kalteneck",
+    "region": ""
+  },
+  {
+    "id": "8007204",
+    "name": "Kaltenkirchen Süd",
+    "region": ""
+  },
+  {
+    "id": "8007203",
+    "name": "Kaltenkirchen Therme",
+    "region": ""
+  },
+  {
+    "id": "8007054",
+    "name": "Kaltenkirchen(Holst)",
+    "region": ""
+  },
+  {
+    "id": "8003165",
+    "name": "Kaltenweide Langenh.",
+    "region": ""
+  },
+  {
+    "id": "8000191",
+    "name": "Karlsruhe Hbf",
+    "region": ""
+  },
+  {
+    "id": "8096022",
+    "name": "KÖLN",
+    "region": ""
+  },
+  {
+    "id": "300880",
+    "name": "L.-da-Vinci-Straße, Dresden",
+    "region": ""
+  },
+  {
+    "id": "8579139",
+    "name": "L'Abbaye, Groenroud",
+    "region": ""
+  },
+  {
+    "id": "8579138",
+    "name": "L'Abbaye, Les Collondés",
+    "region": ""
+  },
+  {
+    "id": "8579137",
+    "name": "L'Abbaye, place du village",
+    "region": ""
+  },
+  {
+    "id": "8700315",
+    "name": "L'Aigle",
+    "region": ""
+  },
+  {
+    "id": "7100206",
+    "name": "L'Aldea-Amposta-Tor.",
+    "region": ""
+  },
+  {
+    "id": "8300553",
+    "name": "L'Aquila",
+    "region": ""
+  },
+  {
+    "id": "8703527",
+    "name": "L'Arbresle",
+    "region": ""
+  },
+  {
+    "id": "8702473",
+    "name": "L'Argentière les Ecrins",
+    "region": ""
+  },
+  {
+    "id": "8703528",
+    "name": "L'Ariane",
+    "region": ""
+  },
+  {
+    "id": "8501069",
+    "name": "L'Asse",
+    "region": ""
+  },
+  {
+    "id": "8593785",
+    "name": "L'Auberson, ch. des Grangettes",
+    "region": ""
+  },
+  {
+    "id": "8593783",
+    "name": "L'Auberson, ch. du Carre",
+    "region": ""
+  },
+  {
+    "id": "8579077",
+    "name": "L'Auberson, école",
+    "region": ""
+  },
+  {
+    "id": "8579075",
+    "name": "L'Auberson, La Combe",
+    "region": ""
+  },
+  {
+    "id": "8571784",
+    "name": "L'Auberson, Vers-chez-Gueissaz",
+    "region": ""
+  },
+  {
+    "id": "8587594",
+    "name": "L'Auberson, Vers-chz-ls-Jaques",
+    "region": ""
+  },
+  {
+    "id": "8579071",
+    "name": "L'Auberson, Vers-le-Bois",
+    "region": ""
+  },
+  {
+    "id": "8703530",
+    "name": "L'Escarene",
+    "region": ""
+  },
+  {
+    "id": "8701085",
+    "name": "L'Estaque",
+    "region": ""
+  },
+  {
+    "id": "8530125",
+    "name": "L'Ethérolla",
+    "region": ""
+  },
+  {
+    "id": "8701256",
+    "name": "L'Herbergement-l'Br.",
+    "region": ""
+  },
+  {
+    "id": "8703533",
+    "name": "L'Hôpital du Gros Bois",
+    "region": ""
+  },
+  {
+    "id": "7148160",
+    "name": "L'Hospitalet Av. Carrilet",
+    "region": ""
+  },
+  {
+    "id": "7148164",
+    "name": "L'Hospitalet Europa/Fira",
+    "region": ""
+  },
+  {
+    "id": "7148158",
+    "name": "L'Hospitalet Gornal",
+    "region": ""
+  },
+  {
+    "id": "7148157",
+    "name": "L'Hospitalet Ildefons Cerda",
+    "region": ""
+  },
+  {
+    "id": "7148159",
+    "name": "L'Hospitalet Sant Josep",
+    "region": ""
+  },
+  {
+    "id": "8703535",
+    "name": "L'Isle Jourdain",
+    "region": ""
+  },
+  {
+    "id": "8702518",
+    "name": "L'Isle-d'Abeau",
+    "region": ""
+  },
+  {
+    "id": "8701311",
+    "name": "L'Isle-Fontaine-d-V.",
+    "region": ""
+  },
+  {
+    "id": "8700310",
+    "name": "L'Isle-sur-le-Doubs",
+    "region": ""
+  },
+  {
+    "id": "8501099",
+    "name": "L'Isle(CH)",
+    "region": ""
+  },
+  {
+    "id": "8579145",
+    "name": "L'Orient, Crêt",
+    "region": ""
+  },
+  {
+    "id": "8588214",
+    "name": "La Chaux-de-F, Combe-à-l'Ours",
+    "region": ""
+  },
+  {
+    "id": "8593708",
+    "name": "La Chaux-de-F, L'Eplattenier",
+    "region": ""
+  },
+  {
+    "id": "8511513",
+    "name": "La Chaux-de-F, Parc de l'Ouest",
+    "region": ""
+  },
+  {
+    "id": "8003485",
+    "name": "Laaber",
+    "region": ""
+  },
+  {
+    "id": "8012143",
+    "name": "Laage(Meckl)",
+    "region": ""
+  },
+  {
+    "id": "8011726",
+    "name": "Laasch Groß",
+    "region": ""
+  },
+  {
+    "id": "8003486",
+    "name": "Laasphe Bad",
+    "region": ""
+  },
+  {
+    "id": "8003487",
+    "name": "LaatzenHannoverMesse",
+    "region": ""
+  },
+  {
+    "id": "8003488",
+    "name": "Laberweinting",
+    "region": ""
+  },
+  {
+    "id": "8701360",
+    "name": "Laboissiere-l-Deluge",
+    "region": ""
+  },
+  {
+    "id": "8003489",
+    "name": "Ladenburg",
+    "region": ""
+  },
+  {
+    "id": "8001686",
+    "name": "Lage-Ehlenbruch",
+    "region": ""
+  },
+  {
+    "id": "8000215",
+    "name": "Lage(Lippe)",
+    "region": ""
+  },
+  {
+    "id": "8003490",
+    "name": "Lagerlechfeld",
+    "region": ""
+  },
+  {
+    "id": "8000217",
+    "name": "Landshut(Bay)Hbf",
+    "region": ""
+  },
+  {
+    "id": "8010205",
+    "name": "Leipzig Hbf",
+    "region": ""
+  },
+  {
+    "id": "835034",
+    "name": "M-Center Fraulautern, Saarlouis",
+    "region": ""
+  },
+  {
+    "id": "973051",
+    "name": "M-Großmann-Platz, Glashütte",
+    "region": ""
+  },
+  {
+    "id": "785159",
+    "name": "M-Luther-Kirche, Tegernheim",
+    "region": ""
+  },
+  {
+    "id": "654648",
+    "name": "M.-Erzberger-Str., Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "924748",
+    "name": "M.-Kabaker-Str., Lemgo",
+    "region": ""
+  },
+  {
+    "id": "845658",
+    "name": "M.-Lochb.-Str./Klosterkirche, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "966004",
+    "name": "M.-Lochbihler-Str./Allgäu Gymnasium, Kempten (Allg",
+    "region": ""
+  },
+  {
+    "id": "878928",
+    "name": "M.-Luther-King-Haus, Iserlohn",
+    "region": ""
+  },
+  {
+    "id": "8079021",
+    "name": "Maasbüll(b Niebüll)",
+    "region": ""
+  },
+  {
+    "id": "103802",
+    "name": "Maastrichter Ring, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "8012284",
+    "name": "Machern(Sachs)",
+    "region": ""
+  },
+  {
+    "id": "8080660",
+    "name": "Magdeburg Hasselbachplatz",
+    "region": ""
+  },
+  {
+    "id": "8010224",
+    "name": "Magdeburg Hbf",
+    "region": ""
+  },
+  {
+    "id": "8089178",
+    "name": "Magdeburg Hbf ZOB",
+    "region": ""
+  },
+  {
+    "id": "8013455",
+    "name": "Magdeburg Herrenkrug",
+    "region": ""
+  },
+  {
+    "id": "8013485",
+    "name": "Magdeburg SKET Industriepark",
+    "region": ""
+  },
+  {
+    "id": "8012287",
+    "name": "Magdeburg Südost",
+    "region": ""
+  },
+  {
+    "id": "8013456",
+    "name": "Magdeburg-Buckau",
+    "region": ""
+  },
+  {
+    "id": "8012289",
+    "name": "Magdeburg-Eichenweiler",
+    "region": ""
+  },
+  {
+    "id": "8010226",
+    "name": "Magdeburg-Neustadt",
+    "region": ""
+  },
+  {
+    "id": "8010086",
+    "name": "Magdeburg-Rothensee",
+    "region": ""
+  },
+  {
+    "id": "8012291",
+    "name": "Magdeburg-Salbke",
+    "region": ""
+  },
+  {
+    "id": "8012292",
+    "name": "Magdeburg-Sudenburg",
+    "region": ""
+  },
+  {
+    "id": "8003807",
+    "name": "Magstadt",
+    "region": ""
+  },
+  {
+    "id": "8004683",
+    "name": "Mahlberg-Orschweier",
+    "region": ""
+  },
+  {
+    "id": "8080970",
+    "name": "Mahlow",
+    "region": ""
+  },
+  {
+    "id": "8071912",
+    "name": "Mahlow Trebbiner Straße",
+    "region": ""
+  },
+  {
+    "id": "8012295",
+    "name": "Mahlwinkel",
+    "region": ""
+  },
+  {
+    "id": "8003808",
+    "name": "Maichingen",
+    "region": ""
+  },
+  {
+    "id": "8003834",
+    "name": "Maichingen Nord",
+    "region": ""
+  },
+  {
+    "id": "8003809",
+    "name": "Maikammer-Kirrweiler",
+    "region": ""
+  },
+  {
+    "id": "8300046",
+    "name": "Mailand Hbf",
+    "region": ""
+  },
+  {
+    "id": "101738",
+    "name": "Main-Neckar-Brücke, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "8003810",
+    "name": "Mainaschaff",
+    "region": ""
+  },
+  {
+    "id": "8064136",
+    "name": "Mainau, Haupteingang (Bus)",
+    "region": ""
+  },
+  {
+    "id": "101005",
+    "name": "Mainberg, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "8006646",
+    "name": "Mainhausen Zellhausen",
+    "region": ""
+  },
+  {
+    "id": "102599",
+    "name": "Mainkur Bahnhof, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "8003813",
+    "name": "Mainleus",
+    "region": ""
+  },
+  {
+    "id": "8003814",
+    "name": "Mainroth",
+    "region": ""
+  },
+  {
+    "id": "8002877",
+    "name": "Maintal Ost",
+    "region": ""
+  },
+  {
+    "id": "8000996",
+    "name": "Maintal West",
+    "region": ""
+  },
+  {
+    "id": "8000240",
+    "name": "Mainz Hbf",
+    "region": ""
+  },
+  {
+    "id": "8000241",
+    "name": "Mainz-Bischofsheim",
+    "region": ""
+  },
+  {
+    "id": "8003817",
+    "name": "Mainz-Gonsenheim",
+    "region": ""
+  },
+  {
+    "id": "8003818",
+    "name": "Mainz-Gustavsburg",
+    "region": ""
+  },
+  {
+    "id": "8000615",
+    "name": "Mainz-Kastel",
+    "region": ""
+  },
+  {
+    "id": "8000244",
+    "name": "Mannheim Hbf",
+    "region": ""
+  },
+  {
+    "id": "8012301",
+    "name": "Marienberg(Sachs)",
+    "region": ""
+  },
+  {
+    "id": "8096013",
+    "name": "MÜNCHEN",
+    "region": ""
+  },
+  {
+    "id": "972827",
+    "name": "N-Ostrowski-Straße, Dippoldiswalde",
+    "region": ""
+  },
+  {
+    "id": "727960",
+    "name": "N.-Otto-Str., Ludwigsfelde",
+    "region": ""
+  },
+  {
+    "id": "830606",
+    "name": "n/a Hirschgraben, Schwäbisch Hall",
+    "region": ""
+  },
+  {
+    "id": "8004191",
+    "name": "Nabburg",
+    "region": ""
+  },
+  {
+    "id": "8012410",
+    "name": "Nachterstedt-Hoym",
+    "region": ""
+  },
+  {
+    "id": "8004193",
+    "name": "Nackenheim",
+    "region": ""
+  },
+  {
+    "id": "8004196",
+    "name": "Nagold",
+    "region": ""
+  },
+  {
+    "id": "8004201",
+    "name": "Nagold Stadtmitte",
+    "region": ""
+  },
+  {
+    "id": "8000389",
+    "name": "Nagold-Hochdorf",
+    "region": ""
+  },
+  {
+    "id": "8004202",
+    "name": "Nagold-Iselshausen",
+    "region": ""
+  },
+  {
+    "id": "8004195",
+    "name": "Nagold-Steinberg",
+    "region": ""
+  },
+  {
+    "id": "8004198",
+    "name": "Naila",
+    "region": ""
+  },
+  {
+    "id": "8002898",
+    "name": "Naila-Höllenthal",
+    "region": ""
+  },
+  {
+    "id": "8003903",
+    "name": "Naila-Marxgrün",
+    "region": ""
+  },
+  {
+    "id": "8004199",
+    "name": "Namborn",
+    "region": ""
+  },
+  {
+    "id": "8004200",
+    "name": "Namedy",
+    "region": ""
+  },
+  {
+    "id": "8070497",
+    "name": "Nammen-Bad",
+    "region": ""
+  },
+  {
+    "id": "8004204",
+    "name": "Nannhofen,Mammendorf",
+    "region": ""
+  },
+  {
+    "id": "8700020",
+    "name": "Nantes",
+    "region": ""
+  },
+  {
+    "id": "8396003",
+    "name": "NAPOLI",
+    "region": ""
+  },
+  {
+    "id": "8300239",
+    "name": "Napoli Centrale",
+    "region": ""
+  },
+  {
+    "id": "8010238",
+    "name": "Narsdorf",
+    "region": ""
+  },
+  {
+    "id": "604480",
+    "name": "Narthauen Upp'n Barg, Ottersberg",
+    "region": ""
+  },
+  {
+    "id": "8012412",
+    "name": "Nassau(Erzgeb)",
+    "region": ""
+  },
+  {
+    "id": "8004206",
+    "name": "Nassau(Lahn)",
+    "region": ""
+  },
+  {
+    "id": "8004207",
+    "name": "Nassenbeuren",
+    "region": ""
+  },
+  {
+    "id": "8012413",
+    "name": "Nassenheide",
+    "region": ""
+  },
+  {
+    "id": "8070967",
+    "name": "Nassenheide B96/Teerofener Weg",
+    "region": ""
+  },
+  {
+    "id": "8070951",
+    "name": "Nassenheide Kirche",
+    "region": ""
+  },
+  {
+    "id": "8004208",
+    "name": "Natrup-Hagen",
+    "region": ""
+  },
+  {
+    "id": "8010239",
+    "name": "Nauen",
+    "region": ""
+  },
+  {
+    "id": "8081054",
+    "name": "Nauen Fontaneweg",
+    "region": ""
+  },
+  {
+    "id": "8081057",
+    "name": "Nauen Umspannwerk",
+    "region": ""
+  },
+  {
+    "id": "8081058",
+    "name": "Nauen Zentrum",
+    "region": ""
+  },
+  {
+    "id": "8012414",
+    "name": "Nauendorf(Saalkr)",
+    "region": ""
+  },
+  {
+    "id": "8004210",
+    "name": "Nauheim(b Gr.Gerau)",
+    "region": ""
+  },
+  {
+    "id": "8012429",
+    "name": "Naumburg-Roßbach",
+    "region": ""
+  },
+  {
+    "id": "8010240",
+    "name": "Naumburg(Saale)Hbf",
+    "region": ""
+  },
+  {
+    "id": "8012415",
+    "name": "Naumburg(Saale)Ost",
+    "region": ""
+  },
+  {
+    "id": "8012416",
+    "name": "Naunhof",
+    "region": ""
+  },
+  {
+    "id": "8004213",
+    "name": "Neanderthal",
+    "region": ""
+  },
+  {
+    "id": "8070698",
+    "name": "Nebitzschen",
+    "region": ""
+  },
+  {
+    "id": "8012417",
+    "name": "Nebra",
+    "region": ""
+  },
+  {
+    "id": "8002166",
+    "name": "Nebringen(Gäufelden)",
+    "region": ""
+  },
+  {
+    "id": "8010241",
+    "name": "Neubrandenburg",
+    "region": ""
+  },
+  {
+    "id": "8000274",
+    "name": "Neuss Hbf",
+    "region": ""
+  },
+  {
+    "id": "8004323",
+    "name": "Neustadt(Aisch)Bahnhof",
+    "region": ""
+  },
+  {
+    "id": "8010256",
+    "name": "Nordhausen",
+    "region": ""
+  },
+  {
+    "id": "8096025",
+    "name": "NÜRNBERG",
+    "region": ""
+  },
+  {
+    "id": "375967",
+    "name": "O-Werk, Bochum",
+    "region": ""
+  },
+  {
+    "id": "132857",
+    "name": "O. Ostbüren. Str., Fröndenberg",
+    "region": ""
+  },
+  {
+    "id": "720514",
+    "name": "O.-Haefelin-/P.-Fischer-Str., Bühl",
+    "region": ""
+  },
+  {
+    "id": "728190",
+    "name": "O.-Lilienthal-Str., Finsterwalde",
+    "region": ""
+  },
+  {
+    "id": "301018",
+    "name": "O.-Riedel-Str Tennisplatz, Oelsnitz/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "201021",
+    "name": "O.-Riedel-Str. Mitte, Oelsnitz/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "742492",
+    "name": "O.-Zacke-Platz, Dahme (Mark)",
+    "region": ""
+  },
+  {
+    "id": "693265",
+    "name": "O'Swaldstraße, Hamburg",
+    "region": ""
+  },
+  {
+    "id": "7001680",
+    "name": "Oakleigh Park",
+    "region": ""
+  },
+  {
+    "id": "8400480",
+    "name": "Obdam",
+    "region": ""
+  },
+  {
+    "id": "8003316",
+    "name": "Ober Olm-Klein Wint.",
+    "region": ""
+  },
+  {
+    "id": "8004497",
+    "name": "Ober Ramstadt",
+    "region": ""
+  },
+  {
+    "id": "140088",
+    "name": "Ober Roden Bahnhof, Rödermark",
+    "region": ""
+  },
+  {
+    "id": "104646",
+    "name": "Ober-Roden Bahnhof, Rödermark",
+    "region": ""
+  },
+  {
+    "id": "115008",
+    "name": "Ober-Roden O.-v.-Nell-Breuning-Schule, Rödermark",
+    "region": ""
+  },
+  {
+    "id": "5100058",
+    "name": "Ober-Schreiberhau",
+    "region": ""
+  },
+  {
+    "id": "8004499",
+    "name": "Ober-Widdersheim",
+    "region": ""
+  },
+  {
+    "id": "8007002",
+    "name": "Oberachern",
+    "region": ""
+  },
+  {
+    "id": "8007003",
+    "name": "Oberachern Bindfadenfabrik",
+    "region": ""
+  },
+  {
+    "id": "8004496",
+    "name": "Oberaichen",
+    "region": ""
+  },
+  {
+    "id": "561526",
+    "name": "Oberaichen Bahnhof, Leinfelden-Echterdingen",
+    "region": ""
+  },
+  {
+    "id": "8504348",
+    "name": "Oberalppass(Schneehüenerstock)",
+    "region": ""
+  },
+  {
+    "id": "8004503",
+    "name": "Oberammergau",
+    "region": ""
+  },
+  {
+    "id": "8004504",
+    "name": "Oberasbach",
+    "region": ""
+  },
+  {
+    "id": "8004506",
+    "name": "Oberau",
+    "region": ""
+  },
+  {
+    "id": "8004507",
+    "name": "Oberaudorf",
+    "region": ""
+  },
+  {
+    "id": "800222",
+    "name": "Oberbarmen Bahnhof, Wuppertal",
+    "region": ""
+  },
+  {
+    "id": "664634",
+    "name": "Oberbarmen Bahnhof/Rauental, Wuppertal",
+    "region": ""
+  },
+  {
+    "id": "664804",
+    "name": "Oberbarmen Schwebebahn",
+    "region": ""
+  },
+  {
+    "id": "8530820",
+    "name": "Oberberg St. Karl",
+    "region": ""
+  },
+  {
+    "id": "8004513",
+    "name": "Oberbettingen-Hillesheim",
+    "region": ""
+  },
+  {
+    "id": "172162",
+    "name": "Oberbettingen-Hillesheim Bahnhof, Hillesheim (Eife",
+    "region": ""
+  },
+  {
+    "id": "663287",
+    "name": "Oberbilk S U, Düsseldorf",
+    "region": ""
+  },
+  {
+    "id": "8004514",
+    "name": "Oberbillig",
+    "region": ""
+  },
+  {
+    "id": "8004515",
+    "name": "Oberbimbach",
+    "region": ""
+  },
+  {
+    "id": "8004517",
+    "name": "Oberboihingen",
+    "region": ""
+  },
+  {
+    "id": "8004518",
+    "name": "Oberbrechen",
+    "region": ""
+  },
+  {
+    "id": "404002",
+    "name": "Oberbrechen Bahnhof, Brechen",
+    "region": ""
+  },
+  {
+    "id": "103874",
+    "name": "Oberbrechen Bahnhof/B8, Brechen",
+    "region": ""
+  },
+  {
+    "id": "8012518",
+    "name": "Obercarsdorf",
+    "region": ""
+  },
+  {
+    "id": "8004521",
+    "name": "Oberdachstetten",
+    "region": ""
+  },
+  {
+    "id": "8002005",
+    "name": "Oberderdingen-Flehi.",
+    "region": ""
+  },
+  {
+    "id": "8079078",
+    "name": "Oberderdingen-Flehingen",
+    "region": ""
+  },
+  {
+    "id": "724059",
+    "name": "Oberderdingen-Flehingen, Oberderdingen",
+    "region": ""
+  },
+  {
+    "id": "181596",
+    "name": "Oberdollendorf, Königswinter",
+    "region": ""
+  },
+  {
+    "id": "8500264",
+    "name": "Oberdorf SO",
+    "region": ""
+  },
+  {
+    "id": "8004523",
+    "name": "Oberdorfelden(Schöneck)",
+    "region": ""
+  },
+  {
+    "id": "8100144",
+    "name": "Oberdrauburg",
+    "region": ""
+  },
+  {
+    "id": "8000286",
+    "name": "Oberhausen Hbf",
+    "region": ""
+  },
+  {
+    "id": "8004560",
+    "name": "Obernburg-Elsenfeld",
+    "region": ""
+  },
+  {
+    "id": "362911",
+    "name": "P-Center, Plettenberg",
+    "region": ""
+  },
+  {
+    "id": "980109",
+    "name": "P-Müller-Str/Kindereinrichtung, Freiberg (Sachsen)",
+    "region": ""
+  },
+  {
+    "id": "980386",
+    "name": "P-Schmohl-Str/Donatsviertel, Freiberg (Sachsen)",
+    "region": ""
+  },
+  {
+    "id": "379148",
+    "name": "P-Westtangente, Straubing",
+    "region": ""
+  },
+  {
+    "id": "950684",
+    "name": "P.-Rosegger-Straße, Pförring",
+    "region": ""
+  },
+  {
+    "id": "622876",
+    "name": "P.-Rupert-Mayer-Straße, Pullach i. Isartal",
+    "region": ""
+  },
+  {
+    "id": "695954",
+    "name": "P.Nordlicht, Vollerwiek",
+    "region": ""
+  },
+  {
+    "id": "5100188",
+    "name": "Pabianice",
+    "region": ""
+  },
+  {
+    "id": "5199863",
+    "name": "Pabianice Wiejska/15 P.P. \"Wilków\"",
+    "region": ""
+  },
+  {
+    "id": "8601899",
+    "name": "Padborg st",
+    "region": ""
+  },
+  {
+    "id": "8000297",
+    "name": "Paderborn Hbf",
+    "region": ""
+  },
+  {
+    "id": "8004744",
+    "name": "Paderborn Kasseler Tor",
+    "region": ""
+  },
+  {
+    "id": "8004745",
+    "name": "Paderborn Nord",
+    "region": ""
+  },
+  {
+    "id": "8005370",
+    "name": "Paderborn-Schloss Neuhaus",
+    "region": ""
+  },
+  {
+    "id": "8005534",
+    "name": "Paderborn-Sennelager",
+    "region": ""
+  },
+  {
+    "id": "8300098",
+    "name": "Padova",
+    "region": ""
+  },
+  {
+    "id": "8004746",
+    "name": "Paffendorf",
+    "region": ""
+  },
+  {
+    "id": "7001811",
+    "name": "Paignton",
+    "region": ""
+  },
+  {
+    "id": "8004747",
+    "name": "Paindorf",
+    "region": ""
+  },
+  {
+    "id": "7001708",
+    "name": "Paisley Gilmour Str.",
+    "region": ""
+  },
+  {
+    "id": "8300341",
+    "name": "Palermo Centrale",
+    "region": ""
+  },
+  {
+    "id": "8504014",
+    "name": "Palézieux",
+    "region": ""
+  },
+  {
+    "id": "8004748",
+    "name": "Palzem",
+    "region": ""
+  },
+  {
+    "id": "8004749",
+    "name": "Pankofen",
+    "region": ""
+  },
+  {
+    "id": "8011730",
+    "name": "Pankow Groß",
+    "region": ""
+  },
+  {
+    "id": "8004750",
+    "name": "Pansdorf",
+    "region": ""
+  },
+  {
+    "id": "8300335",
+    "name": "Paola",
+    "region": ""
+  },
+  {
+    "id": "8004751",
+    "name": "Papenburg(Ems)",
+    "region": ""
+  },
+  {
+    "id": "8012603",
+    "name": "Papendorf",
+    "region": ""
+  },
+  {
+    "id": "8079751",
+    "name": "Papendorf Schule",
+    "region": ""
+  },
+  {
+    "id": "8012604",
+    "name": "Papiermühle(Stadtr)",
+    "region": ""
+  },
+  {
+    "id": "8004753",
+    "name": "Pappenheim",
+    "region": ""
+  },
+  {
+    "id": "7001711",
+    "name": "Par",
+    "region": ""
+  },
+  {
+    "id": "8505301",
+    "name": "Paradiso(CH)",
+    "region": ""
+  },
+  {
+    "id": "8010267",
+    "name": "Parchim",
+    "region": ""
+  },
+  {
+    "id": "5400161",
+    "name": "Pardubice hl.n.",
+    "region": ""
+  },
+  {
+    "id": "9400469",
+    "name": "Paredes",
+    "region": ""
+  },
+  {
+    "id": "8796001",
+    "name": "PARIS",
+    "region": ""
+  },
+  {
+    "id": "8700010",
+    "name": "Paris Austerlitz",
+    "region": ""
+  },
+  {
+    "id": "8704948",
+    "name": "Paris Disneyland",
+    "region": ""
+  },
+  {
+    "id": "8700011",
+    "name": "Paris Est",
+    "region": ""
+  },
+  {
+    "id": "8700012",
+    "name": "Paris Gare de Lyon",
+    "region": ""
+  },
+  {
+    "id": "8700013",
+    "name": "Paris Montparnasse",
+    "region": ""
+  },
+  {
+    "id": "8700014",
+    "name": "Paris Nord",
+    "region": ""
+  },
+  {
+    "id": "8700015",
+    "name": "Paris St Lazare",
+    "region": ""
+  },
+  {
+    "id": "8704997",
+    "name": "Paris-CDG TGV",
+    "region": ""
+  },
+  {
+    "id": "8000298",
+    "name": "Passau Hbf",
+    "region": ""
+  },
+  {
+    "id": "8004781",
+    "name": "Pfaffenhofen(Ilm)",
+    "region": ""
+  },
+  {
+    "id": "8004786",
+    "name": "Pfarrkirchen",
+    "region": ""
+  },
+  {
+    "id": "8012666",
+    "name": "Potsdam Hbf",
+    "region": ""
+  },
+  {
+    "id": "8004907",
+    "name": "Quadrath-Ichendorf",
+    "region": ""
+  },
+  {
+    "id": "445984",
+    "name": "Quadrath-Ichendorf Bahnhof, Bergheim (Erft)",
+    "region": ""
+  },
+  {
+    "id": "8000304",
+    "name": "Quakenbrück",
+    "region": ""
+  },
+  {
+    "id": "7001837",
+    "name": "Quakers Yard",
+    "region": ""
+  },
+  {
+    "id": "8800572",
+    "name": "Quaregnon",
+    "region": ""
+  },
+  {
+    "id": "304017",
+    "name": "Quartier Belvedere Bahnhst (Arsenalstraße), Wien (",
+    "region": ""
+  },
+  {
+    "id": "104036",
+    "name": "Quartier Belvedere Bahnhst (Schleife), Wien (A)",
+    "region": ""
+  },
+  {
+    "id": "8505405",
+    "name": "Quartino",
+    "region": ""
+  },
+  {
+    "id": "8355089",
+    "name": "Quarto (EAV)",
+    "region": ""
+  },
+  {
+    "id": "8355124",
+    "name": "Quarto Centro (EAV)",
+    "region": ""
+  },
+  {
+    "id": "8300637",
+    "name": "Quarto d'Altino",
+    "region": ""
+  },
+  {
+    "id": "8302645",
+    "name": "Quarto di Marano",
+    "region": ""
+  },
+  {
+    "id": "8355125",
+    "name": "Quarto Officina (EAV)",
+    "region": ""
+  },
+  {
+    "id": "8303059",
+    "name": "Quarto Oggiaro",
+    "region": ""
+  },
+  {
+    "id": "8011731",
+    "name": "Quassow Groß",
+    "region": ""
+  },
+  {
+    "id": "7148171",
+    "name": "Quatre Camins",
+    "region": ""
+  },
+  {
+    "id": "8306900",
+    "name": "Quattro Venti",
+    "region": ""
+  },
+  {
+    "id": "8010290",
+    "name": "Quedlinburg",
+    "region": ""
+  },
+  {
+    "id": "8012690",
+    "name": "Quedlinburg-Quarmbeck",
+    "region": ""
+  },
+  {
+    "id": "7001831",
+    "name": "Queenborough",
+    "region": ""
+  },
+  {
+    "id": "7001833",
+    "name": "Queens Park(Glasgow)",
+    "region": ""
+  },
+  {
+    "id": "7001830",
+    "name": "Queens Park(London)",
+    "region": ""
+  },
+  {
+    "id": "7001834",
+    "name": "Queens Road(Peckham)",
+    "region": ""
+  },
+  {
+    "id": "7001836",
+    "name": "Queenstown Road",
+    "region": ""
+  },
+  {
+    "id": "8004908",
+    "name": "Quelle",
+    "region": ""
+  },
+  {
+    "id": "923024",
+    "name": "Quelle Bahnhof, Bielefeld",
+    "region": ""
+  },
+  {
+    "id": "8004905",
+    "name": "Quelle-Kupferheide",
+    "region": ""
+  },
+  {
+    "id": "9400681",
+    "name": "Queluz Massama",
+    "region": ""
+  },
+  {
+    "id": "9400504",
+    "name": "Queluz-Belas",
+    "region": ""
+  },
+  {
+    "id": "8004912",
+    "name": "Quendorf",
+    "region": ""
+  },
+  {
+    "id": "8702570",
+    "name": "Quentin-Fallavier St",
+    "region": ""
+  },
+  {
+    "id": "8700176",
+    "name": "Quentin(Aisne) St",
+    "region": ""
+  },
+  {
+    "id": "972098",
+    "name": "Querallee, Dresden",
+    "region": ""
+  },
+  {
+    "id": "8301971",
+    "name": "Quercianella-Sonnino",
+    "region": ""
+  },
+  {
+    "id": "8010291",
+    "name": "Querfurt",
+    "region": ""
+  },
+  {
+    "id": "8012691",
+    "name": "Querfurt West",
+    "region": ""
+  },
+  {
+    "id": "8300713",
+    "name": "Quero-Vas",
+    "region": ""
+  },
+  {
+    "id": "8701829",
+    "name": "Quesnoy Le",
+    "region": ""
+  },
+  {
+    "id": "8701827",
+    "name": "Questembert",
+    "region": ""
+  },
+  {
+    "id": "8800026",
+    "name": "Quevy",
+    "region": ""
+  },
+  {
+    "id": "8007049",
+    "name": "Quickborn",
+    "region": ""
+  },
+  {
+    "id": "8007064",
+    "name": "Quickborn Süd",
+    "region": ""
+  },
+  {
+    "id": "8079028",
+    "name": "Quickborner Straße",
+    "region": ""
+  },
+  {
+    "id": "8004909",
+    "name": "Quierschied",
+    "region": ""
+  },
+  {
+    "id": "8800412",
+    "name": "Quievrain",
+    "region": ""
+  },
+  {
+    "id": "8700208",
+    "name": "Quimper",
+    "region": ""
+  },
+  {
+    "id": "8700543",
+    "name": "Quimperle",
+    "region": ""
+  },
+  {
+    "id": "8701826",
+    "name": "Quincieux",
+    "region": ""
+  },
+  {
+    "id": "8004910",
+    "name": "Quint",
+    "region": ""
+  },
+  {
+    "id": "737751",
+    "name": "Quitzow B5, Perleberg",
+    "region": ""
+  },
+  {
+    "id": "984342",
+    "name": "R-Breitscheid-Str., Zwickau",
+    "region": ""
+  },
+  {
+    "id": "978883",
+    "name": "R-Renner-/Pillnitzer Straße, Pirna",
+    "region": ""
+  },
+  {
+    "id": "980063",
+    "name": "R.-Blum-Str., Auerbach/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "597530",
+    "name": "R.-Breitscheid-Str., Lübtheen",
+    "region": ""
+  },
+  {
+    "id": "736992",
+    "name": "R.-Breitscheid-Str., Schulzendorf b Eichwalde",
+    "region": ""
+  },
+  {
+    "id": "978073",
+    "name": "R.-Breitscheid-Straße, Riesa",
+    "region": ""
+  },
+  {
+    "id": "729773",
+    "name": "R.-Koch-Str./Medizinisches Zentrum, Lübbenau (Spre",
+    "region": ""
+  },
+  {
+    "id": "967387",
+    "name": "R.-Koch-Straße, Falkenstein/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "930144",
+    "name": "R.-Kronfeld-Str., Oerlinghausen",
+    "region": ""
+  },
+  {
+    "id": "967742",
+    "name": "R.-Luxemburg-Straße, Oelsnitz/Vogtl.",
+    "region": ""
+  },
+  {
+    "id": "104075",
+    "name": "R.-Schumann-Schule, Wiesbaden",
+    "region": ""
+  },
+  {
+    "id": "322197",
+    "name": "R.-Wagner- Straße, Wismar",
+    "region": ""
+  },
+  {
+    "id": "967703",
+    "name": "R.-Wagner-Str., Markneukirchen",
+    "region": ""
+  },
+  {
+    "id": "742399",
+    "name": "R.-Wagner-Str., Peitz",
+    "region": ""
+  },
+  {
+    "id": "846368",
+    "name": "R.-Weixler-/Pettenkoferstr., Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "846360",
+    "name": "R.-Weixler/Adenauerring, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "8070518",
+    "name": "Rabber",
+    "region": ""
+  },
+  {
+    "id": "8012694",
+    "name": "Rabenau",
+    "region": ""
+  },
+  {
+    "id": "8070288",
+    "name": "Rabenau, Am Markt",
+    "region": ""
+  },
+  {
+    "id": "8012696",
+    "name": "Rackith(Elbe)",
+    "region": ""
+  },
+  {
+    "id": "8012697",
+    "name": "Rackwitz(Leipzig)",
+    "region": ""
+  },
+  {
+    "id": "8004913",
+    "name": "Radbruch",
+    "region": ""
+  },
+  {
+    "id": "8012698",
+    "name": "Raddusch",
+    "region": ""
+  },
+  {
+    "id": "8071045",
+    "name": "Raddusch Abzweig L49",
+    "region": ""
+  },
+  {
+    "id": "8071017",
+    "name": "Raddusch Ortsmitte",
+    "region": ""
+  },
+  {
+    "id": "8012699",
+    "name": "Radeberg",
+    "region": ""
+  },
+  {
+    "id": "8010292",
+    "name": "Radebeul Ost",
+    "region": ""
+  },
+  {
+    "id": "8010293",
+    "name": "Radebeul-Kötzschenbroda",
+    "region": ""
+  },
+  {
+    "id": "8013490",
+    "name": "Radebeul-Naundorf",
+    "region": ""
+  },
+  {
+    "id": "8071167",
+    "name": "Radebeul-Naundorf Friedrich-List-Straße",
+    "region": ""
+  },
+  {
+    "id": "8012700",
+    "name": "Radebeul-Weintraube",
+    "region": ""
+  },
+  {
+    "id": "8013263",
+    "name": "Radebeul-Weißes Roß",
+    "region": ""
+  },
+  {
+    "id": "8012701",
+    "name": "Radebeul-Zitzschewig",
+    "region": ""
+  },
+  {
+    "id": "8012702",
+    "name": "Radeburg",
+    "region": ""
+  },
+  {
+    "id": "8004914",
+    "name": "Radersdorf",
+    "region": ""
+  },
+  {
+    "id": "8012704",
+    "name": "Radis",
+    "region": ""
+  },
+  {
+    "id": "8004917",
+    "name": "Radldorf(Niederbay)",
+    "region": ""
+  },
+  {
+    "id": "8000880",
+    "name": "Radolfzell",
+    "region": ""
+  },
+  {
+    "id": "8077771",
+    "name": "Radolfzell Haselbru.",
+    "region": ""
+  },
+  {
+    "id": "8001059",
+    "name": "Radolfzell-Böhring.",
+    "region": ""
+  },
+  {
+    "id": "8003872",
+    "name": "Radolfzell-Markelfi.",
+    "region": ""
+  },
+  {
+    "id": "8077773",
+    "name": "Radolfzell-Stahringn",
+    "region": ""
+  },
+  {
+    "id": "8012707",
+    "name": "Raguhn",
+    "region": ""
+  },
+  {
+    "id": "8004919",
+    "name": "Rahden",
+    "region": ""
+  },
+  {
+    "id": "8004922",
+    "name": "Rain",
+    "region": ""
+  },
+  {
+    "id": "8005445",
+    "name": "Rainau-Schwabsberg",
+    "region": ""
+  },
+  {
+    "id": "8004923",
+    "name": "Raindorf",
+    "region": ""
+  },
+  {
+    "id": "8004924",
+    "name": "Raisdorf",
+    "region": ""
+  },
+  {
+    "id": "8000306",
+    "name": "Rastatt",
+    "region": ""
+  },
+  {
+    "id": "8000309",
+    "name": "Regensburg Hbf",
+    "region": ""
+  },
+  {
+    "id": "924620",
+    "name": "S Klein Flottbek Ohnhorststraße, Hamburg",
+    "region": ""
+  },
+  {
+    "id": "100934",
+    "name": "S-Bahn Station Stresemannallee, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "800486",
+    "name": "S-Bahnhalt Ulm-Donautal, Ulm",
+    "region": ""
+  },
+  {
+    "id": "801217",
+    "name": "S-Bahnhalt Ulm-Söflingen, Ulm",
+    "region": ""
+  },
+  {
+    "id": "956619",
+    "name": "S-Bahnhof (Bus), Böhlen (Sachsen)",
+    "region": ""
+  },
+  {
+    "id": "956883",
+    "name": "S-Bahnhof (Bus), Markkleeberg",
+    "region": ""
+  },
+  {
+    "id": "371841",
+    "name": "S-Bahnhof Buckau (Ersatzhalt), Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "953453",
+    "name": "S-Bahnhof Buckau/Puppentheater, Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "978189",
+    "name": "S-Bahnhof Dobritz, Dresden",
+    "region": ""
+  },
+  {
+    "id": "953354",
+    "name": "S-Bahnhof Eichenweiler, Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "131121",
+    "name": "S-Bahnhof Engelsdorf, Leipzig",
+    "region": ""
+  },
+  {
+    "id": "975245",
+    "name": "S-Bahnhof Freiberger Straße, Dresden",
+    "region": ""
+  },
+  {
+    "id": "972707",
+    "name": "S-Bahnhof Hainsberg West, Freital",
+    "region": ""
+  },
+  {
+    "id": "978945",
+    "name": "S-Bahnhof Hainsberg, Freital",
+    "region": ""
+  },
+  {
+    "id": "972209",
+    "name": "S-Bahnhof Industriegelände, Dresden",
+    "region": ""
+  },
+  {
+    "id": "958322",
+    "name": "S-Bahnhof Leutzsch, Leipzig",
+    "region": ""
+  },
+  {
+    "id": "964060",
+    "name": "S-Bahnhof MDR (Bus), Leipzig",
+    "region": ""
+  },
+  {
+    "id": "953793",
+    "name": "S-Bahnhof Messe (Tram/Bus), Leipzig",
+    "region": ""
+  },
+  {
+    "id": "954205",
+    "name": "S-Bahnhof Möckern (Tram/Bus), Leipzig",
+    "region": ""
+  },
+  {
+    "id": "962959",
+    "name": "S-Bahnhof Neustadt (Bus), Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "953335",
+    "name": "S-Bahnhof Neustadt (Tram), Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "954196",
+    "name": "S-Bahnhof Nord (Bus), Leipzig",
+    "region": ""
+  },
+  {
+    "id": "958221",
+    "name": "S-Bahnhof Nord (Bus), Markkleeberg",
+    "region": ""
+  },
+  {
+    "id": "978070",
+    "name": "S-Bahnhof Ost Südausgang, Radebeul",
+    "region": ""
+  },
+  {
+    "id": "210084",
+    "name": "S-Bahnhof Ost, Petershausen",
+    "region": ""
+  },
+  {
+    "id": "974358",
+    "name": "S-Bahnhof Ost, Radebeul",
+    "region": ""
+  },
+  {
+    "id": "953794",
+    "name": "S-Bahnhof Plagwitz (Tram/Bus), Leipzig",
+    "region": ""
+  },
+  {
+    "id": "978191",
+    "name": "S-Bahnhof Plauen, Dresden",
+    "region": ""
+  },
+  {
+    "id": "972652",
+    "name": "S-Bahnhof Potschappel, Freital",
+    "region": ""
+  },
+  {
+    "id": "973509",
+    "name": "S-Bahnhof Reick, Dresden",
+    "region": ""
+  },
+  {
+    "id": "953559",
+    "name": "S-Bahnhof SKET Industriepark (Bus), Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "974847",
+    "name": "S-Bahnhof Strehlen, Dresden",
+    "region": ""
+  },
+  {
+    "id": "953375",
+    "name": "S-Bahnhof Südost (Tram/Bus), Magdeburg",
+    "region": ""
+  },
+  {
+    "id": "410046",
+    "name": "S-Bahnhof West, Petershausen",
+    "region": ""
+  },
+  {
+    "id": "445434",
+    "name": "S-Bahnhof, Bergisch Gladbach",
+    "region": ""
+  },
+  {
+    "id": "660511",
+    "name": "S-Bahnhof, Langenfeld (Rheinland)",
+    "region": ""
+  },
+  {
+    "id": "738582",
+    "name": "S-Bahnhof, Neuenhagen bei Berlin",
+    "region": ""
+  },
+  {
+    "id": "736586",
+    "name": "S-Bahnhof, Schönefeld",
+    "region": ""
+  },
+  {
+    "id": "231218",
+    "name": "S-Bahnhof/Rathausgalerie, Markkleeberg",
+    "region": ""
+  },
+  {
+    "id": "8509259",
+    "name": "S-chanf",
+    "region": ""
+  },
+  {
+    "id": "8505415",
+    "name": "S. Antonino",
+    "region": ""
+  },
+  {
+    "id": "8300116",
+    "name": "S. Donà di Piave-Jesolo",
+    "region": ""
+  },
+  {
+    "id": "8300431",
+    "name": "S.Agata di Militello",
+    "region": ""
+  },
+  {
+    "id": "8301145",
+    "name": "S.Antimo-S. Arpino",
+    "region": ""
+  },
+  {
+    "id": "8300168",
+    "name": "S.Margherita Ligure-Portofino",
+    "region": ""
+  },
+  {
+    "id": "8300894",
+    "name": "S.Maria La Bruna",
+    "region": ""
+  },
+  {
+    "id": "8005238",
+    "name": "Saal(Donau)",
+    "region": ""
+  },
+  {
+    "id": "8007851",
+    "name": "Saalburg(Taunus)",
+    "region": ""
+  },
+  {
+    "id": "8010309",
+    "name": "Saalfeld(Saale)",
+    "region": ""
+  },
+  {
+    "id": "8005649",
+    "name": "St Ingbert",
+    "region": ""
+  },
+  {
+    "id": "8000096",
+    "name": "Stuttgart Hbf",
+    "region": ""
+  },
+  {
+    "id": "300873",
+    "name": "T.-Dannh.-Str./Kita St. Martin, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "300614",
+    "name": "T.-Dannheimer-Str./Ostrachweg, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "100729",
+    "name": "T.-Dannheimer-Str./Vilsweg, Kempten (Allgäu)",
+    "region": ""
+  },
+  {
+    "id": "860962",
+    "name": "T.-Riemenschneider-Schule, Heilbad Heiligenstadt",
+    "region": ""
+  },
+  {
+    "id": "219193",
+    "name": "T.-Turek-A./Naturfrei, Mettmann",
+    "region": ""
+  },
+  {
+    "id": "515126",
+    "name": "T.I.B., Viernheim",
+    "region": ""
+  },
+  {
+    "id": "8602997",
+    "name": "Taarnby st",
+    "region": ""
+  },
+  {
+    "id": "8005812",
+    "name": "Taben",
+    "region": ""
+  },
+  {
+    "id": "703782",
+    "name": "Taben Bahnhof, Serrig",
+    "region": ""
+  },
+  {
+    "id": "255889",
+    "name": "Taben Bahnhof, Taben-Rodt",
+    "region": ""
+  },
+  {
+    "id": "5400031",
+    "name": "Tabor",
+    "region": ""
+  },
+  {
+    "id": "8005813",
+    "name": "Tacherting",
+    "region": ""
+  },
+  {
+    "id": "5403087",
+    "name": "Tachov",
+    "region": ""
+  },
+  {
+    "id": "7002289",
+    "name": "Tadworth",
+    "region": ""
+  },
+  {
+    "id": "7002206",
+    "name": "Taffs Well",
+    "region": ""
+  },
+  {
+    "id": "5603086",
+    "name": "Tahanovce",
+    "region": ""
+  },
+  {
+    "id": "5501297",
+    "name": "Taktaharkany",
+    "region": ""
+  },
+  {
+    "id": "5501298",
+    "name": "Taktaszada",
+    "region": ""
+  },
+  {
+    "id": "755566",
+    "name": "Taläcker Bergbahn Bergstation, Künzelsau",
+    "region": ""
+  },
+  {
+    "id": "160240",
+    "name": "Talbahnhof, Eschweiler",
+    "region": ""
+  },
+  {
+    "id": "267760",
+    "name": "Talbahnhof/Raiffeisen-Platz (Bus), Eschweiler",
+    "region": ""
+  },
+  {
+    "id": "8774835",
+    "name": "Talence-Medoquine",
+    "region": ""
+  },
+  {
+    "id": "2600080",
+    "name": "Tallinn Balti jaam",
+    "region": ""
+  },
+  {
+    "id": "2696001",
+    "name": "TALLINN-",
+    "region": ""
+  },
+  {
+    "id": "8800135",
+    "name": "Tamines",
+    "region": ""
+  },
+  {
+    "id": "8005820",
+    "name": "Tamm(Württ)",
+    "region": ""
+  },
+  {
+    "id": "1000038",
+    "name": "Tampere/Tammerfors",
+    "region": ""
+  },
+  {
+    "id": "7600175",
+    "name": "Tangen(N)",
+    "region": ""
+  },
+  {
+    "id": "8013083",
+    "name": "Tangerhütte",
+    "region": ""
+  },
+  {
+    "id": "8013084",
+    "name": "Tangermünde",
+    "region": ""
+  },
+  {
+    "id": "8013085",
+    "name": "Tangermünde West",
+    "region": ""
+  },
+  {
+    "id": "8081026",
+    "name": "Tangersdorf Abzweig",
+    "region": ""
+  },
+  {
+    "id": "8081027",
+    "name": "Tangersdorf Bus",
+    "region": ""
+  },
+  {
+    "id": "8013087",
+    "name": "Tanndorf",
+    "region": ""
+  },
+  {
+    "id": "8007051",
+    "name": "Tanneneck",
+    "region": ""
+  },
+  {
+    "id": "693926",
+    "name": "Tanneneck Bahnhof, Ellerau",
+    "region": ""
+  },
+  {
+    "id": "8005823",
+    "name": "Tannheim(Württ)",
+    "region": ""
+  },
+  {
+    "id": "8013089",
+    "name": "Tannroda",
+    "region": ""
+  },
+  {
+    "id": "646173",
+    "name": "Tannroda Bahnhof, Bad Berka",
+    "region": ""
+  },
+  {
+    "id": "8070894",
+    "name": "Tannwald",
+    "region": ""
+  },
+  {
+    "id": "8013090",
+    "name": "Tantow",
+    "region": ""
+  },
+  {
+    "id": "8005824",
+    "name": "Tapfheim",
+    "region": ""
+  },
+  {
+    "id": "5501306",
+    "name": "Tapioszecsö",
+    "region": ""
+  },
+  {
+    "id": "5500076",
+    "name": "Tapolca",
+    "region": ""
+  },
+  {
+    "id": "8700104",
+    "name": "Tarbes",
+    "region": ""
+  },
+  {
+    "id": "5501317",
+    "name": "Tarnok",
+    "region": ""
+  },
+  {
+    "id": "5100230",
+    "name": "Tarnow",
+    "region": ""
+  },
+  {
+    "id": "5100074",
+    "name": "Tarnowskie Gory",
+    "region": ""
+  },
+  {
+    "id": "8005825",
+    "name": "Tarp",
+    "region": ""
+  },
+  {
+    "id": "8303915",
+    "name": "Tarvisio Boscoverde",
+    "region": ""
+  },
+  {
+    "id": "932221",
+    "name": "U Klein Borstel (Ersatzhalt), Hamburg",
+    "region": ""
+  },
+  {
+    "id": "365073",
+    "name": "U-Bahnhof Großhansdorf",
+    "region": ""
+  },
+  {
+    "id": "374008",
+    "name": "U-Bahnhof Lattenkamp",
+    "region": ""
+  },
+  {
+    "id": "693943",
+    "name": "U/A Mitte, Norderstedt",
+    "region": ""
+  },
+  {
+    "id": "8005930",
+    "name": "Ubbedissen",
+    "region": ""
+  },
+  {
+    "id": "8007133",
+    "name": "Ubstadt Ort",
+    "region": ""
+  },
+  {
+    "id": "8085003",
+    "name": "Ubstadt Salzbrunnenstr",
+    "region": ""
+  },
+  {
+    "id": "8070098",
+    "name": "Ubstadt Uhlandstr.",
+    "region": ""
+  },
+  {
+    "id": "8005931",
+    "name": "Ubstadt-Weiher",
+    "region": ""
+  },
+  {
+    "id": "8007134",
+    "name": "Ubstadt-Weiher Stettfeld(Baden)",
+    "region": ""
+  },
+  {
+    "id": "8005933",
+    "name": "Ubstadt-Weiher-Stettfeld",
+    "region": ""
+  },
+  {
+    "id": "8007135",
+    "name": "Ubstadt-Weiher-Zeutern",
+    "region": ""
+  },
+  {
+    "id": "8010353",
+    "name": "Uckro-Luckau",
+    "region": ""
+  },
+  {
+    "id": "8013159",
+    "name": "Uder",
+    "region": ""
+  },
+  {
+    "id": "8013160",
+    "name": "Uebigau",
+    "region": ""
+  },
+  {
+    "id": "8079772",
+    "name": "Uebigau Markt",
+    "region": ""
+  },
+  {
+    "id": "8013162",
+    "name": "Ueckermünde",
+    "region": ""
+  },
+  {
+    "id": "8013156",
+    "name": "Ueckermünde Stadthafen",
+    "region": ""
+  },
+  {
+    "id": "8000168",
+    "name": "Uelzen",
+    "region": ""
+  },
+  {
+    "id": "8001392",
+    "name": "Uetze-Dedenhausen",
+    "region": ""
+  },
+  {
+    "id": "8001492",
+    "name": "Uetze-Dollbergen",
+    "region": ""
+  },
+  {
+    "id": "8005947",
+    "name": "Uffenheim",
+    "region": ""
+  },
+  {
+    "id": "8005948",
+    "name": "Uffing a Staffelsee",
+    "region": ""
+  },
+  {
+    "id": "8005949",
+    "name": "Uhingen",
+    "region": ""
+  },
+  {
+    "id": "731025",
+    "name": "Uhlandstr. (U), Berlin",
+    "region": ""
+  },
+  {
+    "id": "219282",
+    "name": "Uhlandstraße (Güntherstraße) (U), Hamburg",
+    "region": ""
+  },
+  {
+    "id": "895337",
+    "name": "Uhlandstraße (U), Hamburg",
+    "region": ""
+  },
+  {
+    "id": "8004595",
+    "name": "Uhldingen-Mühlhofen",
+    "region": ""
+  },
+  {
+    "id": "8005950",
+    "name": "Uhlerborn",
+    "region": ""
+  },
+  {
+    "id": "8013164",
+    "name": "Uhlstädt",
+    "region": ""
+  },
+  {
+    "id": "8013165",
+    "name": "Uhsmannsdorf",
+    "region": ""
+  },
+  {
+    "id": "8013166",
+    "name": "Uhyst",
+    "region": ""
+  },
+  {
+    "id": "8070834",
+    "name": "Uhyst Gaststätte",
+    "region": ""
+  },
+  {
+    "id": "5403237",
+    "name": "Ujezd u Brna",
+    "region": ""
+  },
+  {
+    "id": "5403238",
+    "name": "Ujezd u Chocne",
+    "region": ""
+  },
+  {
+    "id": "5403240",
+    "name": "Ujezd u Unicova",
+    "region": ""
+  },
+  {
+    "id": "5400279",
+    "name": "Ujezdec u Luhacovic",
+    "region": ""
+  },
+  {
+    "id": "8013167",
+    "name": "Ulberndorf",
+    "region": ""
+  },
+  {
+    "id": "8013168",
+    "name": "Ulbersdorf",
+    "region": ""
+  },
+  {
+    "id": "8070878",
+    "name": "Ulbersdorf Almenhof",
+    "region": ""
+  },
+  {
+    "id": "731914",
+    "name": "Ullsteinstr. (U), Berlin",
+    "region": ""
+  },
+  {
+    "id": "731895",
+    "name": "Ullsteinstr. (U)/Ordensmeisterstr., Berlin",
+    "region": ""
+  },
+  {
+    "id": "8000170",
+    "name": "Ulm Hbf",
+    "region": ""
+  },
+  {
+    "id": "8006730",
+    "name": "Ulm Neu",
+    "region": ""
+  },
+  {
+    "id": "8005952",
+    "name": "Ulm Ost",
+    "region": ""
+  },
+  {
+    "id": "8005954",
+    "name": "Ulm-Donautal",
+    "region": ""
+  },
+  {
+    "id": "8005955",
+    "name": "Ulm-Söflingen",
+    "region": ""
+  },
+  {
+    "id": "8005956",
+    "name": "Ulmen",
+    "region": ""
+  },
+  {
+    "id": "8007053",
+    "name": "Ulzburg (Henstedt)",
+    "region": ""
+  },
+  {
+    "id": "8007052",
+    "name": "Ulzburg Süd",
+    "region": ""
+  },
+  {
+    "id": "590845",
+    "name": "V-Markt, Peiting",
+    "region": ""
+  },
+  {
+    "id": "169236",
+    "name": "V-Markt, Schongau",
+    "region": ""
+  },
+  {
+    "id": "370048",
+    "name": "V-Markt, Türkheim",
+    "region": ""
+  },
+  {
+    "id": "977136",
+    "name": "v-Seydewitz-Straße, Reichenbach/O.L.",
+    "region": ""
+  },
+  {
+    "id": "654828",
+    "name": "V.-d.-Vogelweide-Str., Essen (Ruhr)",
+    "region": ""
+  },
+  {
+    "id": "908869",
+    "name": "v.-Galen-Str./Kolpingstr., Lüdinghausen",
+    "region": ""
+  },
+  {
+    "id": "707370",
+    "name": "V.-Ketteler-Straße, Bamberg",
+    "region": ""
+  },
+  {
+    "id": "5501413",
+    "name": "Vac",
+    "region": ""
+  },
+  {
+    "id": "8006052",
+    "name": "Vach",
+    "region": ""
+  },
+  {
+    "id": "8013178",
+    "name": "Vacha",
+    "region": ""
+  },
+  {
+    "id": "8013179",
+    "name": "Vachdorf",
+    "region": ""
+  },
+  {
+    "id": "8006717",
+    "name": "Vachendorf",
+    "region": ""
+  },
+  {
+    "id": "8013180",
+    "name": "Vahldorf",
+    "region": ""
+  },
+  {
+    "id": "559634",
+    "name": "Vaihingen Alter Friedhof, Stuttgart",
+    "region": ""
+  },
+  {
+    "id": "561190",
+    "name": "Vaihingen Bahnhof (Ost), Stuttgart",
+    "region": ""
+  },
+  {
+    "id": "561610",
+    "name": "Vaihingen, Stuttgart",
+    "region": ""
+  },
+  {
+    "id": "8006053",
+    "name": "Vaihingen(Enz)",
+    "region": ""
+  },
+  {
+    "id": "8007660",
+    "name": "Vaihingen(Enz)Nord",
+    "region": ""
+  },
+  {
+    "id": "8005776",
+    "name": "Vaihingen(Stuttgart)",
+    "region": ""
+  },
+  {
+    "id": "5400111",
+    "name": "Valasske Mezirici",
+    "region": ""
+  },
+  {
+    "id": "8070559",
+    "name": "Valbert",
+    "region": ""
+  },
+  {
+    "id": "8602714",
+    "name": "Valby(Koebenhavn)",
+    "region": ""
+  },
+  {
+    "id": "8704943",
+    "name": "Valence TGV Rhône-Alpes Sud",
+    "region": ""
+  },
+  {
+    "id": "8700056",
+    "name": "Valence Ville",
+    "region": ""
+  },
+  {
+    "id": "7100054",
+    "name": "Valencia Estacio del Nord",
+    "region": ""
+  },
+  {
+    "id": "7103216",
+    "name": "Valencia Joaquin Sorolla",
+    "region": ""
+  },
+  {
+    "id": "8700078",
+    "name": "Valenciennes",
+    "region": ""
+  },
+  {
+    "id": "8100009",
+    "name": "Valentin St",
+    "region": ""
+  },
+  {
+    "id": "369523",
+    "name": "Valkenburg Station (Bus), Niederlande",
+    "region": ""
+  },
+  {
+    "id": "8400632",
+    "name": "Valkenburg(NL)",
+    "region": ""
+  },
+  {
+    "id": "7100003",
+    "name": "Valladolid Campo Grande",
+    "region": ""
+  },
+  {
+    "id": "8006054",
+    "name": "Vallendar",
+    "region": ""
+  },
+  {
+    "id": "8001373",
+    "name": "Valley-Darching",
+    "region": ""
+  },
+  {
+    "id": "8003438",
+    "name": "Valley-Kreuzstraße",
+    "region": ""
+  },
+  {
+    "id": "8300345",
+    "name": "Vallo della Lucania",
+    "region": ""
+  },
+  {
+    "id": "8501103",
+    "name": "Vallorbe",
+    "region": ""
+  },
+  {
+    "id": "8602722",
+    "name": "Vamdrup st",
+    "region": ""
+  },
+  {
+    "id": "8006056",
+    "name": "Varel(Oldb)",
+    "region": ""
+  },
+  {
+    "id": "5400220",
+    "name": "Varnsdorf",
+    "region": ""
+  },
+  {
+    "id": "351004",
+    "name": "Varnsdorf (Bahnhof), Tschechien",
+    "region": ""
+  },
+  {
+    "id": "5196003",
+    "name": "VARSOVIE",
+    "region": ""
+  },
+  {
+    "id": "8006058",
+    "name": "Vastorf",
+    "region": ""
+  },
+  {
+    "id": "8006059",
+    "name": "Vaterstetten",
+    "region": ""
+  },
+  {
+    "id": "8000785",
+    "name": "Vaterstetten-Baldham",
+    "region": ""
+  },
+  {
+    "id": "8013182",
+    "name": "Vatterode",
+    "region": ""
+  },
+  {
+    "id": "8079152",
+    "name": "Vatteröder Teich",
+    "region": ""
+  },
+  {
+    "id": "7002318",
+    "name": "Vauxhall(London)",
+    "region": ""
+  },
+  {
+    "id": "8006060",
+    "name": "Vechelde",
+    "region": ""
+  },
+  {
+    "id": "8006061",
+    "name": "Vechta",
+    "region": ""
+  },
+  {
+    "id": "8087020",
+    "name": "Vechta-Stoppelmarkt",
+    "region": ""
+  },
+  {
+    "id": "370877",
+    "name": "W & W, Kornwestheim",
+    "region": ""
+  },
+  {
+    "id": "655395",
+    "name": "W-Brandt-Allee/GELSENWASSER, Gelsenkirchen",
+    "region": ""
+  },
+  {
+    "id": "974389",
+    "name": "W-Eichler-Straße, Radebeul",
+    "region": ""
+  },
+  {
+    "id": "888257",
+    "name": "W.-Bode-Schule, Königslutter am Elm",
+    "region": ""
+  },
+  {
+    "id": "891109",
+    "name": "W.-Brandes-Straße, Wolfenbüttel",
+    "region": ""
+  },
+  {
+    "id": "996193",
+    "name": "W.-Külz-Straße, Schmalkalden",
+    "region": ""
+  },
+  {
+    "id": "996194",
+    "name": "W.-Külz-Straße/Herrentälchen, Schmalkalden",
+    "region": ""
+  },
+  {
+    "id": "124608",
+    "name": "W.-Leuschner Straße, Roßdorf b Darmstadt",
+    "region": ""
+  },
+  {
+    "id": "727963",
+    "name": "W.-Maybach-Str., Ludwigsfelde",
+    "region": ""
+  },
+  {
+    "id": "729560",
+    "name": "W.-Pieck-Str., Waldsieversdorf",
+    "region": ""
+  },
+  {
+    "id": "738748",
+    "name": "W.-Pieck-Str./Schule, Petershagen (Eggersdorf)",
+    "region": ""
+  },
+  {
+    "id": "891110",
+    "name": "W.-Raabe-Schule, Wolfenbüttel",
+    "region": ""
+  },
+  {
+    "id": "127570",
+    "name": "W.-Rathenau-Allee, Michelstadt",
+    "region": ""
+  },
+  {
+    "id": "976828",
+    "name": "W.-Seelenbinder-Straße, Weißwasser/O.L.",
+    "region": ""
+  },
+  {
+    "id": "680720",
+    "name": "W.-v.-Eschenbach-Gymnas., Schwabach",
+    "region": ""
+  },
+  {
+    "id": "415695",
+    "name": "W.-von-Braun-Str., Fröndenberg",
+    "region": ""
+  },
+  {
+    "id": "727155",
+    "name": "W.-von-Siemens-Str., Bernau bei Berlin",
+    "region": ""
+  },
+  {
+    "id": "510970",
+    "name": "W.-von-Siemens-Str., Einhausen (Hessen)",
+    "region": ""
+  },
+  {
+    "id": "8005311",
+    "name": "Waakirchen-Schaftlach",
+    "region": ""
+  },
+  {
+    "id": "8006647",
+    "name": "Wabern-Zennern",
+    "region": ""
+  },
+  {
+    "id": "8000368",
+    "name": "Wabern(Bz Kassel)",
+    "region": ""
+  },
+  {
+    "id": "8006125",
+    "name": "Wachenheim(Pfalz)",
+    "region": ""
+  },
+  {
+    "id": "8006135",
+    "name": "Wackershofen",
+    "region": ""
+  },
+  {
+    "id": "8006134",
+    "name": "Waffenbrunn",
+    "region": ""
+  },
+  {
+    "id": "8007596",
+    "name": "Wagersrott",
+    "region": ""
+  },
+  {
+    "id": "8006137",
+    "name": "Waghäusel",
+    "region": ""
+  },
+  {
+    "id": "8006417",
+    "name": "Waghäusel-Wiesental",
+    "region": ""
+  },
+  {
+    "id": "8006138",
+    "name": "Waging",
+    "region": ""
+  },
+  {
+    "id": "8006139",
+    "name": "Wahlbach(Kr Siegen)",
+    "region": ""
+  },
+  {
+    "id": "8000327",
+    "name": "Wahlheim",
+    "region": ""
+  },
+  {
+    "id": "8013205",
+    "name": "Wahlitz",
+    "region": ""
+  },
+  {
+    "id": "8006078",
+    "name": "Wahlsburg-Vernawahl.",
+    "region": ""
+  },
+  {
+    "id": "8007273",
+    "name": "Wahlstedt",
+    "region": ""
+  },
+  {
+    "id": "8077775",
+    "name": "Wahlwies",
+    "region": ""
+  },
+  {
+    "id": "8006144",
+    "name": "Wahrenholz",
+    "region": ""
+  },
+  {
+    "id": "8000180",
+    "name": "Waiblingen",
+    "region": ""
+  },
+  {
+    "id": "8079284",
+    "name": "Waiblingen Bahnhof (Dammstraße)",
+    "region": ""
+  },
+  {
+    "id": "8004333",
+    "name": "Waiblingen-Neustadt-Hohenacker",
+    "region": ""
+  },
+  {
+    "id": "8005726",
+    "name": "Waiblingen-Stetten-B",
+    "region": ""
+  },
+  {
+    "id": "8007442",
+    "name": "Waibstadt",
+    "region": ""
+  },
+  {
+    "id": "8006147",
+    "name": "Waigolshausen",
+    "region": ""
+  },
+  {
+    "id": "8006148",
+    "name": "Wakendorf",
+    "region": ""
+  },
+  {
+    "id": "8006162",
+    "name": "Wald-Michelbach",
+    "region": ""
+  },
+  {
+    "id": "8007000",
+    "name": "Waldbronn-Busenbach",
+    "region": ""
+  },
+  {
+    "id": "8007008",
+    "name": "Waldbronn-Etzenrot",
+    "region": ""
+  },
+  {
+    "id": "8007012",
+    "name": "Waldbronn-Reichenbach",
+    "region": ""
+  },
+  {
+    "id": "8013210",
+    "name": "Walddrehna",
+    "region": ""
+  },
+  {
+    "id": "8071052",
+    "name": "Walddrehna Dorfplatz",
+    "region": ""
+  },
+  {
+    "id": "8006206",
+    "name": "Warendorf",
+    "region": ""
+  },
+  {
+    "id": "8000266",
+    "name": "Wuppertal Hbf",
+    "region": ""
+  },
+  {
+    "id": "8006630",
+    "name": "Xanten",
+    "region": ""
+  },
+  {
+    "id": "655399",
+    "name": "Xantener Str., Gelsenkirchen",
+    "region": ""
+  },
+  {
+    "id": "651272",
+    "name": "Xantener Str., Kaarst",
+    "region": ""
+  },
+  {
+    "id": "659492",
+    "name": "Xantener Straße, Moers",
+    "region": ""
+  },
+  {
+    "id": "7300036",
+    "name": "Xanthi",
+    "region": ""
+  },
+  {
+    "id": "627349",
+    "name": "Xanthistraße, Gifhorn",
+    "region": ""
+  },
+  {
+    "id": "7100492",
+    "name": "Xativa",
+    "region": ""
+  },
+  {
+    "id": "103185",
+    "name": "Xaver-Fendt-Straße, Frankfurt a.M.",
+    "region": ""
+  },
+  {
+    "id": "7300508",
+    "name": "Xechasmeni Imathias",
+    "region": ""
+  },
+  {
+    "id": "8702288",
+    "name": "Xertigny",
+    "region": ""
+  },
+  {
+    "id": "251298",
+    "name": "XOX-Gelände, Kleve (Niederrhein)",
+    "region": ""
+  },
+  {
+    "id": "7151205",
+    "name": "XRY Jerez Airport",
+    "region": ""
+  },
+  {
+    "id": "620150",
+    "name": "XXXLutz, Aschheim",
+    "region": ""
+  },
+  {
+    "id": "541527",
+    "name": "XXXLutz, Fürstenstein",
+    "region": ""
+  },
+  {
+    "id": "781358",
+    "name": "Xyger, Aichach",
+    "region": ""
+  },
+  {
+    "id": "507790",
+    "name": "Xylanderstraße, Landau in der Pfalz",
+    "region": ""
+  },
+  {
+    "id": "7301140",
+    "name": "Xylokastro",
+    "region": ""
+  },
+  {
+    "id": "810233",
+    "name": "Y-Häuser, Geislingen an der Steige",
+    "region": ""
+  },
+  {
+    "id": "500255",
+    "name": "Yach Rathaus, Elzach",
+    "region": ""
+  },
+  {
+    "id": "500232",
+    "name": "Yach Rebstock, Elzach",
+    "region": ""
+  },
+  {
+    "id": "500254",
+    "name": "Yach Schmiede, Elzach",
+    "region": ""
+  },
+  {
+    "id": "705973",
+    "name": "Yachthafen, Grömitz",
+    "region": ""
+  },
+  {
+    "id": "7002524",
+    "name": "Yalding",
+    "region": ""
+  },
+  {
+    "id": "7002525",
+    "name": "Yardley Wood",
+    "region": ""
+  },
+  {
+    "id": "7002752",
+    "name": "Yarm",
+    "region": ""
+  },
+  {
+    "id": "7002536",
+    "name": "Yate",
+    "region": ""
+  },
+  {
+    "id": "7002537",
+    "name": "Yatton",
+    "region": ""
+  },
+  {
+    "id": "658516",
+    "name": "YAYLA ARENA, Krefeld",
+    "region": ""
+  },
+  {
+    "id": "8100007",
+    "name": "Ybbs a.d. Donau",
+    "region": ""
+  },
+  {
+    "id": "8702291",
+    "name": "Ychoux",
+    "region": ""
+  },
+  {
+    "id": "8602919",
+    "name": "Ydby st",
+    "region": ""
+  },
+  {
+    "id": "8501093",
+    "name": "Yens",
+    "region": ""
+  },
+  {
+    "id": "7002526",
+    "name": "Yeoford",
+    "region": ""
+  },
+  {
+    "id": "7002527",
+    "name": "Yeovil Junction",
+    "region": ""
+  },
+  {
+    "id": "7002532",
+    "name": "Yeovil Pen Mill",
+    "region": ""
+  },
+  {
+    "id": "7002529",
+    "name": "Yetminster",
+    "region": ""
+  },
+  {
+    "id": "8704908",
+    "name": "Ygos",
+    "region": ""
+  },
+  {
+    "id": "555007",
+    "name": "Yitzhak-Rabin-Straße, Stuttgart",
+    "region": ""
+  },
+  {
+    "id": "1000057",
+    "name": "Ylivieska",
+    "region": ""
+  },
+  {
+    "id": "7002530",
+    "name": "Ynyswen",
+    "region": ""
+  },
+  {
+    "id": "7002531",
+    "name": "Yoker",
+    "region": ""
+  },
+  {
+    "id": "982183",
+    "name": "Yorckgebiet, Chemnitz",
+    "region": ""
+  },
+  {
+    "id": "731643",
+    "name": "Yorckstr. (Großgörschenstr.) (S+U), Berlin",
+    "region": ""
+  },
+  {
+    "id": "731656",
+    "name": "Yorckstr. (S+U), Berlin",
+    "region": ""
+  },
+  {
+    "id": "982182",
+    "name": "Yorckstr., Chemnitz",
+    "region": ""
+  },
+  {
+    "id": "440834",
+    "name": "Yorckstr., Gummersbach",
+    "region": ""
+  },
+  {
+    "id": "958508",
+    "name": "Yorckstr., Halle (Saale)",
+    "region": ""
+  },
+  {
+    "id": "736904",
+    "name": "Yorckstr., Mittenwalde (Mark)",
+    "region": ""
+  },
+  {
+    "id": "267285",
+    "name": "Yorckstraße, Aachen",
+    "region": ""
+  },
+  {
+    "id": "721470",
+    "name": "Yorckstraße, Karlsruhe",
+    "region": ""
+  },
+  {
+    "id": "703802",
+    "name": "Yorckstraße, Kiel",
+    "region": ""
+  },
+  {
+    "id": "7002528",
+    "name": "York",
+    "region": ""
+  },
+  {
+    "id": "267924",
+    "name": "Yorkstraße, Düren",
+    "region": ""
+  },
+  {
+    "id": "940782",
+    "name": "Yorkstraße, Pforzheim",
+    "region": ""
+  },
+  {
+    "id": "7002533",
+    "name": "Yorton",
+    "region": ""
+  },
+  {
+    "id": "7400128",
+    "name": "Ystad Station",
+    "region": ""
+  },
+  {
+    "id": "7002534",
+    "name": "Ystrad Mynach",
+    "region": ""
+  },
+  {
+    "id": "7002535",
+    "name": "Ystrad Rhondda",
+    "region": ""
+  },
+  {
+    "id": "8530263",
+    "name": "Yverdon William Barbey",
+    "region": ""
+  },
+  {
+    "id": "8504200",
+    "name": "Yverdon-les-Bains",
+    "region": ""
+  },
+  {
+    "id": "8507263",
+    "name": "Yverdon, Y-Parc/Découvertes",
+    "region": ""
+  },
+  {
+    "id": "8594027",
+    "name": "Yverdon, Y-Parc/Galilée",
+    "region": ""
+  },
+  {
+    "id": "8595065",
+    "name": "Yverdon, Y-Parc/Pythagore",
+    "region": ""
+  },
+  {
+    "id": "8800497",
+    "name": "Yves-Gomezee",
+    "region": ""
+  },
+  {
+    "id": "8700328",
+    "name": "Yvetot",
+    "region": ""
+  },
+  {
+    "id": "8800095",
+    "name": "Yvoir",
+    "region": ""
+  },
+  {
+    "id": "8504130",
+    "name": "Yvonand",
+    "region": ""
+  },
+  {
+    "id": "788680",
+    "name": "Z O B Harderstraße, Ingolstadt",
+    "region": ""
+  },
+  {
+    "id": "8400731",
+    "name": "Zaandam",
+    "region": ""
+  },
+  {
+    "id": "8013368",
+    "name": "Zabeltitz",
+    "region": ""
+  },
+  {
+    "id": "8071194",
+    "name": "Zabeltitz Bauernmuseum",
+    "region": ""
+  },
+  {
+    "id": "5400117",
+    "name": "Zabreh na Morave",
+    "region": ""
+  },
+  {
+    "id": "5403509",
+    "name": "Zabreh na Morave z.",
+    "region": ""
+  },
+  {
+    "id": "5100070",
+    "name": "Zabrze",
+    "region": ""
+  },
+  {
+    "id": "8013370",
+    "name": "Zachun",
+    "region": ""
+  },
+  {
+    "id": "7900252",
+    "name": "Zagorje",
+    "region": ""
+  },
+  {
+    "id": "7896001",
+    "name": "ZAGREB",
+    "region": ""
+  },
+  {
+    "id": "7800020",
+    "name": "Zagreb Glavni kolodvor",
+    "region": ""
+  },
+  {
+    "id": "8013371",
+    "name": "Zahna",
+    "region": ""
+  },
+  {
+    "id": "5500064",
+    "name": "Zahony",
+    "region": ""
+  },
+  {
+    "id": "8006633",
+    "name": "Zaisenhausen",
+    "region": ""
+  },
+  {
+    "id": "5403521",
+    "name": "Zajeci",
+    "region": ""
+  },
+  {
+    "id": "5100158",
+    "name": "Zakopane",
+    "region": ""
+  },
+  {
+    "id": "5500081",
+    "name": "Zalaszentivan",
+    "region": ""
+  },
+  {
+    "id": "8006634",
+    "name": "Zapfendorf",
+    "region": ""
+  },
+  {
+    "id": "8071031",
+    "name": "Zapfendorf Kirche",
+    "region": ""
+  },
+  {
+    "id": "7175506",
+    "name": "Zaragoza Delicias",
+    "region": ""
+  },
+  {
+    "id": "8013373",
+    "name": "Zarrendorf",
+    "region": ""
+  },
+  {
+    "id": "5400189",
+    "name": "Zatec",
+    "region": ""
+  },
+  {
+    "id": "8800247",
+    "name": "Zaventem",
+    "region": ""
+  },
+  {
+    "id": "5100212",
+    "name": "Zawiercie",
+    "region": ""
+  },
+  {
+    "id": "5104258",
+    "name": "Zbaszyn",
+    "region": ""
+  },
+  {
+    "id": "5100071",
+    "name": "Zbaszynek",
+    "region": ""
+  },
+  {
+    "id": "5403616",
+    "name": "Zdar nad Sazavou",
+    "region": ""
+  },
+  {
+    "id": "5400190",
+    "name": "Zdice",
+    "region": ""
+  },
+  {
+    "id": "5100231",
+    "name": "Zdunska Wola",
+    "region": ""
+  },
+  {
+    "id": "8013376",
+    "name": "Zeesen",
+    "region": ""
+  },
+  {
+    "id": "8013378",
+    "name": "Zehdenick-Neuhof",
+    "region": ""
+  },
+  {
+    "id": "8013377",
+    "name": "Zehdenick(Mark)",
+    "region": ""
+  },
+  {
+    "id": "8006635",
+    "name": "Zeil",
+    "region": ""
+  },
+  {
+    "id": "8013381",
+    "name": "Zeithain",
+    "region": ""
+  },
+  {
+    "id": "8010390",
+    "name": "Zeitz",
+    "region": ""
+  },
+  {
+    "id": "8000830",
+    "name": "Zelezna Ruda-Alzb.",
+    "region": ""
+  },
+  {
+    "id": "8007103",
+    "name": "Zell a.Harm.-Unterh.",
+    "region": ""
+  },
+  {
+    "id": "8007102",
+    "name": "Zell am Harm.-Birach",
+    "region": ""
+  },
+  {
+    "id": "8100048",
+    "name": "Zell am See",
+    "region": ""
+  },
+  {
+    "id": "8006643",
+    "name": "Zell-Kirchbrombach",
+    "region": ""
+  },
+  {
+    "id": "8006644",
+    "name": "Zell-Romrod",
+    "region": ""
+  },
+  {
+    "id": "8007101",
+    "name": "Zell(Harmersbach)",
+    "region": ""
+  },
+  {
+    "id": "8006641",
+    "name": "Zell(Wiesental)",
+    "region": ""
+  },
+  {
+    "id": "8010391",
+    "name": "Zella-Mehlis",
+    "region": ""
+  },
+  {
+    "id": "8013383",
+    "name": "Zella-Mehlis West",
+    "region": ""
+  },
+  {
+    "id": "8000064",
+    "name": "Zelle",
+    "region": ""
+  },
+  {
+    "id": "8013384",
+    "name": "Zellendorf",
+    "region": ""
+  },
+  {
+    "id": "8007338",
+    "name": "Zellerthal",
+    "region": ""
+  },
+  {
+    "id": "8013389",
+    "name": "Zerbst/Anhalt",
+    "region": ""
+  },
+  {
+    "id": "8010397",
+    "name": "Zwickau(Sachs)Hbf",
+    "region": ""
+  }
+]

@@ -5,44 +5,50 @@
 export interface StationSearchResult {
   id: string;
   name: string;
+  source?: 'remote' | 'local';
 }
+
+import { POPULAR_STATIONS, ALL_STATIONS } from './stations';
 
 const BASE_URL = 'https://v6.db.transport.rest';
 
 export async function searchStations(
   query: string,
   limit = 8
-): Promise<StationSearchResult[]> {
-  if (query.trim().length < 2) return [];
+): Promise<{ results: StationSearchResult[]; upstreamDown: boolean }> {
+  if (query.trim().length < 2) return { results: [], upstreamDown: false };
 
-  const params = new URLSearchParams({
-    query: query.trim(),
-    results: String(limit),
-    poi: 'false',
-    addresses: 'false',
-    stops: 'true',
-  });
+  // Local-first search using the bundled ALL_STATIONS index.
+  const qNorm = query
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLowerCase();
 
-  const response = await fetch(`${BASE_URL}/locations?${params}`, {
-    headers: {
-      'User-Agent': 'wo2go/0.1 (+https://wo2go.vercel.app)',
-      Accept: 'application/json',
-    },
-    next: { revalidate: 3600 },
-  });
-
-  if (!response.ok) return [];
-
-  const data = await response.json();
-  const items = Array.isArray(data) ? data : [];
-
-  return items
-    .filter(
-      (item: { type?: string; id?: string; name?: string }) =>
-        item.type === 'stop' && item.id && item.name
+  const localMatches = ALL_STATIONS
+    .filter((s) =>
+      s.name
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .toLowerCase()
+        .includes(qNorm)
     )
-    .map((item: { id: string; name: string }) => ({
-      id: item.id,
-      name: item.name,
-    }));
+    .slice(0, limit)
+    .map((s) => ({ id: s.id, name: s.name, source: 'local' as const }));
+
+  if (localMatches.length > 0) {
+    return { results: localMatches, upstreamDown: false };
+  }
+
+  // No local matches — fall back to popular stations (small curated list)
+  const popular = POPULAR_STATIONS.filter((s) =>
+    s.name
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu, '')
+      .toLowerCase()
+      .includes(qNorm)
+  )
+    .slice(0, limit)
+    .map((s) => ({ id: s.id, name: s.name, source: 'local' as const }));
+
+  return { results: popular, upstreamDown: false };
 }

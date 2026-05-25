@@ -13,6 +13,7 @@ export const dictionaries = {
     'home.searchPlaceholder': 'Bahnhof suchen…',
     'home.searching': 'Suche…',
     'home.searchEmpty': 'Kein Bahnhof gefunden',
+    'home.suggestion': 'Vorschlag',
     'home.popularTitle': 'Beliebte Bahnhöfe',
     'station.back': 'Alle Bahnhöfe',
     'station.from': 'Direktverbindungen ab',
@@ -24,7 +25,7 @@ export const dictionaries = {
     'empty.cta': 'Filter zurücksetzen',
     'error.title': 'Daten konnten nicht geladen werden',
     'error.subtitle':
-      'Der Zugdaten-Dienst von Deutsche Bahn ist gerade nicht erreichbar (blockiert oder überlastet). Das liegt nicht an deiner Installation — bitte später erneut versuchen.',
+      'Wir können im Moment keine Zugdaten laden. Bitte versuche es erneut oder lade die Seite neu. Wenn das Problem bestehen bleibt, warte ein paar Minuten.',
     'error.retry': 'Erneut versuchen',
     'destination.connections': 'Verbindungen',
     'footer.builtBy': 'Erstellt von',
@@ -39,6 +40,7 @@ export const dictionaries = {
     'home.searchPlaceholder': 'Search for a station…',
     'home.searching': 'Searching…',
     'home.searchEmpty': 'No station found',
+    'home.suggestion': 'Suggestion',
     'home.popularTitle': 'Popular stations',
     'station.back': 'All stations',
     'station.from': 'Direct connections from',
@@ -50,7 +52,7 @@ export const dictionaries = {
     'empty.cta': 'Clear filters',
     'error.title': 'Could not load data',
     'error.subtitle':
-      'Deutsche Bahn’s train data service is unreachable right now (blocked or overloaded). This is not a problem with your setup — please try again later.',
+      'We can’t load train data right now. Please try again or reload the page. If the problem continues, try again in a few minutes.',
     'error.retry': 'Retry',
     'destination.connections': 'connections',
     'footer.builtBy': 'Built by',

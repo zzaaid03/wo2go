@@ -12,13 +12,7 @@
  *  - useTranslation(): t(key) — for translating UI strings
  */
 
-import {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  type ReactNode,
-} from 'react';
+import { createContext, useContext, useState, type ReactNode } from 'react';
 import {
   dictionaries,
   type Language,
@@ -35,15 +29,15 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 const STORAGE_KEY = 'wo2go-lang';
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguageState] = useState<Language>('de');
-
-  // On mount, read persisted language from localStorage
-  useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored === 'de' || stored === 'en') {
-      setLanguageState(stored);
+  const [language, setLanguageState] = useState<Language>(() => {
+    try {
+      const stored = typeof window !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : null;
+      if (stored === 'de' || stored === 'en') return stored as Language;
+    } catch {
+      // ignore localStorage errors
     }
-  }, []);
+    return 'de';
+  });
 
   // Persist language changes to localStorage
   const setLanguage = (lang: Language) => {

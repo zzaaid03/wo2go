@@ -1,0 +1,81 @@
+'use client';
+
+import { useCallback, useEffect, useState, useRef } from 'react';
+import { DestinationsClient } from '@/components/destinations-client';
+import { useTranslation } from '@/components/language-provider';
+import { Button } from '@/components/ui/button';
+import type { Destination } from '@/types';
+
+interface Props {
+  stationId: string;
+  initialUpstreamDown?: boolean;
+  initialDestinations?: Destination[] | null;
+  initialPartial?: boolean;
+}
+export function DestinationsLoader({ stationId, initialUpstreamDown = false, initialDestinations = null, initialPartial = false }: Props) {
+  const t = useTranslation();
+  const [loading, setLoading] = useState(initialDestinations ? false : !initialUpstreamDown);
+  const [destinations, setDestinations] = useState<Destination[] | null>(
+    initialDestinations ?? (initialUpstreamDown ? [] : null)
+  );
+  const [upstreamDown, setUpstreamDown] = useState(Boolean(initialUpstreamDown));
+  const [partialAttempts, setPartialAttempts] = useState(0);
+  const partialTimerRef = useRef<number | null>(null);
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/departures?stationId=${encodeURIComponent(stationId)}`);
+      if (!res.ok) throw new Error('fetch-failed');
+      const json = await res.json();
+      setDestinations(json.destinations ?? []);
+      setUpstreamDown(Boolean(json.upstreamDown));
+
+      // If server returned a partial result, try reloading shortly to get the
+      // full aggregated results (background fetch is started server-side).
+      if ((json.partial || initialPartial) && !json.upstreamDown && partialAttempts < 5) {
+        // exponential backoff (1s, 2s, 4s...)
+        const delay = 1000 * Math.pow(2, partialAttempts);
+        if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
+        // eslint-disable-next-line @typescript-eslint/no-implied-eval
+        partialTimerRef.current = window.setTimeout(() => {
+          setPartialAttempts((p) => p + 1);
+          load();
+        }, delay);
+      }
+    } catch {
+      setDestinations([]);
+      setUpstreamDown(true);
+    } finally {
+      setLoading(false);
+    }
+  }, [stationId]);
+
+  useEffect(() => {
+    if (!initialUpstreamDown) load();
+    return () => {
+      if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
+    };
+  }, [load, initialUpstreamDown]);
+
+  if (loading) {
+    return (
+      <div className="py-12 text-center text-sm text-muted-foreground">
+        {t('home.searching')}
+      </div>
+    );
+  }
+
+  if (upstreamDown && (!destinations || destinations.length === 0)) {
+    return (
+      <div className="py-8 text-center">
+        <div className="mb-3 text-sm text-muted-foreground">{t('error.subtitle')}</div>
+        <div>
+          <Button onClick={load}>{t('error.retry')}</Button>
+        </div>
+      </div>
+    );
+  }
+
+  return <DestinationsClient destinations={destinations ?? []} />;
+}
