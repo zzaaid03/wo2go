@@ -26,12 +26,19 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   const load = useCallback(async () => {
     setLoading(true);
     try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
+
     try {
       const serverOverlay = document.getElementById('wo2go-server-overlay');
       if (serverOverlay) serverOverlay.remove();
     } catch {}
+
+    const controller = new AbortController();
+    const FETCH_TIMEOUT = 7000;
+    const timeoutId = window.setTimeout(() => controller.abort(), FETCH_TIMEOUT);
+
     try {
-      const res = await fetch(`/api/departures?stationId=${encodeURIComponent(stationId)}`);
+      const res = await fetch(`/api/departures?stationId=${encodeURIComponent(stationId)}`, { signal: controller.signal });
+      window.clearTimeout(timeoutId);
       if (!res.ok) throw new Error('fetch-failed');
       const json = await res.json();
       setDestinations(json.destinations ?? []);
@@ -49,10 +56,12 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
           load();
         }, delay);
       }
-    } catch {
+    } catch (err) {
+      // Treat aborts/timeouts and other errors as upstream unavailability
       setDestinations([]);
       setUpstreamDown(true);
     } finally {
+      try { window.clearTimeout(timeoutId); } catch {}
       setLoading(false);
     }
   }, [stationId]);
