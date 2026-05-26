@@ -46,7 +46,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     try {
       const el = typeof document !== 'undefined' ? document.getElementById('wo2go-server-overlay') : null;
       if (el) {
-        console.info('[LanguageProvider] removing server overlay on client mount');
         el.remove();
         try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
         window.dispatchEvent(new Event('wo2go:navigated'));
