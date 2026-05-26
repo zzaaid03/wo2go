@@ -30,15 +30,10 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 const STORAGE_KEY = 'wo2go-lang';
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguageState] = useState<Language>(() => {
-    try {
-      const stored = typeof window !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : null;
-      if (stored === 'de' || stored === 'en') return stored as Language;
-    } catch {
-      // ignore localStorage errors
-    }
-    return 'de';
-  });
+  // Start with the server-default language so the initial client render
+  // matches the server HTML. Hydrate the user's saved preference after
+  // mount to avoid hydration mismatches.
+  const [language, setLanguageState] = useState<Language>('de');
 
   // Persist language changes to localStorage
   const setLanguage = (lang: Language) => {
@@ -55,6 +50,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         el.remove();
         try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
         window.dispatchEvent(new Event('wo2go:navigated'));
+      }
+    } catch {}
+
+    // Hydrate language from localStorage after mount to avoid differing
+    // server/client HTML when the user previously selected a different
+    // language.
+    try {
+      const stored = typeof window !== 'undefined' ? localStorage.getItem(STORAGE_KEY) : null;
+      if (stored === 'de' || stored === 'en') {
+        setLanguageState(stored as Language);
       }
     } catch {}
   }, []);
