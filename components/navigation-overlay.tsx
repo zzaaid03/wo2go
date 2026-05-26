@@ -18,6 +18,50 @@ export function NavigationOverlay() {
       // ignore
     }
 
+    // If the main content renders (server-provided or client-hydrated), hide
+    // the overlay immediately. This handles race conditions where the
+    // navigation event fires before the client loader mounts.
+    let observer: MutationObserver | null = null;
+    const main = typeof document !== 'undefined' ? document.querySelector('main') : null;
+    const checkAndHide = (): boolean => {
+      try {
+        if (!main) return false;
+        const otherChildren = Array.from(main.children).filter((c) => c.id !== 'wo2go-server-overlay');
+        if (otherChildren.length > 0) {
+          console.debug('[NavigationOverlay] main has non-overlay children, hiding overlay');
+          setVisible(false);
+          try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+          window.dispatchEvent(new Event('wo2go:navigated'));
+          return true;
+        }
+        if ((main.innerText || '').trim().length > 30) {
+          console.debug('[NavigationOverlay] main has text content, hiding overlay');
+          setVisible(false);
+          try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+          window.dispatchEvent(new Event('wo2go:navigated'));
+          return true;
+        }
+      } catch (e) {
+        // ignore
+      }
+      return false;
+    };
+
+    // Run an initial check and watch for changes if nothing yet.
+    if (!checkAndHide()) {
+      try {
+        observer = new MutationObserver(() => {
+          if (checkAndHide() && observer) {
+            observer.disconnect();
+            observer = null;
+          }
+        });
+        observer.observe(main || document.body, { childList: true, subtree: true, characterData: true });
+      } catch (e) {
+        // ignore
+      }
+    }
+
     function onStart() {
       console.debug('[NavigationOverlay] navigate event received');
       setVisible(true);
@@ -35,6 +79,10 @@ export function NavigationOverlay() {
       if (autoHideTimer.current) {
         window.clearTimeout(autoHideTimer.current);
         autoHideTimer.current = null;
+      }
+      if (observer) {
+        observer.disconnect();
+        observer = null;
       }
     };
   }, []);
