@@ -15,6 +15,7 @@ interface Props {
 }
 export function DestinationsLoader({ stationId, initialUpstreamDown = false, initialDestinations = null, initialPartial = false }: Props) {
   const t = useTranslation();
+  console.info('[DestinationsLoader] render', { stationId, initialUpstreamDown, initialDestinations: initialDestinations ? initialDestinations.length : null, initialPartial });
   const [loading, setLoading] = useState(initialDestinations ? false : !initialUpstreamDown);
   const [destinations, setDestinations] = useState<Destination[] | null>(
     initialDestinations ?? (initialUpstreamDown ? [] : null)
@@ -23,14 +24,23 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   const [partialAttempts, setPartialAttempts] = useState(0);
   const partialTimerRef = useRef<number | null>(null);
   const partialAttemptsRef = useRef<number>(partialAttempts);
+  const failSafeRef = useRef<number | null>(null);
 
   const load = useCallback(async () => {
+    // clear any fail-safe timer — real loader is starting
+    if (failSafeRef.current) {
+      window.clearTimeout(failSafeRef.current);
+      failSafeRef.current = null;
+    }
+
     setLoading(true);
+    console.info('[DestinationsLoader] load() start', { stationId, partialAttempts: partialAttemptsRef.current });
     try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
 
     try {
       const serverOverlay = document.getElementById('wo2go-server-overlay');
       if (serverOverlay) serverOverlay.remove();
+      console.info('[DestinationsLoader] removed server overlay');
     } catch {}
 
     const controller = new AbortController();
@@ -86,13 +96,28 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
       };
     }
 
-    if (!initialUpstreamDown) load();
-    else {
+    if (!initialUpstreamDown) {
+      // Start a short fail-safe: if load() doesn't run quickly, clear the
+      // navigating flag so the overlay won't block the UI indefinitely.
+      try {
+        if (failSafeRef.current) window.clearTimeout(failSafeRef.current);
+        failSafeRef.current = window.setTimeout(() => {
+          try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+          window.dispatchEvent(new Event('wo2go:navigated'));
+          console.warn('[DestinationsLoader] fail-safe navigated dispatch');
+        }, 1500);
+      } catch {}
+      load();
+    } else {
       try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
     }
 
     return () => {
       if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
+      if (failSafeRef.current) {
+        window.clearTimeout(failSafeRef.current);
+        failSafeRef.current = null;
+      }
     };
   }, [load, initialUpstreamDown, initialDestinations]);
 
