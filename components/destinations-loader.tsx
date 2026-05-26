@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState, useRef } from 'react';
 import { DestinationsClient } from '@/components/destinations-client';
 import { useTranslation } from '@/components/language-provider';
 import { Button } from '@/components/ui/button';
+import { TrainLoader } from '@/components/train-loader';
 import type { Destination } from '@/types';
 
 interface Props {
@@ -61,7 +62,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   if (loading) {
     return (
       <div className="py-12 text-center text-sm text-muted-foreground">
-        {t('home.searching')}
+        <TrainLoader size={140} label={t('home.searching')} />
       </div>
     );
   }
