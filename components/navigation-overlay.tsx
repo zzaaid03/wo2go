@@ -11,7 +11,7 @@ export function NavigationOverlay() {
     try {
       const id = sessionStorage.getItem('wo2go.navigatingTo');
       if (id) {
-        console.debug('[NavigationOverlay] initial navigatingTo:', id);
+        console.info('[NavigationOverlay] initial navigatingTo:', id);
         setVisible(true);
       }
     } catch {
@@ -28,14 +28,14 @@ export function NavigationOverlay() {
         if (!main) return false;
         const otherChildren = Array.from(main.children).filter((c) => c.id !== 'wo2go-server-overlay');
         if (otherChildren.length > 0) {
-          console.debug('[NavigationOverlay] main has non-overlay children, hiding overlay');
+          console.info('[NavigationOverlay] main has non-overlay children, hiding overlay');
           setVisible(false);
           try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
           window.dispatchEvent(new Event('wo2go:navigated'));
           return true;
         }
         if ((main.innerText || '').trim().length > 30) {
-          console.debug('[NavigationOverlay] main has text content, hiding overlay');
+          console.info('[NavigationOverlay] main has text content, hiding overlay');
           setVisible(false);
           try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
           window.dispatchEvent(new Event('wo2go:navigated'));
@@ -63,11 +63,11 @@ export function NavigationOverlay() {
     }
 
     function onStart() {
-      console.debug('[NavigationOverlay] navigate event received');
+      console.info('[NavigationOverlay] navigate event received');
       setVisible(true);
     }
     function onStop() {
-      console.debug('[NavigationOverlay] navigated event received');
+      console.info('[NavigationOverlay] navigated event received');
       setVisible(false);
     }
 
