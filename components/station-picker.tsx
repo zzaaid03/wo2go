@@ -266,6 +266,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                   setOpen(false);
                   setNavigatingTo(sel.id);
                   try { sessionStorage.setItem('wo2go.navigatingTo', sel.id); } catch {}
+                    try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
                   // If we've probed and upstream is down, show immediate notice
                   if (fastProbeDone && upstreamDown) {
                     setNotifyUpstreamOnSelect(true);
@@ -361,6 +362,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                       setOpen(false);
                       setNavigatingTo(station.id);
                       try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                        try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
                       setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
                     }}
                     onMouseEnter={() => prefetchDepartures(station.id)}

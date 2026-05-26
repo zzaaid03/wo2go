@@ -13,6 +13,7 @@
  */
 
 import { createContext, useContext, useState, type ReactNode } from 'react';
+import { NavigationOverlay } from '@/components/navigation-overlay';
 import {
   dictionaries,
   type Language,
@@ -47,6 +48,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
+      <NavigationOverlay />
       {children}
     </LanguageContext.Provider>
   );

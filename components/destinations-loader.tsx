@@ -53,7 +53,10 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   }, [stationId]);
 
   useEffect(() => {
-    try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+    try {
+      sessionStorage.removeItem('wo2go.navigatingTo');
+      window.dispatchEvent(new Event('wo2go:navigated'));
+    } catch {}
     if (!initialUpstreamDown) load();
     return () => {
       if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
