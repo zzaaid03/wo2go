@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { MapPin, Search } from 'lucide-react';
 
@@ -29,6 +30,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
   const [navigatingTo, setNavigatingTo] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState<number>(-1);
   const containerRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
   const retryTimerRef = useRef<number | null>(null);
   const prefetchRef = useRef<Record<string, boolean>>({});
 
@@ -263,26 +265,26 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                   setQuery(sel.name);
                   setOpen(false);
                   setNavigatingTo(sel.id);
+                  try { sessionStorage.setItem('wo2go.navigatingTo', sel.id); } catch {}
                   // If we've probed and upstream is down, show immediate notice
                   if (fastProbeDone && upstreamDown) {
                     setNotifyUpstreamOnSelect(true);
                     setTimeout(() => {
                       if (onNavigate) onNavigate(stationPath(sel.id, sel.name));
-                      else window.location.href = stationPath(sel.id, sel.name);
+                      else router.push(stationPath(sel.id, sel.name));
                     }, 700);
                   } else {
-                    try {
-                      if (onNavigate) {
-                        onNavigate(stationPath(sel.id, sel.name));
-                      } else {
-                        // use href assignment in the real browser
-                        // eslint-disable-next-line no-param-reassign
-                        // @ts-ignore
-                        window.location.href = stationPath(sel.id, sel.name);
+                    setTimeout(() => {
+                      try {
+                        if (onNavigate) {
+                          onNavigate(stationPath(sel.id, sel.name));
+                        } else {
+                          router.push(stationPath(sel.id, sel.name));
+                        }
+                      } catch {
+                        // ignore in non-browser test envs
                       }
-                    } catch {
-                      // ignore in non-browser test envs
-                    }
+                    }, 100);
                   }
                 }
               } else if (e.key === 'Escape') {
@@ -354,7 +356,13 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                       'flex items-center gap-2 px-4 py-3 text-sm',
                       activeIndex === idx ? 'bg-accent/40' : 'hover:bg-accent'
                     )}
-                    onClick={() => { setOpen(false); setNavigatingTo(station.id); }}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setOpen(false);
+                      setNavigatingTo(station.id);
+                      try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                      setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
+                    }}
                     onMouseEnter={() => prefetchDepartures(station.id)}
                     onFocus={() => prefetchDepartures(station.id)}
                   >
@@ -390,7 +398,12 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                 'group flex flex-col rounded-2xl border border-border bg-card px-4 py-3.5 shadow-sm transition-all',
                 'hover:border-primary/40 hover:bg-accent/60 hover:shadow-md'
               )}
-              onClick={() => setNavigatingTo(station.id)}
+              onClick={(e) => {
+                e.preventDefault();
+                setNavigatingTo(station.id);
+                try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
+              }}
               onMouseEnter={() => prefetchDepartures(station.id)}
               onFocus={() => prefetchDepartures(station.id)}
             >
