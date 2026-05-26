@@ -401,13 +401,32 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
               onPointerDown={() => {
                 try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
                 try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
+                console.info('[StationPicker] popular pointerDown -> navigate dispatched', station.id);
               }}
               onClick={(e) => {
                 e.preventDefault();
                 setNavigatingTo(station.id);
                 try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
                 try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
-                setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
+                console.info('[StationPicker] popular click -> navigate dispatched, scheduling push', station.id);
+                setTimeout(() => {
+                  const url = stationPath(station.id, station.name);
+                  try {
+                    const p = (onNavigate ? onNavigate(url) : (router.push(url) as Promise<unknown> | void));
+                    if (p && typeof (p as any).then === 'function') {
+                      (p as Promise<unknown>).then(() => console.info('[StationPicker] router.push resolved', url)).catch((err) => {
+                        console.error('[StationPicker] router.push error', err);
+                        try { window.location.href = url; } catch {}
+                      });
+                    } else {
+                      // router.push returned void — assume navigation started
+                      console.info('[StationPicker] router.push called', url);
+                    }
+                  } catch (err) {
+                    console.error('[StationPicker] router.push threw', err);
+                    try { window.location.href = url; } catch {}
+                  }
+                }, 100);
               }}
               onMouseEnter={() => prefetchDepartures(station.id)}
               onFocus={() => prefetchDepartures(station.id)}
