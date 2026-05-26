@@ -9,6 +9,7 @@ import { useTranslation } from '@/components/language-provider';
 import { POPULAR_STATIONS, stationPath } from '@/lib/stations';
 import type { StationSearchResult } from '@/lib/locations';
 import { cn } from '@/lib/utils';
+import { TrainLoader } from '@/components/train-loader';
 
 interface StationPickerProps {
   onNavigate?: (url: string) => void;
@@ -25,6 +26,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
   const [upstreamDown, setUpstreamDown] = useState(false);
   const [fastProbeDone, setFastProbeDone] = useState(false);
   const [notifyUpstreamOnSelect, setNotifyUpstreamOnSelect] = useState(false);
+  const [navigatingTo, setNavigatingTo] = useState<string | null>(null);
   const [activeIndex, setActiveIndex] = useState<number>(-1);
   const containerRef = useRef<HTMLDivElement>(null);
   const retryTimerRef = useRef<number | null>(null);
@@ -260,6 +262,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                   const sel = results[activeIndex];
                   setQuery(sel.name);
                   setOpen(false);
+                  setNavigatingTo(sel.id);
                   // If we've probed and upstream is down, show immediate notice
                   if (fastProbeDone && upstreamDown) {
                     setNotifyUpstreamOnSelect(true);
@@ -300,7 +303,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
           />
         </div>
 
-        {open && query.trim().length >= 2 && (
+          {open && query.trim().length >= 2 && (
           <ul
             className="absolute z-20 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-border bg-card py-1 shadow-xl"
             role="listbox"
@@ -351,7 +354,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                       'flex items-center gap-2 px-4 py-3 text-sm',
                       activeIndex === idx ? 'bg-accent/40' : 'hover:bg-accent'
                     )}
-                    onClick={() => setOpen(false)}
+                    onClick={() => { setOpen(false); setNavigatingTo(station.id); }}
                     onMouseEnter={() => prefetchDepartures(station.id)}
                     onFocus={() => prefetchDepartures(station.id)}
                   >
@@ -367,6 +370,11 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
               ))}
           </ul>
         )}
+          {navigatingTo && (
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+              <TrainLoader size={48} label={t('home.searching')} />
+            </div>
+          )}
       </div>
 
       <div>
@@ -382,6 +390,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                 'group flex flex-col rounded-2xl border border-border bg-card px-4 py-3.5 shadow-sm transition-all',
                 'hover:border-primary/40 hover:bg-accent/60 hover:shadow-md'
               )}
+              onClick={() => setNavigatingTo(station.id)}
               onMouseEnter={() => prefetchDepartures(station.id)}
               onFocus={() => prefetchDepartures(station.id)}
             >
