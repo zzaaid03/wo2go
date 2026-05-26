@@ -38,9 +38,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
     if (prefetchRef.current[id]) return;
     prefetchRef.current[id] = true;
     // fire-and-forget to populate server cache
-    fetch(`/api/departures?stationId=${encodeURIComponent(id)}`)
-      .then(() => {})
-      .catch(() => {});
+    fetch(`/api/departures?stationId=${encodeURIComponent(id)}`).catch(() => {});
   }, []);
 
   const search = useCallback(async (q: string) => {
@@ -89,7 +87,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [localIndex]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -107,7 +105,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
   // Load the public stations index once on mount for fast client-side searches
   useEffect(() => {
     let cancelled = false;
-    async function load() {
+    async function loadIndex() {
       try {
         const cached = sessionStorage.getItem('wo2go.stations');
         if (cached) {
@@ -131,7 +129,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
         // ignore — will fallback to server API
       }
     }
-    load();
+    loadIndex();
     return () => {
       cancelled = true;
     };
@@ -203,14 +201,9 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
     };
   }, [upstreamDown, query, search]);
 
-  
-
   useEffect(() => {
     function onPointerDown(e: MouseEvent) {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(e.target as Node)
-      ) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
       }
     }
@@ -266,7 +259,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                   setOpen(false);
                   setNavigatingTo(sel.id);
                   try { sessionStorage.setItem('wo2go.navigatingTo', sel.id); } catch {}
-                    try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
+                  try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
                   // If we've probed and upstream is down, show immediate notice
                   if (fastProbeDone && upstreamDown) {
                     setNotifyUpstreamOnSelect(true);
@@ -306,7 +299,7 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
           />
         </div>
 
-          {open && query.trim().length >= 2 && (
+        {open && query.trim().length >= 2 && (
           <ul
             className="absolute z-20 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-border bg-card py-1 shadow-xl"
             role="listbox"
@@ -357,12 +350,16 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                       'flex items-center gap-2 px-4 py-3 text-sm',
                       activeIndex === idx ? 'bg-accent/40' : 'hover:bg-accent'
                     )}
+                    onPointerDown={() => {
+                      try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                      try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
+                    }}
                     onClick={(e) => {
                       e.preventDefault();
                       setOpen(false);
                       setNavigatingTo(station.id);
                       try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
-                        try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
+                      try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
                       setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
                     }}
                     onMouseEnter={() => prefetchDepartures(station.id)}
@@ -380,11 +377,12 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
               ))}
           </ul>
         )}
-          {navigatingTo && (
-            <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
-              <TrainLoader size={48} label={t('home.searching')} />
-            </div>
-          )}
+
+        {navigatingTo && (
+          <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+            <TrainLoader size={48} label={t('home.searching')} />
+          </div>
+        )}
       </div>
 
       <div>
@@ -400,10 +398,15 @@ export function StationPicker({ onNavigate }: StationPickerProps) {
                 'group flex flex-col rounded-2xl border border-border bg-card px-4 py-3.5 shadow-sm transition-all',
                 'hover:border-primary/40 hover:bg-accent/60 hover:shadow-md'
               )}
+              onPointerDown={() => {
+                try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
+              }}
               onClick={(e) => {
                 e.preventDefault();
                 setNavigatingTo(station.id);
                 try { sessionStorage.setItem('wo2go.navigatingTo', station.id); } catch {}
+                try { window.dispatchEvent(new Event('wo2go:navigate')); } catch {}
                 setTimeout(() => router.push(stationPath(station.id, station.name)), 100);
               }}
               onMouseEnter={() => prefetchDepartures(station.id)}
