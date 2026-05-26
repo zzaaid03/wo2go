@@ -25,6 +25,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
 
   const load = useCallback(async () => {
     setLoading(true);
+    try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
     try {
       const res = await fetch(`/api/departures?stationId=${encodeURIComponent(stationId)}`);
       if (!res.ok) throw new Error('fetch-failed');
@@ -53,15 +54,25 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   }, [stationId]);
 
   useEffect(() => {
-    try {
-      sessionStorage.removeItem('wo2go.navigatingTo');
-      window.dispatchEvent(new Event('wo2go:navigated'));
-    } catch {}
+    // If server already provided initial destinations, hide the global overlay
+    // immediately. Otherwise, let `load()` clear the flag when it starts so
+    // the overlay stays visible until the client loader takes over.
+    if (initialDestinations && initialDestinations.length > 0) {
+      try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
+      return () => {
+        if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
+      };
+    }
+
     if (!initialUpstreamDown) load();
+    else {
+      try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
+    }
+
     return () => {
       if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
     };
-  }, [load, initialUpstreamDown]);
+  }, [load, initialUpstreamDown, initialDestinations]);
 
   if (loading) {
     return (
