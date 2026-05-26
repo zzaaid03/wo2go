@@ -15,6 +15,7 @@ interface Props {
 }
 export function DestinationsLoader({ stationId, initialUpstreamDown = false, initialDestinations = null, initialPartial = false }: Props) {
   const t = useTranslation();
+  console.debug('[DestinationsLoader] render', { stationId, initialUpstreamDown, initialDestinations: initialDestinations ? initialDestinations.length : null, initialPartial });
   const [loading, setLoading] = useState(initialDestinations ? false : !initialUpstreamDown);
   const [destinations, setDestinations] = useState<Destination[] | null>(
     initialDestinations ?? (initialUpstreamDown ? [] : null)
@@ -26,11 +27,13 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
 
   const load = useCallback(async () => {
     setLoading(true);
+    console.debug('[DestinationsLoader] load() start', { stationId, partialAttempts: partialAttemptsRef.current });
     try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
 
     try {
       const serverOverlay = document.getElementById('wo2go-server-overlay');
       if (serverOverlay) serverOverlay.remove();
+      console.debug('[DestinationsLoader] removed server overlay');
     } catch {}
 
     const controller = new AbortController();
@@ -42,6 +45,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
       window.clearTimeout(timeoutId);
       if (!res.ok) throw new Error('fetch-failed');
       const json = await res.json();
+      console.debug('[DestinationsLoader] fetch ok', json);
       setDestinations(json.destinations ?? []);
       setUpstreamDown(Boolean(json.upstreamDown));
 
@@ -65,6 +69,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
         }, delay);
       }
     } catch (err) {
+      console.error('[DestinationsLoader] load() error', err);
       // Treat aborts/timeouts and other errors as upstream unavailability
       setDestinations([]);
       setUpstreamDown(true);
