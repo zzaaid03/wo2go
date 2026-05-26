@@ -27,6 +27,10 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
     setLoading(true);
     try { sessionStorage.removeItem('wo2go.navigatingTo'); window.dispatchEvent(new Event('wo2go:navigated')); } catch {}
     try {
+      const serverOverlay = document.getElementById('wo2go-server-overlay');
+      if (serverOverlay) serverOverlay.remove();
+    } catch {}
+    try {
       const res = await fetch(`/api/departures?stationId=${encodeURIComponent(stationId)}`);
       if (!res.ok) throw new Error('fetch-failed');
       const json = await res.json();
