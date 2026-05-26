@@ -22,6 +22,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   const [upstreamDown, setUpstreamDown] = useState(Boolean(initialUpstreamDown));
   const [partialAttempts, setPartialAttempts] = useState(0);
   const partialTimerRef = useRef<number | null>(null);
+  const partialAttemptsRef = useRef<number>(partialAttempts);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -46,14 +47,21 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
 
       // If server returned a partial result, try reloading shortly to get the
       // full aggregated results (background fetch is started server-side).
-      if ((json.partial || initialPartial) && !json.upstreamDown && partialAttempts < 5) {
+      if ((json.partial || initialPartial) && !json.upstreamDown && partialAttemptsRef.current < 5) {
         // exponential backoff (1s, 2s, 4s...)
-        const delay = 1000 * Math.pow(2, partialAttempts);
+        const delay = 1000 * Math.pow(2, partialAttemptsRef.current);
         if (partialTimerRef.current) window.clearTimeout(partialTimerRef.current);
+        // schedule an increment of the attempt counter and re-run load()
+        // after `delay` ms. We keep a ref in sync so load() can read the
+        // current attempt count without relying on a stale closure.
         // eslint-disable-next-line @typescript-eslint/no-implied-eval
         partialTimerRef.current = window.setTimeout(() => {
-          setPartialAttempts((p) => p + 1);
-          load();
+          setPartialAttempts((p) => {
+            const next = p + 1;
+            partialAttemptsRef.current = next;
+            return next;
+          });
+          void load();
         }, delay);
       }
     } catch (err) {
