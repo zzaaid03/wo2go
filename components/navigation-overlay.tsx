@@ -6,13 +6,34 @@ import { TrainLoader } from '@/components/train-loader';
 export function NavigationOverlay() {
   const [visible, setVisible] = useState(false);
   const autoHideTimer = useRef<number | null>(null);
+  const showTimer = useRef<number | null>(null);
+  const SHOW_DELAY_MS = 80;
 
   useEffect(() => {
+    function scheduleShow() {
+      try {
+        if (showTimer.current) window.clearTimeout(showTimer.current);
+        showTimer.current = window.setTimeout(() => {
+          console.info('[NavigationOverlay] showing overlay (delayed)');
+          setVisible(true);
+        }, SHOW_DELAY_MS);
+      } catch {}
+    }
+
+    function cancelShow() {
+      try {
+        if (showTimer.current) {
+          window.clearTimeout(showTimer.current);
+          showTimer.current = null;
+        }
+      } catch {}
+    }
+
     try {
       const id = sessionStorage.getItem('wo2go.navigatingTo');
       if (id) {
-        console.info('[NavigationOverlay] initial navigatingTo:', id);
-        setVisible(true);
+        console.info('[NavigationOverlay] initial navigatingTo (delayed):', id);
+        scheduleShow();
       }
     } catch {
       // ignore
@@ -54,6 +75,8 @@ export function NavigationOverlay() {
           if (checkAndHide() && observer) {
             observer.disconnect();
             observer = null;
+            // If main content appeared, cancel any pending show
+            cancelShow();
           }
         });
         observer.observe(main || document.body, { childList: true, subtree: true, characterData: true });
@@ -64,10 +87,11 @@ export function NavigationOverlay() {
 
     function onStart() {
       console.info('[NavigationOverlay] navigate event received');
-      setVisible(true);
+      scheduleShow();
     }
     function onStop() {
       console.info('[NavigationOverlay] navigated event received');
+      cancelShow();
       setVisible(false);
     }
 
@@ -79,6 +103,10 @@ export function NavigationOverlay() {
       if (autoHideTimer.current) {
         window.clearTimeout(autoHideTimer.current);
         autoHideTimer.current = null;
+      }
+      if (showTimer.current) {
+        window.clearTimeout(showTimer.current);
+        showTimer.current = null;
       }
       if (observer) {
         observer.disconnect();
