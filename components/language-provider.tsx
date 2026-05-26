@@ -45,6 +45,18 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     setLanguageState(lang);
     localStorage.setItem(STORAGE_KEY, lang);
   };
+  // Remove any server-rendered overlay early on client mount to avoid a stale
+  // 'loading' state if client hydration or the client loader fails to run.
+  useEffect(() => {
+    try {
+      const el = typeof document !== 'undefined' ? document.getElementById('wo2go-server-overlay') : null;
+      if (el) {
+        el.remove();
+        try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+        window.dispatchEvent(new Event('wo2go:navigated'));
+      }
+    } catch {}
+  }, []);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
@@ -53,19 +65,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     </LanguageContext.Provider>
   );
 }
-
-// Remove any server-rendered overlay early on client mount to avoid a stale
-// 'loading' state if client hydration or the client loader fails to run.
-useEffect(() => {
-  try {
-    const el = typeof document !== 'undefined' ? document.getElementById('wo2go-server-overlay') : null;
-    if (el) {
-      el.remove();
-      try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
-      window.dispatchEvent(new Event('wo2go:navigated'));
-    }
-  } catch {}
-}, []);
 
 /** Returns the current language and a setter to change it. */
 export function useLanguage(): LanguageContextValue {
