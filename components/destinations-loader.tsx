@@ -2,10 +2,11 @@
 
 import { useCallback, useEffect, useState, useRef } from 'react';
 import { DestinationsClient } from '@/components/destinations-client';
+import { DeparturesClient } from '@/components/departures-client';
 import { useTranslation } from '@/components/language-provider';
 import { Button } from '@/components/ui/button';
 import { TrainLoader } from '@/components/train-loader';
-import type { Destination } from '@/types';
+import type { Destination, Departure } from '@/types';
 
 interface Props {
   stationId: string;
@@ -20,6 +21,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
   const [destinations, setDestinations] = useState<Destination[] | null>(
     initialDestinations ?? (initialUpstreamDown ? [] : null)
   );
+  const [departures, setDepartures] = useState<Departure[] | null>(null);
   const [upstreamDown, setUpstreamDown] = useState(Boolean(initialUpstreamDown));
   const [partialAttempts, setPartialAttempts] = useState(0);
   const partialTimerRef = useRef<number | null>(null);
@@ -52,6 +54,7 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
       window.clearTimeout(timeoutId);
       if (!res.ok) throw new Error('fetch-failed');
       const json = await res.json();
+      setDepartures(json.departures ?? null);
       setDestinations(json.destinations ?? []);
       setUpstreamDown(Boolean(json.upstreamDown));
 
@@ -138,6 +141,12 @@ export function DestinationsLoader({ stationId, initialUpstreamDown = false, ini
         </div>
       </div>
     );
+  }
+
+  // If we received raw departures from the API, prefer showing individual
+  // train cards. Otherwise fall back to aggregated destinations UI.
+  if (departures && departures.length > 0) {
+    return <DeparturesClient departures={departures} stationId={stationId} />;
   }
 
   return <DestinationsClient destinations={destinations ?? []} />;

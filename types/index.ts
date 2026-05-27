@@ -74,4 +74,5 @@ export interface Destination {
 export interface Filters {
   regionalOnly: boolean;
   majorStationsOnly: boolean;
+  highSpeedOnly: boolean;
 }

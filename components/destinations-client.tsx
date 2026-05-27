@@ -39,6 +39,7 @@ export function DestinationsClient({
   const [filters, setFilters] = useState<Filters>({
     regionalOnly: false,
     majorStationsOnly: false,
+    highSpeedOnly: false,
   });
 
   // Apply filters in render — derived state, no effect needed
@@ -48,16 +49,19 @@ export function DestinationsClient({
       const hasRegional = dest.products.some((p) => REGIONAL_PRODUCTS.has(p));
       if (!hasRegional) return false;
     }
+    if (filters.highSpeedOnly) {
+      const hasHighSpeed = dest.products.some((p) => p === 'national' || p === 'nationalExpress');
+      if (!hasHighSpeed) return false;
+    }
     if (filters.majorStationsOnly) {
       if (!dest.isMajor) return false;
     }
     return true;
   });
 
-  const clearFilters = () =>
-    setFilters({ regionalOnly: false, majorStationsOnly: false });
+  const clearFilters = () => setFilters({ regionalOnly: false, majorStationsOnly: false, highSpeedOnly: false });
 
-  const hasActiveFilters = filters.regionalOnly || filters.majorStationsOnly;
+  const hasActiveFilters = filters.regionalOnly || filters.majorStationsOnly || filters.highSpeedOnly;
 
   return (
     <div className="space-y-4">

@@ -89,3 +89,23 @@ export function productSortOrder(product: string): number {
   };
   return order[product] ?? 9;
 }
+
+/**
+ * Map product types to distinct colors used for badges and accents.
+ */
+export function productColor(product: string): string {
+  switch (product) {
+    case 'nationalExpress':
+      return '#0ea5e9'; // ICE - sky
+    case 'national':
+      return '#ef4444'; // IC - red
+    case 'regionalExp':
+      return '#f97316'; // RE - orange
+    case 'regional':
+      return '#16a34a'; // RB - green
+    case 'suburban':
+      return '#14b8a6'; // S - teal
+    default:
+      return '#6b7280'; // muted gray
+  }
+}

@@ -29,7 +29,7 @@ export function FilterBar({
       <div className="flex items-center justify-between">
         <label
           htmlFor="regional-filter"
-          className="text-sm font-medium leading-none"
+          className="text-sm font-medium leading-none text-foreground"
         >
           {t('filter.regional')}
         </label>
@@ -45,7 +45,7 @@ export function FilterBar({
       <div className="flex items-center justify-between">
         <label
           htmlFor="major-stations-filter"
-          className="text-sm font-medium leading-none"
+          className="text-sm font-medium leading-none text-foreground"
         >
           {t('filter.majorStations')}
         </label>
@@ -55,6 +55,17 @@ export function FilterBar({
           onCheckedChange={(checked) =>
             onFilterChange({ ...filters, majorStationsOnly: checked })
           }
+        />
+      </div>
+
+      <div className="flex items-center justify-between">
+        <label htmlFor="highspeed-filter" className="text-sm font-medium leading-none text-foreground">
+          {t('filter.highSpeed')}
+        </label>
+        <Switch
+          id="highspeed-filter"
+          checked={filters.highSpeedOnly}
+          onCheckedChange={(checked) => onFilterChange({ ...filters, highSpeedOnly: checked })}
         />
       </div>
 

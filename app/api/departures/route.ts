@@ -54,7 +54,34 @@ export async function GET(request: Request) {
       },
     ];
 
-    return new Response(JSON.stringify({ destinations: mockDestinations, upstreamDown: false, partial: false }), {
+    const mockDepartures = [
+      {
+        tripId: 'mock-1',
+        stop: { id: stationId, name: 'Berlin Hbf' },
+        when: new Date(Date.now() + 5 * 60_000).toISOString(),
+        plannedWhen: new Date(Date.now() + 5 * 60_000).toISOString(),
+        direction: 'Leipzig Hbf',
+        line: { id: 'ICE123', name: 'ICE 123', product: 'nationalExpress', mode: 'train' },
+      },
+      {
+        tripId: 'mock-2',
+        stop: { id: stationId, name: 'Berlin Hbf' },
+        when: new Date(Date.now() + 18 * 60_000).toISOString(),
+        plannedWhen: new Date(Date.now() + 18 * 60_000).toISOString(),
+        direction: 'Potsdam Hbf',
+        line: { id: 'RB45', name: 'RB 45', product: 'regional', mode: 'train' },
+      },
+      {
+        tripId: 'mock-3',
+        stop: { id: stationId, name: 'Berlin Hbf' },
+        when: new Date(Date.now() + 32 * 60_000).toISOString(),
+        plannedWhen: new Date(Date.now() + 32 * 60_000).toISOString(),
+        direction: 'Hamburg Hbf',
+        line: { id: 'IC987', name: 'IC 987', product: 'national', mode: 'train' },
+      },
+    ];
+
+    return new Response(JSON.stringify({ departures: mockDepartures, destinations: mockDestinations, upstreamDown: false, partial: false }), {
       status: 200,
       headers: { 'content-type': 'application/json' },
     });
@@ -82,8 +109,8 @@ export async function GET(request: Request) {
       });
     }
 
-    return Response.json({ destinations, upstreamDown: false, partial: !cached });
+    return Response.json({ departures, destinations, upstreamDown: false, partial: !cached });
   } catch (err) {
-    return Response.json({ destinations: [], upstreamDown: true });
+    return Response.json({ departures: [], destinations: [], upstreamDown: true });
   }
 }
