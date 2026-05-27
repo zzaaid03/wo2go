@@ -20,43 +20,40 @@ import {
   type TranslationKey,
 } from '@/lib/i18n';
 
+type ThemeMode = 'light' | 'dark';
+
 interface LanguageContextValue {
   language: Language;
   setLanguage: (lang: Language) => void;
+  theme: ThemeMode;
+  setTheme: (mode: ThemeMode) => void;
 }
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 const STORAGE_KEY = 'wo2go-lang';
+const THEME_KEY = 'wo2go-theme';
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   // Start with the server-default language so the initial client render
   // matches the server HTML. Hydrate the user's saved preference after
   // mount to avoid hydration mismatches.
   const [language, setLanguageState] = useState<Language>('de');
+  const [theme, setThemeState] = useState<ThemeMode>('light');
 
   // Persist language changes to localStorage
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem(STORAGE_KEY, lang);
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch {}
   };
-  // Remove any server-rendered overlay early on client mount to avoid a stale
-  // 'loading' state if client hydration or the client loader fails to run.
-  useEffect(() => {
-    try {
-      const el = typeof document !== 'undefined' ? document.getElementById('wo2go-server-overlay') : null;
-      if (el) {
-        console.info('[LanguageProvider] removing server overlay on client mount');
-        el.remove();
-        try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
-        window.dispatchEvent(new Event('wo2go:navigated'));
-      }
-    } catch {}
 
-    // Apply red+black theme at runtime, respecting the active `dark` class if present.
+  const applyRuntimeTheme = (isDark: boolean) => {
     try {
       const root = document.documentElement;
-      const isDark = root.classList.contains('dark');
+      if (isDark) root.classList.add('dark');
+      else root.classList.remove('dark');
+
+      // mirror the same runtime overrides used previously
       if (isDark) {
         root.style.setProperty('--background', '#0b0b0b');
         root.style.setProperty('--foreground', '#f8fafc');
@@ -113,6 +110,42 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         root.style.setProperty('--sidebar-ring', '#b91c1c');
       }
     } catch {}
+  };
+
+  const setTheme = (mode: ThemeMode) => {
+    setThemeState(mode);
+    try { localStorage.setItem(THEME_KEY, mode); } catch {}
+    applyRuntimeTheme(mode === 'dark');
+  };
+  // Remove any server-rendered overlay early on client mount to avoid a stale
+  // 'loading' state if client hydration or the client loader fails to run.
+  useEffect(() => {
+    try {
+      const el = typeof document !== 'undefined' ? document.getElementById('wo2go-server-overlay') : null;
+      if (el) {
+        console.info('[LanguageProvider] removing server overlay on client mount');
+        el.remove();
+        try { sessionStorage.removeItem('wo2go.navigatingTo'); } catch {}
+        window.dispatchEvent(new Event('wo2go:navigated'));
+      }
+    } catch {}
+
+    // Apply red+black theme at runtime and respect persisted theme preference.
+    try {
+      const root = document.documentElement;
+
+      // Determine initial theme: persisted value -> system preference -> existing class
+      let persisted = null;
+      try { persisted = localStorage.getItem(THEME_KEY); } catch {}
+      let isDark = false;
+      if (persisted === 'dark') isDark = true;
+      else if (persisted === 'light') isDark = false;
+      else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) isDark = true;
+      else isDark = root.classList.contains('dark');
+
+      setThemeState(isDark ? 'dark' : 'light');
+      applyRuntimeTheme(isDark);
+    } catch {}
 
     // Hydrate language from localStorage after mount to avoid differing
     // server/client HTML when the user previously selected a different
@@ -126,7 +159,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage, theme, setTheme }}>
       <NavigationOverlay />
       {children}
     </LanguageContext.Provider>

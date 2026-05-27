@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 
 import { SiteLogo } from '@/components/site-logo';
 import { LanguageToggle } from '@/components/language-toggle';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 export function Header() {
   const pathname = usePathname();
@@ -26,7 +27,10 @@ export function Header() {
         )}
       </div>
       <div className="absolute top-4 right-4 sm:top-5 sm:right-6">
-        <LanguageToggle />
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <LanguageToggle />
+        </div>
       </div>
     </header>
   );
