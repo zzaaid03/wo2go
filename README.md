@@ -1,22 +1,32 @@
 # wo2go
 
-Where can you go by train from Saarbrucken Hbf right now?
+Find out where you can go by train right now from a station (fast, local-first search).
 
-**[Live Demo](https://wo2go.vercel.app)**
+**Live Demo:** https://wo2go.vercel.app
 
-<!-- TODO: Add screenshot once deployed -->
+<!-- TODO: Add screenshot after deployment -->
+
+## What's new (May 2026)
+
+- Per-train UI: individual trains are now shown as cards and sorted by departure time. See `components/departure-card.tsx` and `components/departures-client.tsx`.
+- Better filters: filter labels are visible across themes and we've added a **High-speed** filter (IC / ICE). See `components/filter-bar.tsx` and `types/index.ts`.
+- Product colors: trains (RE, RB, S, IC, ICE) now have distinct badge colors via `lib/format.ts`.
+- High-speed-only view: new `highSpeedOnly` filter to show only IC/ICE services.
+- Runtime theming (dark mode): theme state, persistence (`wo2go-theme`), and runtime CSS variable overrides were added in `components/language-provider.tsx`. A small `ThemeToggle` component (`components/theme-toggle.tsx`) is available and placed in the header (`components/header.tsx`).
+- Destinations loader robustness: the client loader uses an `AbortController`, exponential backoff for partial reattempts, and a short fail-safe timer to avoid stuck overlays (`components/destinations-loader.tsx`).
+- Dev mock for Berlin Hbf: a small mock dataset for `stationId === '8011160'` was added to the API to help test the UI (`app/api/departures/route.ts`).
+- Debugging preserved: extra logs and safety timers are kept in place to help diagnose flaky overlay/navigation edge cases.
 
 ## Why this exists
 
-If you have a Deutschlandticket and you're at Saarbrucken Hbf, where can you actually go today — directly, no transfers? Existing tools like [direkt.bahn.guru](https://direkt.bahn.guru) (broken since late 2024), [Chronotrains](https://www.chronotrains.com), and [station_reach](https://github.com/felix-geoloek/station_reach) either don't work anymore or lack filtering depth. wo2go fills that gap with better filtering and richer per-destination info.
+If you have a Deutschlandticket and you're at a station, wo2go helps you quickly see where you can go without transfers (or with preferred filters). It prioritizes a local-first UX: fast server-side aggregation with a responsive client filter layer.
 
 ## Tech stack
 
-- Next.js 16 (App Router, Server Components)
-- TypeScript (strict mode)
+- Next.js (App Router, Server Components)
+- TypeScript
 - Tailwind CSS + shadcn/ui
-- Vercel (deployment)
-- [v6.db.transport.rest](https://v6.db.transport.rest) (public Deutsche Bahn API, no key needed)
+- v6.db.transport.rest (public Deutsche Bahn transport API)
 
 ## Run locally
 
@@ -27,25 +37,50 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000 in your browser.
 
-## How it works
+Quick checks while developing
 
-The home page is a Server Component that fetches all departures from Saarbrucken Hbf for the next 12 hours via the public DB transport API. It aggregates these into a list of unique reachable destinations with stats — fastest travel time, number of connections, and train types. This data is passed as a prop to a Client Component that handles filtering (regional-only for Deutschlandticket holders, major stations only) and language switching (German/English). No database, no auth, no client-side data fetching.
+- To see the Berlin Hbf dev mock (sample departures and destinations), visit: `http://localhost:3000/station/8011160` (dev-only mock).
+- Toggle theme using the sun/moon button in the header; the choice is persisted to `localStorage` under the key `wo2go-theme`.
+- Run type-checks: `npx tsc --noEmit`.
 
-The UI is available in **German** (default) and **English**, switchable via a toggle in the header. The language choice persists across sessions via localStorage.
+## Developer notes
 
-## Roadmap
+- New components and important files:
+	- `components/departure-card.tsx`
+	- `components/departures-client.tsx`
+	- `components/destinations-loader.tsx`
+	- `components/filter-bar.tsx`
+	- `components/language-provider.tsx` (theme + language context)
+	- `components/theme-toggle.tsx` (header toggle)
+	- `app/api/departures/route.ts` (dev mock + API shape)
+	- `lib/format.ts` (product color mapping)
 
-- Map view (destinations on a map)
-- Station autocomplete (choose any origin)
-- Day-trip feasibility filter
-- Per-destination drawer with live next departures
-- Caching layer with Postgres
+- Filters include `regionalOnly`, `majorStationsOnly`, and `highSpeedOnly`. Types were updated and UI wiring added.
+- The client loader implements an abortable fetch with retries and a short fail-safe timeout to avoid infinite overlays.
+
+## Roadmap / Next steps
+
+- Add a small `system` theme option (follow OS preference) and an explicit mock toggle (query param) for easier testing.
+- Map view and station autocomplete.
+- Cache layer and optional Postgres persistence for heavy-traffic deployments.
+
+## Contributing
+
+- Run linting and type-checks before opening a PR:
+
+```bash
+npm run lint
+npx tsc --noEmit
+```
+
+- Commit messages follow the `feat/fix/docs` conventions used in this repo.
 
 ## Acknowledgements
 
-- [v6.db.transport.rest](https://v6.db.transport.rest) by Jannis R. for the public transport API
-- [direkt.bahn.guru](https://github.com/juliuste/direkt.bahn.guru) by Julius Tens for the original concept
-- [Chronotrains](https://www.chronotrains.com) for travel-time visualization inspiration
-- [station_reach](https://github.com/felix-geoloek/station_reach) for reachability analysis inspiration
+- [v6.db.transport.rest](https://v6.db.transport.rest)
+- [direkt.bahn.guru](https://github.com/juliuste/direkt.bahn.guru)
+- [Chronotrains](https://www.chronotrains.com)
+- [station_reach](https://github.com/felix-geoloek/station_reach)
+
