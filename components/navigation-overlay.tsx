@@ -61,7 +61,7 @@ export function NavigationOverlay() {
   if (!visible) return null;
 
   return (
-    <div id="wo2go-nav-overlay" data-wo2go-nav-overlay className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/20">
+    <div id="wo2go-nav-overlay" data-wo2go-nav-overlay className="fixed inset-0 z-[1000] flex items-center justify-center bg-black/20 pointer-events-none">
       <div className="pointer-events-auto">
         <TrainLoader size={180} />
       </div>
