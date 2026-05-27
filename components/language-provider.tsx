@@ -53,37 +53,65 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       }
     } catch {}
 
-    // Ensure our warm palette is applied at runtime. Some build-time CSS
-    // can override variables; set them inline to guarantee the desired look
-    // on the client immediately.
+    // Apply red+black theme at runtime, respecting the active `dark` class if present.
     try {
       const root = document.documentElement;
-      root.style.setProperty('--background', '#fff7f0');
-      root.style.setProperty('--foreground', '#0f1720');
-      root.style.setProperty('--card', '#ffffff');
-      root.style.setProperty('--card-foreground', '#0f1720');
-      root.style.setProperty('--popover', '#ffffff');
-      root.style.setProperty('--popover-foreground', '#0f1720');
-      root.style.setProperty('--primary', '#b45309');
-      root.style.setProperty('--primary-foreground', '#ffffff');
-      root.style.setProperty('--secondary', '#fef3c7');
-      root.style.setProperty('--secondary-foreground', '#92400e');
-      root.style.setProperty('--muted', '#f7f7f7');
-      root.style.setProperty('--muted-foreground', '#6b7280');
-      root.style.setProperty('--accent', '#059669');
-      root.style.setProperty('--accent-foreground', '#ffffff');
-      root.style.setProperty('--destructive', '#ef4444');
-      root.style.setProperty('--border', '#e7e6e1');
-      root.style.setProperty('--input', '#ffffff');
-      root.style.setProperty('--ring', '#b45309');
-      root.style.setProperty('--sidebar', '#fffaf0');
-      root.style.setProperty('--sidebar-foreground', '#0f1720');
-      root.style.setProperty('--sidebar-primary', '#b45309');
-      root.style.setProperty('--sidebar-primary-foreground', '#ffffff');
-      root.style.setProperty('--sidebar-accent', '#fef3c7');
-      root.style.setProperty('--sidebar-accent-foreground', '#92400e');
-      root.style.setProperty('--sidebar-border', '#e7e6e1');
-      root.style.setProperty('--sidebar-ring', '#b45309');
+      const isDark = root.classList.contains('dark');
+      if (isDark) {
+        root.style.setProperty('--background', '#0b0b0b');
+        root.style.setProperty('--foreground', '#f8fafc');
+        root.style.setProperty('--card', '#0f0f10');
+        root.style.setProperty('--card-foreground', '#f8fafc');
+        root.style.setProperty('--popover', '#0f0f10');
+        root.style.setProperty('--popover-foreground', '#f8fafc');
+        root.style.setProperty('--primary', '#b91c1c');
+        root.style.setProperty('--primary-foreground', '#ffffff');
+        root.style.setProperty('--secondary', '#2b0f0f');
+        root.style.setProperty('--secondary-foreground', '#f8fafc');
+        root.style.setProperty('--muted', '#0f0f10');
+        root.style.setProperty('--muted-foreground', '#cbd5e1');
+        root.style.setProperty('--accent', '#ef4444');
+        root.style.setProperty('--accent-foreground', '#0b0b0b');
+        root.style.setProperty('--destructive', '#ef4444');
+        root.style.setProperty('--border', '#1f1f1f');
+        root.style.setProperty('--input', '#141414');
+        root.style.setProperty('--ring', '#b91c1c');
+        root.style.setProperty('--sidebar', '#0b0b0b');
+        root.style.setProperty('--sidebar-foreground', '#f8fafc');
+        root.style.setProperty('--sidebar-primary', '#b91c1c');
+        root.style.setProperty('--sidebar-primary-foreground', '#ffffff');
+        root.style.setProperty('--sidebar-accent', '#2b0f0f');
+        root.style.setProperty('--sidebar-accent-foreground', '#f8fafc');
+        root.style.setProperty('--sidebar-border', '#1f1f1f');
+        root.style.setProperty('--sidebar-ring', '#b91c1c');
+      } else {
+        root.style.setProperty('--background', '#fffafa');
+        root.style.setProperty('--foreground', '#0b0b0b');
+        root.style.setProperty('--card', '#ffffff');
+        root.style.setProperty('--card-foreground', '#0b0b0b');
+        root.style.setProperty('--popover', '#ffffff');
+        root.style.setProperty('--popover-foreground', '#0b0b0b');
+        root.style.setProperty('--primary', '#b91c1c');
+        root.style.setProperty('--primary-foreground', '#ffffff');
+        root.style.setProperty('--secondary', '#fff5f5');
+        root.style.setProperty('--secondary-foreground', '#7f1d1d');
+        root.style.setProperty('--muted', '#f4f4f5');
+        root.style.setProperty('--muted-foreground', '#6b7280');
+        root.style.setProperty('--accent', '#ef4444');
+        root.style.setProperty('--accent-foreground', '#ffffff');
+        root.style.setProperty('--destructive', '#ef4444');
+        root.style.setProperty('--border', '#eeeaea');
+        root.style.setProperty('--input', '#ffffff');
+        root.style.setProperty('--ring', '#b91c1c');
+        root.style.setProperty('--sidebar', '#fffafa');
+        root.style.setProperty('--sidebar-foreground', '#0b0b0b');
+        root.style.setProperty('--sidebar-primary', '#b91c1c');
+        root.style.setProperty('--sidebar-primary-foreground', '#ffffff');
+        root.style.setProperty('--sidebar-accent', '#fff5f5');
+        root.style.setProperty('--sidebar-accent-foreground', '#7f1d1d');
+        root.style.setProperty('--sidebar-border', '#eeeaea');
+        root.style.setProperty('--sidebar-ring', '#b91c1c');
+      }
     } catch {}
 
     // Hydrate language from localStorage after mount to avoid differing
