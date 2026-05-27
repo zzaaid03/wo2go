@@ -12,6 +12,54 @@ export async function GET(request: Request) {
     });
   }
 
+  // Dev-only: return a small mock dataset for Berlin Hbf to exercise the UI.
+  // Station ID used in the app: 8011160
+  if (process.env.NODE_ENV !== 'production' && stationId === '8011160') {
+    const mockDestinations = [
+      {
+        id: '8002549',
+        name: 'Leipzig Hbf',
+        fastestMinutes: 88,
+        connectionCount: 12,
+        products: ['national', 'regionalExp'],
+        isHbf: true,
+        isMajor: true,
+      },
+      {
+        id: '8000105',
+        name: 'Potsdam Hbf',
+        fastestMinutes: 36,
+        connectionCount: 18,
+        products: ['regional', 'suburban'],
+        isHbf: true,
+        isMajor: false,
+      },
+      {
+        id: '8000207',
+        name: 'Berlin Gesundbrunnen',
+        fastestMinutes: 8,
+        connectionCount: 35,
+        products: ['suburban'],
+        isHbf: false,
+        isMajor: false,
+      },
+      {
+        id: '8002549-ic',
+        name: 'Hamburg Hbf',
+        fastestMinutes: 120,
+        connectionCount: 6,
+        products: ['national'],
+        isHbf: true,
+        isMajor: true,
+      },
+    ];
+
+    return new Response(JSON.stringify({ destinations: mockDestinations, upstreamDown: false, partial: false }), {
+      status: 200,
+      headers: { 'content-type': 'application/json' },
+    });
+  }
+
   // Fast upstream probe: check upstream status and return quickly if down.
   try {
     const status = await checkUpstream();
