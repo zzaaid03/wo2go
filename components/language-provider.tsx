@@ -53,6 +53,39 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       }
     } catch {}
 
+    // Ensure our warm palette is applied at runtime. Some build-time CSS
+    // can override variables; set them inline to guarantee the desired look
+    // on the client immediately.
+    try {
+      const root = document.documentElement;
+      root.style.setProperty('--background', '#fff7f0');
+      root.style.setProperty('--foreground', '#0f1720');
+      root.style.setProperty('--card', '#ffffff');
+      root.style.setProperty('--card-foreground', '#0f1720');
+      root.style.setProperty('--popover', '#ffffff');
+      root.style.setProperty('--popover-foreground', '#0f1720');
+      root.style.setProperty('--primary', '#b45309');
+      root.style.setProperty('--primary-foreground', '#ffffff');
+      root.style.setProperty('--secondary', '#fef3c7');
+      root.style.setProperty('--secondary-foreground', '#92400e');
+      root.style.setProperty('--muted', '#f7f7f7');
+      root.style.setProperty('--muted-foreground', '#6b7280');
+      root.style.setProperty('--accent', '#059669');
+      root.style.setProperty('--accent-foreground', '#ffffff');
+      root.style.setProperty('--destructive', '#ef4444');
+      root.style.setProperty('--border', '#e7e6e1');
+      root.style.setProperty('--input', '#ffffff');
+      root.style.setProperty('--ring', '#b45309');
+      root.style.setProperty('--sidebar', '#fffaf0');
+      root.style.setProperty('--sidebar-foreground', '#0f1720');
+      root.style.setProperty('--sidebar-primary', '#b45309');
+      root.style.setProperty('--sidebar-primary-foreground', '#ffffff');
+      root.style.setProperty('--sidebar-accent', '#fef3c7');
+      root.style.setProperty('--sidebar-accent-foreground', '#92400e');
+      root.style.setProperty('--sidebar-border', '#e7e6e1');
+      root.style.setProperty('--sidebar-ring', '#b45309');
+    } catch {}
+
     // Hydrate language from localStorage after mount to avoid differing
     // server/client HTML when the user previously selected a different
     // language.
